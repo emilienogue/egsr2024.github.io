@@ -1,0 +1,57 @@
+{% if page.year != null %}
+    {% assign year = page.year %}
+{% else %}
+    {% assign year = site.data.cvmp.current-year %}
+{% endif %}
+
+<div class="panel panel-default" id="sponsors">
+    <h4 class="panel-heading">Sponsors</h4>
+    <div class="panel-body">
+        <div class="dense-gutter">
+            {% for sponsor in site.data.sponsors[year] %}
+                {% if sponsor.level contains 'conference' %}
+                    <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="col-xs-12 img-responsive" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
+                {% endif %}
+            {% endfor %}
+            <br/>
+            <div class="row-xs-12">
+                {% for sponsor in site.data.sponsors[year] %}
+                    {% if sponsor.level contains 'gold' %}
+                        <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="col-xs-12 img-responsive-50" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <br/>
+            <div class="row-xs-12 row-sm-6">
+                {% for sponsor in site.data.sponsors[year] %}
+                    {% if sponsor.level contains 'silver' %}
+                        <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="col-xs-12 img-responsive-50" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <br/>
+            <div class="row-xs-12 row-sm-6">
+                {% for sponsor in site.data.sponsors[year] %}
+                    {% if sponsor.level contains 'bronze' %}
+                        <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="col-xs-12 img-responsive-50" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="row-xs-12 row-sm-6">
+                {% for sponsor in site.data.sponsors[year] %}
+                    {% if sponsor.level contains 'academic' %}
+                        <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="col-xs-12 img-responsive-50" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+
+<div class="col-xs-12 col-sm-9">
+  <div id="main" role="main">
+    <article class="entry">
+      <!--HEADER-->
+      {% if page.image.feature %}
+        <img src="{{site.url}}/{{page.image.feature}}" class="entry-feature-image" alt="{{ page.title }}">
+        {% if page.image.credit %}
+          <p class="image-credit"><a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></p>
+        {% endif %}
+      {% endif %}
+      <!--ENTRY-->
+      <div class="entry-wrapper">
+        <header class="entry-header">
+          <h1 class="entry-title">{{ page.title }}</h1>
+        </header>
+        <div class="entry-content">
+          {{ content }}
+        </div><!-- /.entry-content -->
+      </div><!-- /.entry-wrapper -->
+    </article>
+  </div><!-- /#main -->
+</div>

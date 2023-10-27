@@ -1,0 +1,15 @@
+<div class="panel panel-default" id="news">
+  <h4 class="panel-heading">News</h4>
+  <div class="list-group top-1">
+  {% assign news = site.categories.news | sort:"date" %}
+  {% for n in news reversed %}
+    {% if n.year == page.year %}
+
+    <a href="{{site.url}}{{ n.url }}" class="list-group-item">
+      <h4 class="list-group-item-heading">{{ n.title }}<br><small>{{ n.date | date: "%B %d, %Y" }}</small></h4>
+      <p>{{ n.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</p>
+    </a>
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,267 @@
+2023:
+- name: ACM SIGGRAPH
+  url: https://www.siggraph.org/
+  image: img/2023/sponsors/logo-acm-siggraph-wide.png
+  level: conference
+
+#- name: Disguise
+#  url: https://www.disguise.one/
+#  image: img/2023/sponsors/logo-disguise.png
+#  level: gold
+#
+#- name: Foundry
+#  url: https://www.foundry.com/
+#  image: img/2023/sponsors/logo-foundry-2x.png
+#  level: silver
+#
+- name: Adobe
+  url: https://research.adobe.com/
+  image: img/2023/sponsors/logo-adobe.png
+  level: silver
+
+#
+#- name: Niantic
+#  url: https://nianticlabs.com/
+#  image: img/2023/sponsors/logo-niantic.png
+#  level: bronze
+#
+- name: CAMERA
+  url: https://www.camera.ac.uk/
+  image: img/2023/sponsors/logo-camera-2x.png
+  level: academic
+
+- name: Reality Labs
+  url: https://about.meta.com/uk/realitylabs/
+  image: img/2023/sponsors/logo-reality_labs_research.png
+  level: silver
+
+- name: Disguise
+  url: https://www.disguise.one/
+  image: img/2023/sponsors/logo-disguise_Black.png
+  level: silver
+
+- name: People-Centred AI Institute
+  url: https://www.surrey.ac.uk/artificial-intelligence
+  image: img/2023/sponsors/logo-people-centred-ai-UoS.png
+  level: academic
+
+#- name: CVSSP
+#  url: https://www.surrey.ac.uk/centre-vision-speech-signal-processing
+#  image: img/2023/sponsors/logo-cvssp.png
+#  level: academic
+
+2022:
+- name: ACM SIGGRAPH
+  url: https://www.siggraph.org/
+  image: img/2022/sponsors/logo-acm-siggraph-wide.png
+  level: conference
+
+- name: Disguise
+  url: https://www.disguise.one/
+  image: img/2022/sponsors/logo-disguise.png
+  level: gold
+
+- name: Foundry
+  url: https://www.foundry.com/
+  image: img/2022/sponsors/logo-foundry-2x.png
+  level: silver
+
+- name: Adobe
+  url: https://www.adobe.com/
+  image: img/2022/sponsors/logo-adobe.png
+  level: silver
+
+- name: Niantic
+  url: https://nianticlabs.com/
+  image: img/2022/sponsors/logo-niantic.png
+  level: bronze
+
+- name: CAMERA
+  url: https://www.camera.ac.uk/
+  image: img/2022/sponsors/logo-camera-2x.png
+  level: academic
+
+- name: CVSSP
+  url: https://www.surrey.ac.uk/centre-vision-speech-signal-processing
+  image: img/2022/sponsors/logo-cvssp.png
+  level: academic
+
+2021:
+- name: ACM SIGGRAPH
+  url: https://www.siggraph.org/
+  image: img/2021/sponsors/logo-acm-siggraph-wide.png
+  level: conference
+
+- name: YouTube
+  url: https://www.youtube.com/
+  image: img/2021/sponsors/logo-youtube.png
+  level: gold
+
+- name: Autodesk
+  url: https://www.autodesk.com/
+  image: img/2021/sponsors/logo-autodesk-2x.png
+  level: gold
+
+- name: NVIDIA
+  url: https://www.nvidia.com/
+  image: img/2021/sponsors/logo-nvidia-2x.png
+  level: gold
+
+- name: Adobe
+  url: https://www.adobe.com/
+  image: img/2021/sponsors/logo-adobe.png
+  level: silver
+
+- name: Foundry
+  url: https://www.foundry.com/
+  image: img/2021/sponsors/logo-foundry-2x.png
+  level: silver
+
+- name: Vicon
+  url: https://www.vicon.com/
+  image: img/2021/sponsors/logo-vicon-2x.png
+  level: silver
+
+- name: IO Industries
+  url: http://www.ioindustries.com/
+  image: img/2021/sponsors/logo-ioindustries-2x.png
+  level: bronze
+
+- name: Activision
+  url: https://www.activision.com/
+  image: img/2021/sponsors/logo-activision-2x.png
+  level: bronze
+
+- name: CAMERA
+  url: https://www.camera.ac.uk/
+  image: img/2021/sponsors/logo-camera-2x.png
+  level: academic
+
+- name: CVSSP
+  url: https://www.surrey.ac.uk/centre-vision-speech-signal-processing
+  image: img/2021/sponsors/logo-cvssp.png
+  level: academic
+
+2020:
+- name: ACM SIGGRAPH
+  url: https://www.siggraph.org/
+  image: img/2020/sponsors/logo-acm-siggraph-wide.png
+  level: conference
+
+- name: NVIDIA
+  url: https://www.nvidia.com/
+  image: img/2020/sponsors/logo-nvidia-2x.png
+  level: gold
+
+- name: YouTube
+  url: https://www.youtube.com/
+  image: img/2020/sponsors/logo-youtube.png
+  level: silver
+
+- name: Adobe
+  url: https://www.adobe.com/
+  image: img/2020/sponsors/logo-adobe.png
+  level: silver
+
+- name: Activision
+  url: https://www.activision.com/
+  image: img/2020/sponsors/logo-activision-2x.png
+  level: bronze
+
+- name: 4dface
+  url: https://www.4dface.io/
+  image: img/2020/sponsors/logo-4dface-2x.png
+  level: bronze
+
+- name: CAMERA
+  url: https://www.camera.ac.uk/
+  image: img/2020/sponsors/logo-camera-2x.png
+  level: academic
+
+- name: CDE
+  url: https://www.digital-entertainment.org/
+  image: img/2020/sponsors/logo-cde_tag_green.png
+  level: academic
+
+- name: CVSSP
+  url: https://www.surrey.ac.uk/centre-vision-speech-signal-processing
+  image: img/2020/sponsors/logo-cvssp.png
+  level: academic
+
+2019:
+- name: ACM SIGGRAPH
+  url: https://www.siggraph.org/
+  image: img/2019/sponsors/logo-acm-siggraph-wide.png
+  level: conference
+
+- name: Foundry
+  url: https://www.foundry.com/
+  image: img/2019/sponsors/logo-foundry-2x.png
+  level: gold
+
+- name: NVidia
+  url: https://www.nvidia.com/
+  image: img/2019/sponsors/logo-nvidia-2x.png
+  level: gold
+
+- name: YouTube
+  url: https://www.youtube.com/
+  image: img/2019/sponsors/logo-youtube.png
+  level: gold
+
+- name: Activision
+  url: https://www.activision.com/
+  image: img/2019/sponsors/logo-activision-2x.png
+  level: bronze
+
+
+2018:
+- name: ACM SIGGRAPH
+  url: https://www.siggraph.org/
+  image: img/2018/sponsors/logo-acm-siggraph-wide.png
+  level: conference
+
+- name: Google/YouTube
+  url: https://www.google.com/
+  image: img/2018/sponsors/logo-google-2x.png
+  level: gold
+
+- name: Foundry
+  url: https://www.foundry.com/
+  image: img/2018/sponsors/logo-foundry-2x.png
+  level: gold
+
+- name: NVidia
+  url: https://www.nvidia.com/
+  image: img/2018/sponsors/logo-nvidia-2x.png
+  level: gold
+
+- name: Activision
+  url: https://www.activision.com/
+  image: img/2018/sponsors/logo-activision-2x.png
+  level: bronze
+
+- name: Allegorithmic
+  url: https://www.allegorithmic.com/
+  image: img/2018/sponsors/logo-allegorithmic-2x.png
+  level: silver
+
+- name: Autodesk
+  url: https://www.autodesk.com/
+  image: img/2018/sponsors/logo-autodesk-2x.png
+  level: silver
+
+- name: Render Legion
+  url: https://corona-renderer.com/
+  image: img/2018/sponsors/logo-corona-2x.png
+  level: bronze
+
+- name: CDE – Centre for Digital Entertainment
+  url: http://www.digital-entertainment.org/
+  image: img/2018/sponsors/logo-cde-2x.png
+  level: academic
+
+- name: ImmerseUK
+  url: https://www.immerseuk.org/
+  image: img/2018/sponsors/logo-immerseuk-2x.png
+  level: academic

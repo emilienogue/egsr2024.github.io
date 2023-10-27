@@ -1,0 +1,33 @@
+# Site settings
+title: "CVMP"
+tagline: "The European Conference for Visual Media Production"
+
+# URL - Deployment
+url: "https://www.cvmp-conference.org"
+#url: "localhost:4000"
+
+# Handling Reading
+safe: true
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Build settings
+permalink: /:categories/:title/
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+# Contact
+email: "contact@cvmp-conference.org"
+
+# Social
+facebook: Conference-on-Visual-Media-Production-307514829299111
+twitter: CVMP
+
+
+# Use this for production
+sass:
+    style: compressed
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+

@@ -1,0 +1,44 @@
+current-year: 2023
+previous-years:
+    - 2023
+    - 2022
+    - 2021
+    - 2020
+    - 2019
+    - 2018
+
+2023:
+    title: "The 20<sup>th</sup> <b>ACM SIGGRAPH European Conference on Visual Media Production</b>"
+    date: "30th November - 1st December 2023"
+    location: "BFI Southbank, London, UK"
+    logo: img/2023/CVMP-logo-1200w.png
+
+2022:
+    title: "The 19<sup>th</sup> <b>ACM SIGGRAPH European Conference on Visual Media Production</b>"
+    date: "1–2 December 2022"
+    location: "ODEON Covent Garden, London, UK"
+    logo: img/2022/CVMP-logo-1200w.png
+
+2021:
+    title: "The 18<sup>th</sup> <b>ACM SIGGRAPH European Conference on Visual Media Production</b>"
+    date: "6–7 December 2021"
+    location: "Knowledge Centre, British Library, London, UK"
+    logo: img/2021/CVMP-logo-1200w.png
+
+2020:
+    title: "The 17<sup>th</sup> <b>ACM SIGGRAPH European Conference on Visual Media Production</b>"
+    date: "7–8 December 2020"
+    location: "Virtual Conference"
+    logo: img/2020/CVMP-logo-1200w.png
+
+2019:
+    title: "The 16<sup>th</sup> <b>ACM SIGGRAPH European Conference on Visual Media Production</b>"
+    date: "17–18 December 2019"
+    location: "BFI Southbank, London, UK"
+    logo: img/2019/CVMP-logo-1200w.png
+
+2018:
+    title: "The 15<sup>th</sup> <b>ACM SIGGRAPH European Conference on Visual Media Production</b>"
+    date: "13–14 December 2018"
+    location: "BFI Southbank, London, UK"
+    logo: img/2018/CVMP-logo-1200w.png

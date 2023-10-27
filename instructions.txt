@@ -1,0 +1,9 @@
+- Create a separate folder for each year
+
+_config.yml - All social media handles
+_data/cvmp.yml - Name, date and location of the conference
+_data/sponsor.yml - All sponsor information can be added to each year in the file
+_data/navigation.yml - The subpages which are there on the main website are added through this
+
+Rest all informationis in the respective Year/ folder - 2020/ , 2019/ 2018/
+
