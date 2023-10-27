@@ -12,7 +12,7 @@ Welcome to the 35th Eurographics Symposium on Rendering (EGSR).
 
 <!-- featured images -->
 <figure class="top3" >
-    <img class="col-xs-12 col-sm-4" src="{{site.url}}/img/egsr/queenstower.jpg" alt="Queenstower">
-    <img class="col-xs-12 col-sm-4" src="{{site.url}}/img/egsr/hydepark.jpg" alt="Hydepark">
-    <img class="col-xs-12 col-sm-4" src="{{site.url}}/img/egsr/skempton-auditorium.jpg" alt="Skempton">
+    <img class="col-xs-12 col-sm-4" src="{{site.url}}/img/2024/egsr/queenstower.jpg" alt="Queenstower">
+    <img class="col-xs-12 col-sm-4" src="{{site.url}}/img/2024/egsr/hydepark.jpg" alt="Hydepark">
+    <img class="col-xs-12 col-sm-4" src="{{site.url}}/img/2024/egsr/skempton-auditorium.jpg" alt="Skempton">
 </figure>
