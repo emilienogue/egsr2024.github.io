@@ -1,7 +1,7 @@
 ---
 layout: cvmp-default
 title: Conference Programme
-year: 2023
+year: 2024
 ---
 
 TBC
