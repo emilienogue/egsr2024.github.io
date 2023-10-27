@@ -1,5 +1,25 @@
 # Site navigation links
 
+2024:
+- title: About
+  url: about
+- title: Programme
+ url: programme
+- title: Keynotes
+  url: keynotes
+- title: Registration
+  url: registration
+- title: Call for Submissions
+  url: call-for-submissions
+- title: Committees
+  url: committees
+- title: News
+  url: news
+- title: Code of Conduct
+  url: code-of-conduct
+- title: Awards
+  url: awards
+
 2023:
 - title: About
   url: about
