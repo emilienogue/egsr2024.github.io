@@ -1,7 +1,7 @@
 ---
 layout: cvmp-twitter
 title: News
-year: 2023
+year: 2024
 ---
 
 <div class="col-12 col-sm-12 col-lg-12 news">
