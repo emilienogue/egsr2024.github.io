@@ -1,24 +1,24 @@
 {% if page.year != null %}
     {% assign year = page.year %}
 {% else %}
-    {% assign year = site.data.cvmp.current-year %}
+    {% assign year = site.data.egsr.current-year %}
 {% endif %}
 
 <header>
 <div class="page-header" id="title-header">
   <div class="row">
-    <div id="logo" class="col-xs-12 col-sm-6">
-        <div class="img-responsive">
+      <div class="col-xs-12 col-sm-6">
+    <h1>
+        {{site.data.egsr[year].title}}<br>
+        <small><b>{{site.data.egsr[year].date}}</b><br>{{site.data.egsr[year].location}}</small>
+    </h1>
+    </div>
 
-          <a href="{{site.url}}/{{year}}"><img src="{{site.url}}/{{site.data.cvmp[year].logo}}" width="100%" height="100%" alt="CVMP {{year}} logo" /></a>
+    <div id="logo" class="col-xs-12 col-sm-6">
+        <div class="img-responsive logo-img">
+          <a href="{{site.url}}/"><img style="float:right;" src="{{site.url}}/{{site.data.egsr[year].logo}}" width="100%" height="100%" alt="EGSR {{year}} logo" /></a>
         </div>
         <br>
-    </div>
-    <div class="col-xs-12 col-sm-6">
-    <h1>
-        {{site.data.cvmp[year].title}}<br>
-        <small><b>{{site.data.cvmp[year].date}}</b><br>{{site.data.cvmp[year].location}}</small>
-    </h1>
     </div>
   </div>
 </div>

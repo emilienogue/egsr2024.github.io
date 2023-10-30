@@ -1,0 +1,11 @@
+# no version needed since 2020
+
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    environment:
+      - JEKYLL_ENV=virtual
+    volumes:
+      - .:/site
+    ports:
+      - '4000:4000'

@@ -1,123 +1,51 @@
 # Site navigation links
 
-2024:
-- title: About
-  url: about
-- title: Programme
-  url: programme
-- title: Keynotes
-  url: keynotes
-- title: Registration
-  url: registration
-- title: Call for Submissions
-  url: call-for-submissions
-- title: Committees
-  url: committees
-- title: News
-  url: news
-- title: Code of Conduct
-  url: code-of-conduct
-- title: Awards
-  url: awards
-
-2023:
-- title: About
-  url: about
-- title: Programme
-  url: programme
-- title: Keynotes
-  url: keynotes
-- title: Registration
-  url: registration
-- title: Call for Submissions
-  url: call-for-submissions
-- title: Committees
-  url: committees
-- title: News
-  url: news
-- title: Code of Conduct
-  url: code-of-conduct
-- title: Awards
-  url: awards
-
-2022:
-- title: About
-  url: about
-- title: Programme
-  url: programme
-- title: Keynotes
-  url: keynotes
-- title: Registration
-  url: registration
-- title: Call for Submissions
-  url: call-for-submissions
-- title: Committees
-  url: committees
-- title: News
-  url: news
-- title: Code of Conduct
-  url: code-of-conduct
+2020:
+- title: Program
+  url: 2020/program
+- title: Call for Papers
+  url: 2020/call-for-papers
+- title: Committee
+  url: 2020/committee
+- title: Sponsors
+  url: 2020/sponsors
+- title: MAM
+  url: 2020/mam
+- title: Social Mixers
+  url: 2020/social-mixers
+- title: Live
+  url: 2020/live
 
 2021:
-- title: About
-  url: about
-- title: Programme
-  url: programme
-- title: Keynotes
-  url: keynotes
-- title: Registration
-  url: registration
-- title: Call for Submissions
-  url: call-for-submissions
-- title: Committees
-  url: committees
-- title: News
-  url: news
-
-2020:
-- title: About
-  url: about
-- title: Programme
-  url: programme
-- title: Keynotes
-  url: keynotes
-- title: Registration
-  url: registration
-- title: Call for Submissions
-  url: call-for-submissions
-- title: Committees
-  url: committees
-- title: News
-  url: news
-
-2019:
-- title: About
-  url: about
-- title: Programme
-  url: programme
-- title: Keynotes
-  url: keynotes
-- title: Call for Submissions
-  url: call-for-submissions
-- title: Registration
-  url: registration
-- title: Committees
-  url: committees
-- title: News
-  url: news
-
-2018:
-- title: About
-  url: about
-- title: Programme
-  url: programme
-- title: Keynotes
-  url: keynotes
-- title: Registration
-  url: registration
+- title: Program
+  url: 2021/program
 - title: Call for Papers
-  url: call-for-papers
-- title: Committees
-  url: committees
-- title: News
-  url: news
+  url: 2021/call-for-papers
+- title: Committee
+  url: 2021/committee
+- title: Awards
+  url: 2021/awards
+- title: Sponsors
+  url: 2021/sponsors
+# - title: MAM
+#   url: 2021/mam
+- title: Registration
+  url: 2021/register
+
+2022:
+  - title: Program
+    url: 2022/program
+  - title: Local Info
+    url: 2022/local-information
+  - title: Virtual Participation
+    url: 2022/virtual-participation
+  - title: Call for papers
+    url: 2022/call-for-papers
+  - title: Committee
+    url: 2022/committee
+  - title: Keynotes
+    url: 2022/keynotes
+  - title: Registration
+    url: 2022/register
+  - title: Gallery
+    url: 2022/gallery

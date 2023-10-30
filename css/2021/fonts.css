@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/SourceSansPro-Regular.ttf');
+    src: url('./fonts/SourceSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Bold';
+    src: url('fonts/SourceSansPro-Bold.ttf');
+    src: url('./fonts/SourceSansPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Saar Pro Bold';
+    src: url('fonts/SaarPro-Bold.ttf');
+    src: url('./fonts/SaarPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Saar Pro';
+    src: url('fonts/SaarPro-Regular.ttf');
+    src: url('./fonts/SaarPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Saar Pro Light';
+    src: url('fonts/SaarPro-Light.ttf');
+    src: url('./fonts/SaarPro-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro Bold';
+}
+
+p,a,ul,li{
+    font-family: 'Source Sans Pro';
+}

@@ -1,3 +1,65 @@
-<div class="panel panel-default responsive-twitter top1">
-<a class="twitter-timeline" height="600" href="https://twitter.com/CVMP?ref_src=twsrc%5Etfw">Tweets by CVMP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div id="twitter-panel" class="panel panel-default responsive-twitter top1">
+
+    <a class="twitter-timeline" height="600" href="https://twitter.com/EGSympRendering" data-dnt="true">
+        Tweets by EGSR
+    </a>
+
+    <label>
+        <input type="checkbox" id="enable-twitter" name="enable-twitter" value="EnableTwitter"
+            oninput="updateTwitter()" >
+        Enable content and cookies from Twitter.
+    </label>
 </div>
+
+<script>
+    function getCookie(name){
+        return document.cookie.split(';').some(c => {
+            return c.trim().startsWith(name + '=');
+        });
+    }
+
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        var expires = "expires="+ d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function updateTwitter() {
+        if (document.getElementById("enable-twitter").checked) {
+            enableTwitter();
+        } else {
+            disableTwitter();
+        }
+    }
+
+    function enableTwitter() {
+        setCookie("enable-twitter", "true", 30);
+        twitterEnabled = true;
+        makeTwitterPanel();
+    }
+
+    function disableTwitter() {
+        setCookie("enable-twitter", "", -10);
+        twitterEnabled = false;
+        document.getElementById("twitter-gen-script").remove();
+        document.getElementById("enable-twitter").checked = false;
+        window.location.reload(true);
+    }
+
+    function makeTwitterPanel() {
+        var script = document.createElement("script");
+        script.async = true;
+        script.src = "https://platform.twitter.com/widgets.js";
+        script.charset = "utf-8";
+        script.id = "twitter-gen-script";
+        document.getElementById("twitter-panel").appendChild(script);
+        document.getElementById("enable-twitter").checked = true;
+    }
+
+    var twitterEnabled = getCookie("enable-twitter");
+    if (twitterEnabled) {
+        document.getElementById("enable-twitter").checked = true;
+        makeTwitterPanel();
+    }
+</script>

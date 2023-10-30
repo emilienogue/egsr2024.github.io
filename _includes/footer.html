@@ -4,8 +4,15 @@
 
 
 <!-- footer -->
-<div class="panel" id="social">
-  <span>&copy; {{ site.time | date: '%Y' }} {{ site.title }}.{% if site.email %} Contact: <a href="mailto:{{site.email}}" target="_top">{{site.email}}</a>{% endif %}</span>
+<div class="panel" id="social"><center>
+  <div class="row-xs-12">
+    {% for sponsor in site.data.sponsors[year].list %}
+        {% if sponsor.level contains 'institutional' %}
+            <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="img-responsive-20" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
+        {% endif %}
+    {% endfor %}
+	</div>
+  <span>&copy; {{ site.time | date: '%Y' }} {{ site.title }}.{% if site.email %} Contact: <a href="mailto:{{site.email}}" target="_top">{{site.email}}</a>{% endif %}</span></center>
   <div class="social-icons pull-right">
     {% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}" title="{{site.title}} on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>{% endif %}
     {% if site.facebook %}<a href="https://www.facebook.com/{{ site.facebook }}" title="{{site.title}} on Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>{% endif %}

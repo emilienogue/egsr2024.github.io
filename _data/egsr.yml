@@ -1,0 +1,31 @@
+current-year: 2023
+
+previous-years:
+    - 2022
+    - 2021
+    - 2020
+
+2020:
+    title: "The 31<sup>st</sup> <b>Eurographics Symposium on Rendering</b>"
+    date: "29 June - 3 July 2020"
+    location: "London, UK"
+    logo: "img/2020/logo-pure-outlines.svg"
+    #EGSR-logo2020.png
+
+2021:
+    title: "The 32<sup>nd</sup> <b>Eurographics Symposium on Rendering</b>"
+    date: "29 June - 2 July 2021"
+    location: "Saarbrücken, Germany & Virtual"
+    logo: "img/2021/egsr_2021_header_mobile.svg"
+
+2022:
+    title: "The 33<sup>rd</sup> <b>Eurographics Symposium on Rendering</b>"
+    date: "July 4th - July 6th 2022"
+    location: "Prague, Czech Republic & Virtual"
+    logo: "img/2022/egsr_2022_header_desktop.svg"
+    
+2023:
+    title: "The 34<sup>th</sup> <b>Eurographics Symposium on Rendering</b>"
+    date: "June 28th - June 30th 2023"
+    location: "Delft, The Netherlands & Virtual"
+    logo: "img/2023/egsr_2022_header_desktop.svg"

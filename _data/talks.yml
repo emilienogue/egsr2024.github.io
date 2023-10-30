@@ -1,0 +1,444 @@
+2021:
+- title: "Keynote: Neural Radiance Fields"
+  authors: "<a href='https://jonbarron.info/'>Jon Barron</a>"
+  abstract: "Neural Radiance Fields (Mildenhall, Srinivasan, Tancik, et al., ECCV 2020) are an effective and simple technique for synthesizing photorealistic novel views of complex scenes. NeRF works by optimizing an underlying continuous volumetric radiance field, parameterized by a (non-convolutional) neural network, such that the geometry and appearance of the scene are encoded in the weights of that network. After reviewing NeRF, we will discuss two follow-up works to NeRF that attempt to address its shortcomings and expand is capabilities: 1) a variant of NeRF that uses prefiltering to address issues NeRF has with regard to aliasing and scale, and 2) an extension of NeRF that trains auxiliary neural networks to approximate otherwise-intractable integrals in the rendering equation to enable relighting and material editing."
+  bio: "Jon Barron is a staff research scientist at Google, where he works on
+  computer vision and machine learning. He received a PhD in Computer Science
+  from the University of California, Berkeley in 2013, where he was advised by
+  Jitendra Malik, and he received a Honours BSc in Computer Science from the
+  University of Toronto in 2007. He received a National Science Foundation
+  Graduate Research Fellowship in 2009, the C.V. Ramamoorthy Distinguished
+  Research Award in 2013, the PAMI Young Researcher Award in 2020, and the
+  ECCV Best Paper Honorable Mention in both 2016 and 2020."
+  picture: "/img/2021/JonBarron.jpg"
+  session_id: 8
+
+- title: "Keynote: Learning to See Stuff"
+  authors: "<a href='https://www.allpsych.uni-giessen.de/roland/'>Roland Fleming</a>"
+  abstract: "Humans are very good at visually recognizing materials and inferring their properties. Without touching surfaces, we can usually tell what they would feel like, and we enjoy vivid visual intuitions about how they typically behave. This is impressive because the retinal image that the visual system receives as input is the result of complex interactions between many physical processes. Somehow the brain has to disentangle these different factors. And yet, we can be exquisitely sensitive to small deviations from physical accuracy in the appearance of behaviourally important materials, like skin. Materials therefore pose many fascinating questions for researchers in computer graphics, industrial design, machine vision and neuroscience. What is ‘material appearance’, and how do we measure it and model it? How are material properties estimated and represented? Discussing these questions causes us to scrutinize the basic assumptions of ‘inverse optics’ that prevail in theories of human vision, and leads us to suggest that unsupervised learning may explain aspects of how the brain infers and represents material properties.  Consistent with this idea, I will present some recent work in which we show that an unsupervised network trained on images of surfaces spontaneously learns to disentangle reflectance, lighting and shape.  More importantly, we find that the network not only predicts the broad successes of human gloss perception, but also the specific pattern of errors that humans exhibit on an image-by-image basis.  We think this has important implications for thinking about vision more broadly."
+  bio: 'Roland Fleming is an interdisciplinary researcher specializing in the visual perception of materials, illumination and 3D shape. He did his undergraduate degree in Psychology, Philosophy and Physiology at Oxford University, graduating with First Class Honours in 1999, and completed his PhD in the Department of Brain and Cognitive Sciences at MIT in 2004. He then served as a project leader at the Max Planck Institute for Biological Cybernetics in Tübingen. In 2010 he joined Giessen University as a junior professor. Since 2016, has been the Kurt Koffka Professor of Experimental Psychology.
+    His research combines psychophysics, neural modelling, computer graphics and image analysis to understand how the brain estimates the physical properties of objects. He has conducted a wide variety of studies on the perception of material properties such as glossiness, translucency, and viscosity and has applied insights from this work to the development of computer graphics algorithms for simulating material appearances. Roland Fleming has served as joint Editor-In-Chief of ACM Transactions on Applied Perception, an interdisciplinary journal dedicated to using perception to advance computer graphics and other fields. In 2012 he was awarded the Faculty Research Prize from the University of Giessen and in 2013 he was awarded the Young Investigator Award by the Vision Sciences Society. In 2016 was awarded an ERC Consolidator Award for the project "SHAPE: On the perception of growth, form and process".'
+  picture: /img/2021/fleming_roland.png
+  session_id: 11
+
+- title: Opening Ceremony
+  session_id: 1
+
+- title: Moment-based Constrained Spectral Uplifting
+  authors: Tódová, Lucia; Wilkie, Alexander; Fascione, Luca
+  abstract: "Spectral rendering is increasingly used in appearance-critical rendering workflows due to its ability to predict colour values under varying illuminants. However, directly modelling assets via input of spectral data is a tedious process: and if asset appearance is defined via artist-created textures, these are drawn in colour space, i.e. RGB. Converting these RGB values to equivalent spectral representations is an ambiguous problem, for which robust techniques have been proposed only comparatively recently. However, other than the resulting RGB values matching under the illuminant the RGB space is defined for (usually D65), these uplifting techniques do not provide the user with further control over the resulting spectral shape. We propose a method for constraining the spectral uplifting process so that for a finite number of input spectra that need to be preserved, it always yields the correct uplifted spectrum for the corresponding RGB value. Due to constraints placed on the uplifting process, target RGB values that are in close proximity to one another uplift to spectra within the same metameric family, so that textures with colour variations can be meaningfully uplifted. Renderings uplifted via our method show minimal discrepancies when compared to the original objects."
+  picture: /img/2021/papers/1031.jpg
+  session_id: 2
+
+- title: A Compact Representation for Fluorescent Spectral Data
+  authors: Hua, Qingqin; Fichet, Alban; Wilkie, Alexander
+  abstract: "We propose a technique to efficiently importance sample and store fluorescent spectral data. Fluorescence behaviour is properly represented as a re-radiation matrix: for a given input wavelength, this matrix indicates how much energy is re-emitted at all other wavelengths. However, such a 2D representation has a significant memory footprint, especially when a scene contains a high number of fluorescent objects or fluorescent textures. We propose to use Gaussian Mixture Domain to model re-radiation, which allows us to significantly reduce the memory footprint. Instead of storing the full matrix, we work with a set of Gaussian parameters that also allow direct importance sampling. When accuracy is a concern, one can still use the re-radiation matrix data, and just benefit from importance sampling provided by the Gaussian Mixture. Our method is useful when numerous fluorescent materials are present in a scene, and in particular for textures with fluorescent components."
+  picture: /img/2021/papers/1036.jpg
+  session_id: 2
+
+- title: Point-Based Neural Rendering with Per-View Optimization
+  authors: Kopanas, Georgios; Philip, Julien; Leimkuehler, Thomas; Drettakis, George
+  abstract: "There has recently been great interest in neural rendering methods. Some approaches use 3D geometry reconstructed with Multi-View Stereo (MVS) but cannot recover from the errors of this process, while others directly learn a volumetric neural representation, but suffer from expensive training and inference. We introduce a general approach that is initialized with MVS, but allows further optimization of scene properties in the space of input views, including depth and reprojected features, resulting in improved novel view synthesis. A key element of our approach is a differentiable point-based splatting pipeline, based on our bi-directional Elliptical Weighted Average solution. To further improve quality and efficiency of our point-based method, we introduce a probabilistic depth test and efficient camera selection. We use these elements together in our neural renderer, allowing us to achieve a good compromise between quality and speed. Our pipeline can be applied to multi-view harmonization and stylization in addition to novel view synthesis."
+  picture: /img/2021/papers/1017.png
+  session_id: 3
+
+- title: "DONeRF: Towards Real-Time Rendering of Compact Neural Radiance Fields using Depth Oracle Networks"
+  authors: Neff, Thomas; Stadlbauer, Pascal; Parger, Mathias; Kurz, Andreas; Mueller, Joerg; Alla Chaitanya, Chakravarty R.; Kaplanyan, Anton S.; Steinberger, Markus
+  abstract: "The recent research explosion around implicit neural representations, such as NeRF, shows that there is immense potential for implicitly storing high-quality scene and lighting information in compact neural networks. However, one major limitation preventing the use of NeRF in real-time rendering applications is the prohibitive computational cost of excessive network evaluations along each view ray, requiring dozens of petaFLOPS. In this work, we bring compact neural representations closer to practical rendering of synthetic content in real-time applications, such as games and virtual reality. We show that the number of samples required for each view ray can be significantly reduced when samples are placed around surfaces in the scene without compromising image quality. To this end, we propose a depth oracle network that predicts ray sample locations for each view ray with a single network evaluation. We show that using a classification network around logarithmically discretized and spherically warped depth values is essential to encode surface locations rather than directly estimating depth. The combination of these techniques leads to DONeRF, our compact dual network design with a depth oracle network as its first step and a locally sampled shading network for ray accumulation. With DONeRF, we reduce the inference costs by up to 48x compared to NeRF when conditioning on available ground truth depth information. Compared to concurrent acceleration methods for raymarching-based neural representations, DONeRF does not require additional memory for explicit caching or acceleration structures, and can render interactively (20 frames per second) on a single GPU."
+  picture: /img/2021/papers/1025.jpg
+  session_id: 3
+
+- title: "NeRF-Tex: Neural Radiance Field Textures"
+  authors: Baatz, Hendrik; Granskog, Jonathan; Papas, Marios; Rousselle, Fabrice; Novak, Jan
+  abstract: "We investigate the use of neural fields for modeling diverse mesoscale appearances. Mesoscale structures, such as fur, fabric, and grass are currently handled using case-specific graphics primitives with limited versatility. Instead, we draw inspiration from neural radiance fields and propose to represent a volumetric mesoscale primitive using a neural reflectance field (NeRF), which jointly models the geometry and lighting response. The volumetric primitive can be instantiated over a base mesh to ``texture'' it with the desired meso and microscale appearance. We condition the reflectance field on user-defined parameters that control the appearance. A single NeRF texture thus captures a continuum of reflectance fields rather than one specific structure. This increases the gamut of appearances that can be modeled and provides an easy solution to combat repetitive texturing artifacts. Our approach unites the versatility and modeling power of neural networks with artistic control needed for precise modeling of virtual scenes. While all our training data is currently synthetic, our work provides a recipe that can be further extended to extract complex, hard-to-model appearances from real images."
+  picture: /img/2021/papers/1042.jpg
+  session_id: 3
+
+- title: "Unified Shape and SVBRDF Recovery using Differentiable Monte Carlo Rendering"
+  authors: Luan, Fujun; Zhao, Shuang; Bala, Kavita; Dong, Zhao
+  abstract: "Reconstructing the shape and appearance of real-world objects using measured 2D images has been a long-standing problem in computer vision. In this paper, we introduce a new analysis-by-synthesis technique capable of producing high-quality reconstructions through robust coarse-to-fine optimization and physics-based differentiable rendering. Unlike most previous methods that handle geometry and reflectance largely separately, our method unifies the optimization of both by leveraging image gradients with respect to both object reflectance and geometry. To obtain physically accurate gradient estimates, we develop a new GPU-based Monte Carlo differentiable renderer leveraging recent advances in differentiable rendering theory to offer unbiased gradients while enjoying better performance than existing tools like PyTorch3D and redner. To further improve robustness, we utilize several shape and material priors as well as a coarse-to-fine optimization strategy to reconstruct geometry. We demonstrate that our technique can produce reconstructions with higher quality than previous methods such as COLMAP and Kinect Fusion."
+  picture: /img/2021/papers/1019.jpg
+  session_id: 4
+
+- title: "Material and lighting reconstruction for complex indoor scenes with texture-space differentiable rendering"
+  authors: Nimier-David, Merlin; Dong, Zhao; Jakob, Wenzel; Kaplanyan, Anton S.
+  abstract: "Modern geometric reconstruction techniques achieve impressive levels of accuracy in indoor environments. However, such captured data typically keeps lighting and materials entangled. It is then impossible to manipulate the resulting scenes in photorealistic settings, such as augmented / mixed reality and robotics simulation. Moreover, various imperfections in the captured data, such as missing detailed geometry, camera misalignment, uneven coverage of observations, etc., pose challenges for scene recovery. To address these challenges, we present a robust optimization pipeline based on differentiable rendering to recover physically based materials and illumination, leveraging RGB and geometry captures. We introduce a novel texture-space sampling technique and carefully chosen inductive priors to help guide reconstruction, avoiding low-quality or implausible local minima. Our approach enables robust and high-resolution reconstruction of complex materials and illumination in captured indoor scenes. This enables a variety of applications including novel view synthesis, scene editing, local & global relighting, synthetic data augmentation, and other photorealistic manipulations."
+  session_id: 4
+
+- title: "Appearance-Driven Automatic 3D Model Simplification"
+  authors: Hasselgren, Jon; Munkberg, Jacob; Lehtinen, Jaakko; Aittala, Miika; Laine, Samuli
+  abstract: "We present a suite of techniques for jointly optimizing triangle meshes and shading models to match the appearance of reference scenes. This capability has a number of uses, including appearance-preserving simplification of extremely complex assets, conversion between rendering systems, and even conversion between geometric scene representations. We follow and extend the classic analysis-by-synthesis family of techniques: enabled by a highly efficient differentiable renderer and modern nonlinear optimization algorithms, our results are driven to minimize the image-space difference to the target scene when rendered in similar viewing and lighting conditions. As the only signals driving the optimization are differences in rendered images, the approach is highly general and versatile: it easily supports many different forward rendering models such as normal mapping, spatially-varying BRDFs, displacement mapping, etc. Supervision through images only is also key to the ability to easily convert between rendering systems and scene representations. We output triangle meshes with textured materials to ensure that the models render efficiently on modern graphics hardware and benefit from, e.g., hardware-accelerated rasterization, ray tracing, and filtered texture lookups. Our system is integrated in a small Python code base, and can be applied at high resolutions and on large models. We describe several use cases, including mesh decimation, level of detail generation, seamless mesh filtering and approximations of aggregate geometry."
+  picture: /img/2021/papers/1051.png
+  session_id: 4
+
+- title: Deep Compositional Denoising for High-quality Monte Carlo Rendering
+  authors: Zhang, Xianyao; Manzi, Marco; Vogels, Thijs; Dahlberg, Henrik; Gross, Markus; Papas, Marios
+  abstract: "We propose a deep-learning method for automatically decomposing noisy Monte Carlo renderings into components that kernel-predicting denoisers can denoise more effectively. In our model, a neural decomposition module learns to predict noisy components and corresponding feature maps, which are consecutively reconstructed by a denoising module. The components are predicted based on statistics aggregated at the pixel level by the renderer. Denoising these components individually allows the use of per-component kernels that adapt to each component's noisy signal characteristics. Experimentally, we show that the proposed decomposition module consistently improves the denoising quality of current state-of-the-art kernel-predicting denoisers on large-scale academic and production datasets."
+  picture: /img/2021/papers/1010.jpg
+  session_id: 5
+
+- title: Real-time Monte Carlo Denoising with Weight Sharing Kernel Prediction Network
+  authors: Fan, Hangming; Wang, Rui; Yuchi, Huo; Bao, Hujun
+  abstract: "Real-time Monte Carlo denoising aims at removing severe noise under low samples per pixel (spp) in a strict time budget. Recently, kernel-prediction methods use a neural network to predict each pixel’s filtering kernel and have shown a great potential to remove Monte Carlo noise. However, the heavy computation overhead blocks these methods from real-time applications. This paper expands the kernel-prediction method and proposes a novel approach to denoise very low spp (e.g., 1-spp) Monte Carlo path traced images at real-time frame rates. Instead of using the neural network to directly predict the kernel map, i.e., the complete weights of each per-pixel filtering kernel, we predict an encoding of the kernel map, followed by a high-efficient decoder with unfolding operations for a high-quality reconstruction of the filtering kernels. The kernel map encoding yields a compact single-channel representation of the kernel map, which can significantly reduce the kernel-prediction network's throughput. In addition, we adopt a scalable kernel fusion module to improve denoising quality. Compared with the state-of-the-art real-time denoising method, our approach benefits from both the high parallelism of kernel-based reconstruction and the small computational overhead of a lightweight network. As a result, the proposed method achieves better quality using only half of the denoising time."
+  session_id: 5
+
+- title: A Low-Dimensional Perceptual Space for Intuitive BRDF Editing
+  authors: Shi, Weiqi; Wang, Zeyu; Soler, Cyril; Rushmeier, Holly
+  abstract: "Understanding and characterizing material appearance based on human perception is challenging because of the high-dimensionality and nonlinearity of reflectance data. We refer to the process of identifying specific characteristics of material appearance within the same category as material estimation, in contrast to material categorization which focuses on identifying inter-category differences. In this paper, we present a method to simulate the material estimation process based on human perception. We create a continuous perceptual space for measured tabulated data based on its underlying low-dimensional manifold. Unlike many previous works that only address individual perceptual attributes (such as gloss), we focus on extracting all possible dimensions that can explain the perceived differences between appearances. Additionally, we propose a new material editing interface that combines image navigation and sliders to visualize each perceptual dimension and facilitate the editing of tabulated BRDFs. We conduct a user study to evaluate the efficacy of the perceptual space and the interface in terms of appearance matching."
+  picture: /img/2021/papers/1006.jpg
+  session_id: 6
+
+- title: Modeling Surround-aware Contrast Sensitivity
+  authors: Yi, Shinyoung; Jeon, Daniel S.; Serrano, Ana; Jeong, Se-Yoon; Kim, Hui-Yong; Gutierrez, Diego; Kim, Min H.
+  abstract: "Despite advances in display technology, many existing applications rely on psychophysical datasets of human perception gathered using older, sometimes outdated displays. As a result, there exists the underlying assumption that such measurements can be carried over to the new viewing conditions of more modern technology. We have conducted a series of psychophysical experiments to explore contrast sensitivity using a state-of-the-art HDR display, taking into account not only the spatial frequency and luminance of the stimuli but also their surrounding luminance levels. From our data, we have derived a novel surround-aware contrast sensitivity function (CSF), which predicts human contrast sensitivity more accurately. We additionally provide a practical version that retains the benefits of our full model, while enabling easy backward compatibility and consistently producing good results across many existing applications that make use of CSF models. We show examples of effective HDR video compression using a transfer function derived from our CSF, tone-mapping, and improved accuracy in visual difference prediction."
+  picture: /img/2021/papers/1005.jpg
+  session_id: 6
+
+- title: Stereo Inverse Brightness Modulation for Guidance in Dynamic Panorama Videos in Virtual Reality
+  authors: Grogorick, Steve; Tauscher, Jan-Philipp; Heesen, Nikkel; Castillo, Susana; Magnor, Marcus
+  abstract: "The peak of virtual reality offers new exciting possibilities for the creation of media content but also poses new challenges. Some areas of interest might be overlooked because the visual content fills up a large portion of viewers' visual field. Moreover, this content is available in 360° around the viewer, yielding locations completely out of sight, making, for example, recall or storytelling in cinematic Virtual Reality (VR) quite difficult.
+
+In this paper, we present an evaluation of Stereo Inverse Brightness Modulation for effective and subtle guidance of participants' attention while navigating dynamic virtual environments. The used technique exploits the binocular rivalry effect from human stereo vision and was previously shown to be effective in static environments. Moreover, we propose an extension of the method for successful guidance towards target locations outside the initial visual field.
+
+We conduct three perceptual studies, using 13 distinct panorama videos and two VR systems (a VR head mounted display and a fully immersive dome projection system), to investigate (1) general applicability to dynamic environments, (2) stimulus parameter and VR system influence, and (3) effectiveness of the proposed extension for out-of-sight targets. Our results prove the applicability of the method to dynamic environments while maintaining its unobtrusive appearance."
+  session_id: 6
+
+- title: Zero-variance transmittance estimation
+  authors: d'Eon, Eugene; Novak, Jan
+  abstract: "We apply zero-variance theory to the Volterra integral formulation of volumetric transmittance. We solve for the guided sampling decisions in this framework that produce zero-variance ratio tracking and next-flight ratio tracking estimators. In both cases, a zero-variance estimate arises by colliding only with the null particles along the interval. For ratio tracking, this is equivalent to residual ratio tracking with a perfect control. The next-flight zero-variance estimator is of the collision type and can only produce zero-variance estimates if the random walk never terminates. In drawing these new connections, we enrich the theory of Monte Carlo transmittance estimation and provide a new rigorous path-stretching interpretation of residual ratio tracking."
+  picture: /img/2021/papers/1032.jpg
+  session_id: 7
+
+- title: "Q-NET: A Network for Low-dimensional Integrals of Neural Proxies"
+  authors: Subr, Kartic
+  abstract: "Integrals of multidimensional functions are often estimated by averaging function values at multiple locations. The use of an approximate surrogate or proxy for the true function is useful if repeated evaluations are necessary. A proxy is even more useful if its own integral is known analytically and can be calculated practically. We design a family of fixed networks, which we call Q-NETs, that can calculate integrals of functions represented by sigmoidal universal approximators. Q-NETs operate on the parameters of the trained proxy and can calculate exact integrals over any subset of dimensions of the input domain. Q-NETs also facilitate convenient recalculation of integrals without resampling the integrand or retraining the proxy, under certain transformations to the input space. We highlight the benefits of this scheme for diverse rendering applications including inverse rendering, sampled procedural noise and visualization. Q-NETs are appealing in the following contexts: the dimensionality is low (< 10D); integrals of a sampled function need to be recalculated over different sub-domains; the estimation of integrals needs to be decoupled from the sampling strategy such as when sparse, adaptive sampling is used; marginal functions need to be known in functional form; or when powerful Single Instruction Multiple Data/Thread (SIMD/SIMT) pipelines are available."
+  picture: /img/2021/papers/1034.jpg
+  session_id: 7
+
+- title: Stochastic Generation of (t,s) Sample Sequences
+  authors: Helmer, Andrew; Christensen, Per; Kensler, Andrew
+  abstract: "We introduce a novel method to generate sample sequences that are progressively stratified both in high dimensions and in lower-dimensional projections. Our method comes from a new observation that Owen-scrambled quasi-Monte Carlo (QMC) sequences can be generated as stratified samples, merging the QMC construction and random scrambling into a stochastic algorithm. This yields simpler implementations of Owen-scrambled Sobol', Halton, and Faure sequences that exceed the previous state-of-the-art sample-generation speed; we provide an implementation of Owen-scrambled Sobol' (0,2)-sequences in fewer than 30 lines of C++ code that generates 200 million samples per second on a single CPU thread. Inspired by pmj02bn sequences, this stochastic formulation allows multidimensional sequences to be augmented with best-candidate sampling to improve point spacing in arbitrary projections. We discuss the applications of these high-dimensional sequences to rendering, describe a new method to decorrelate sequences while maintaining their progressive properties, and show that an arbitrary sample coordinate can be queried efficiently. Finally we show how the simplicity and local differentiability of our method allows for further optimization of these sequences. As an example, we improve progressive distances of scrambled Sobol' (0,2)-sequences using a (sub)gradient descent optimizer, which generates sequences with near-optimal distances."
+  picture: /img/2021/papers/1041.jpg
+  session_id: 7
+
+- title: Video-Based Rendering of Dynamic Stationary Environments from Unsynchronized Inputs
+  authors: Thonat, Theo; Aksoy, Yagiz; Aittala, Miika; Paris, Sylvain; Durand, Fredo; Drettakis, George
+  abstract: "Image-Based Rendering allows users to easily capture a scene using a single camera and then navigate freely with realistic results. However, the resulting renderings are completely static, and dynamic effects -- such as fire, waterfalls or small waves -- cannot be reproduced. We tackle the challenging problem of enabling free-viewpoint navigation including such stationary dynamic effects, but still maintaining the simplicity of casual capture. Using a single camera -- instead of previous complex synchronized multi-camera setups -- means that we have unsynchronized videos of the dynamic effect from multiple views, making it hard to blend them when synthesizing novel views. We present a solution that allows smooth free-viewpoint video-based rendering (VBR) of such scenes using temporal Laplacian pyramid decomposition video, enabling spatio-temporal blending. For effects such as fire and waterfalls, that are semi-transparent and occupy 3D space, we first estimate their spatial volume. This allows us to create per-video geometries and alpha-matte videos that we can blend using our frequency-dependent method. We also extend Laplacian blending to the temporal dimension to remove additional temporal seams. We show results on scenes containing fire, waterfalls or rippling waves at the seaside, bringing these scenes to life."
+  session_id: 9
+
+- title: "PosterChild: Blend-Aware Artistic Posterization"
+  authors: Chao, Cheng-Kang; Singh, Karan; Gingold, Yotam
+  abstract: "Posterization is an artistic effect which converts continuous images into regions of constant color with smooth boundaries, often with an artistically recolored palette. Artistic posterization is extremely time-consuming and tedious. We introduce a blend-aware algorithm for generating posterized images with palette-based control for artistic recoloring. Our algorithm automatically extracts a palette and then uses multi-label optimization to find blended-color regions in terms of that palette. We smooth boundaries away from image details with frequency-guided median filtering. We evaluate our algorithm with a comparative user study and showcase its ability to produce compelling posterizations of a variety of inputs. Our parameters provide artistic control and enable cohesive, real-time recoloring."
+  picture: /img/2021/papers/1009.jpg
+  session_id: 9
+
+- title: Semantic-Aware Generative Approach for Image Inpainting
+  authors: Chanda, Deepankar; Khademi Kalantari, Nima
+  abstract: "We propose a semantic-aware generative method for image inpainting. We divide the inpainting process into two tasks; estimating the semantic information inside the masked areas and inpainting these regions using the semantic information. To effectively utilize the semantic information, we inject them into the generator through conditional feature modulation. Furthermore, we introduce an adversarial framework with dual discriminators to train our generator. In our system, an input consistency discriminator evaluates the inpainted region to best match the surrounding unmasked areas and a semantic consistency discriminator assesses whether the generated image is consistent with the semantic labels. To obtain the complete input semantic map, we first use a pre-trained network to compute the semantic map in the unmasked areas and inpaint it using a network trained in an adversarial manner. We compare our approach against state-of-the-art methods and show significant improvement in the visual quality of the results. Furthermore, we demonstrate the ability of our system to generate user-desired results by allowing a user to manually edit the estimated semantic map."
+  picture: /img/2021/papers/1020.jpg
+  session_id: 9
+
+- title: Sampling Clear Sky Models using Truncated Gaussian Mixtures
+  authors: Vitsas, Nick; Vardis, Konstantinos; Papaioannou, Georgios
+  abstract: "Parametric clear sky models are often represented by simple analytic expressions that can efficiently generate plausible, natural radiance maps of the sky, taking into account expensive and hard to simulate atmospheric phenomena. In this work, we show how such models can be complemented by an equally simple, elegant and generic analytic continuous probability density function (PDF) that provides a very good approximation to the radiance-based distribution of the sky. We describe a fitting process that is used to properly parameterise a truncated Gaussian mixture model, which allows for exact, constant-time and minimal-memory sampling and evaluation of this PDF, without rejection sampling, an important property for practical applications in offline and real-time rendering. We present experiments in a standard importance sampling framework that showcase variance reduction approaching that of a more expensive inversion sampling method using Summed Area Tables."
+  picture: /img/2021/papers/1003.jpg
+  session_id: 10
+
+- title: Importance Sampling of Glittering BSDFs based on Finite Mixture Distributions
+  authors: Chermain, Xavier; Sauvage, Basile; Dischler, Jean-Michel; Dachsbacher, Carsten
+  abstract: "We propose an importance sampling scheme for the procedural glittering BSDF of Chermain et al. [CSDD20]. Glittering BSDFs have multi-lobe visible normal distribution functions (VNDFs) which are difficult to sample. They are typically sampled using a mono-lobe Gaussian approximation, leading to high variance and fireflies in the rendering. Our method optimally samples the multi-lobe VNDF, leading to lower variance and removing firefly artefacts at equal render time. It allows, for example, the rendering of glittering glass which requires an efficient sampling of the BSDF. The procedural VNDF of Chermain et al. is a finite mixture of tensor products of two 1D tabulated distributions. We sample the visible normals from their VNDF by first drawing discrete variables according to the mixture weights and then sampling the corresponding 1D distributions using the technique of inverse cumulative distribution functions (CDFs). We achieve these goals by tabulating and storing the CDFs, which uses twice the memory as the original work. We prove the optimality of our VNDF sampling and validate our implementation with statistical tests."
+  picture: /img/2021/papers/1008.jpg
+  session_id: 10
+
+- title: Practical product sampling for single scattering in media
+  authors: Villeneuve, Keven; Gruson, Adrien; Georgiev, Iliyan; Nowrouzezahrai, Derek
+  abstract: "Efficient Monte Carlo estimation of volumetric single scattering remains challenging due to various sources of variance, including transmittance, phase-function anisotropy, and geometric cosine foreshortening and squared-distance fall-off. We propose several complementary techniques to importance sample each of these terms and their product. First, we introduce an extension to equi-angular sampling to analytically account for the entire geometric term of point-normal emitters. We then include transmittance and phase function via Taylor series expansion and/or warp composition. Scaling to complex mesh emitters is achieved through adaptive tree splitting scheme, and multiple importance sampling combines our new samplers with existing approaches. Our techniques consistently outperform state-of-the-art baselines on a diversity of settings."
+  picture: /img/2021/papers/1037.jpg
+  session_id: 10
+
+- title: Rendering Point Clouds with Compute Shaders and Vertex Order Optimization
+  authors: Schütz, Markus; Kerbl, Bernhard; Wimmer, Michael
+  abstract: "While commodity GPUs provide a continuously growing range of features and sophisticated methods for accelerating compute jobs, many state-of-the-art solutions for point cloud rendering still rely on provided point primitives (GL_POINTS, POINTLIST, ...) of graphics APIs for image synthesis. In this paper, we present several compute-based point cloud rendering approaches that outperform the hardware pipeline by up to an order of magnitude and achieve significantly better frame times than previous compute-based methods. Beyond basic closest-point rendering, we also introduce a fast, high-quality variant to reduce aliasing. We present and thoroughly evaluate several variants of our presented methods with different flavors of optimization, in order to ensure their applicability and achieve optimal performance on a range of platforms and architectures with varying support for recently introduced GPU hardware features. We further introduce an optimized vertex order for point clouds that can boost the efficiency of GL_POINTS by a factor of 5$\times$ in cases where hardware rendering is compulsory. The modified memory layout requires no auxiliary data structures and can be established from input points with sub-quadratic time complexity. In our evaluation, we compare the impact of different orderings and show that Morton sorted buffers are faster in some viewpoints, while shuffled vertex buffers are faster in others. In contrast, combining both approaches by first sorting points according to Morton-code and shuffling the resulting sequence in batches of 128 points leads to a superior vertex buffer layout that yields high rendering performance and is less susceptible to viewpoint changes. During our experiments, the observed peak performance was achieved by a warp-wide deduplication shader and on Morton order sorted points, which is capable of rendering 796 million points (12.7GB) in real-time at rates of 62 to 64 frames per second on an RTX 3090 from various different viewpoints and without the use of level-of-detail structures."
+  picture: /img/2021/papers/1022.jpg
+  session_id: 12
+
+- title: Moving Basis Decomposition for Precomputed Light Transport
+  authors: Silvennoinen, Ari; Sloan, Peter-Pike
+  abstract: "We study the problem of efficient representation of potentially high-dimensional, spatially coherent signals in the context of precomputed light transport. We present a basis decomposition framework, Moving Basis Decomposition (MBD), that generalizes many existing basis expansion methods and enables high-performance, seamless reconstruction of compressed data. We develop an algorithm for solving large-scale MBD problems. We evaluate MBD against state-of-the-art in a series of controlled experiments and describe a real-world application, where MBD serves as the backbone of a scalable global illumination system powering multiple, current and upcoming 60Hz AAA-titles running on a wide range of hardware platforms. "
+  picture: /img/2021/papers/1040.jpg
+  session_id: 12
+
+- title: Fast Polygonal Splatting using Directional Kernel Difference
+  authors: Moroto, Yuji; Hachisuka, Toshiya; Umetani, Nobuyuki
+  abstract: "Lens blur is an important image-processing task to achieve a depth-of-field effect. It performs image convolution with a spatially varying kernel that models the lens aperture. Despite its importance, lens blur is computationally expensive even on modern hardware, and approximation is often necessary to achieve interactive performance. We introduce a novel approach for lens blur that achieves exact results with real-time performance for several polygonal-shaped constant kernels. Our approach is an extension of the existing approach based on (discrete) differential kernels. The performance gain here hinges upon the fact that kernels typically become sparse (i.e., mostly zero) when taking differentials. We extend the existing approach that conventional axis-aligned differentials to non-axis aligned differentials. The key insight is that taking such differentials along the directions of the edges makes polygonal kernels significantly sparser than just taking differentials along axis-aligned directions as in existing work. Compared to naive image convolution, we achieve an order of magnitude speedup, allowing a real-time application of polygonal lens blur even on high-resolution images."
+  picture: /img/2021/papers/1039.jpg
+  session_id: 12
+
+- title: Fast Analytic Soft Shadows from Area Lights
+  authors: KT, Aakash; Sakurikar, Parikshit; Narayanan, P. J
+  abstract: "In this paper, we present the first method to analytically compute shading and soft shadows for physically based BRDFs from arbitrary convex area lights. Previous methods analytically computed the radiance from polygonal area light sources and used stochastic methods with denoising for shadows. We observe that for a given shading point, spherical polygons for any convex geometry can be obtained using its silhouette edges as viewed from that point. We use this property to efficiently extend analytic polygonal area light shading to arbitrary convex geometry. Furthermore, this property can be also used to obtain spherical polygons of occluders that lie between the shading point and the light source. The set difference between the light source and occluder polygons represents the visible area of the light which can be analytically integrated over by using Linearly Transformed Cosines (LTCs), naturally producing soft shadowed shading. We show that our method produces accurate soft shadows and high quality renders as compared to ray tracing and prior methods in the same amount of time. We analyze the run-time performance of our method and show rendering results on several scenes with multiple light sources and complex occluders."
+  picture: /img/2021/papers/1047.jpg
+  session_id: 12
+
+- title: Optimised Path Space Regularisation
+  authors: Weier, Philippe; Droske, Marc; Hanika, Johannes; Weidlich, Andrea; Vorba, Jiří
+  abstract: "We present Optimised Path Space Regularisation (OPSR), a novel regularisation technique for forward path tracing algorithms. Our regularisation controls the amount of roughness added to materials depending on the type of sampled paths and trades a small error in the estimator for a drastic reduction of variance in difficult paths, including indirectly visible caustics. We formulate the problem as a joint bias-variance minimisation problem and use differentiable rendering to optimise our model. The learnt parameters generalise to a large variety of scenes irrespective of their geometric complexity. The regularisation added to the underlying light transport algorithm naturally allows us to handle the problem of near-specular and glossy path chains robustly. Our method consistently improves the convergence of path tracing estimators, including state-of-the-art path guiding techniques where it enables finding otherwise hard-to-sample paths and thus, in turn, can significantly speed up the learning of guiding distributions."
+  picture: /img/2021/papers/1026.jpg
+  session_id: 14
+
+- title: Firefly removal in Monte Carlo rendering with adaptive Median of meaNs
+  authors: Buisine, Jérôme; Delepoulle, Samuel; Renaud, Christophe
+  abstract: "Estimating the rendering equation using Monte Carlo methods produces photorealistic images by evaluating a large number of samples of the rendering equation per pixel. The final value for each pixel is then calculated as the average of the contribution of each sample. The mean is a good estimator but not necessarily robust which explains the appearance of some visual artifacts such as fireflies, due to an overestimation of the value of the mean. The MoN (Median of meaNs) is a more robust estimator than the mean which allows to reduce the impact of outliers which are the cause of these fireflies. However, this method converges more slowly than the mean, which reduces its interest for pixels whose distribution does not contain outliers. To overcome this problem we propose an extension of the MoN based on the Gini coefficient in order to exploit the best of the two estimators during the computation. This approach is simple to implement whatever the integrator and does not require complex parameterization. Finally, it presents a reduced computational overhead and leads to the disappearance of fireflies."
+  picture: /img/2021/papers/1046.jpg
+  session_id: 14
+
+- title: An analytic BRDF for materials with spherical Lambertian scatterers
+  authors: d'Eon, Eugene
+  abstract: "We present a new analytic BRDF for porous materials comprised of spherical Lambertian scatterers. The BRDF has a single parameter: the albedo of the Lambertian particles. The resulting appearance exhibits strong back scattering and saturation effects that height-field-based models such as Oren-Nayar cannot reproduce."
+  picture: /img/2021/papers/1029.jpg
+  session_id: 15
+
+- title: A combined scattering and diffraction model for elliptical hair rendering
+  authors: Benamira, Alexis; Pattanaik, Sumant
+  abstract: "Realistic hair rendering relies on fiber scattering models. These models are based on either ray tracing or on full wave-propagation through the hair fiber. Ray tracing can model most of the scattering phenomena observed but misses the important effect of diffraction. Indeed human natural hair specific dimensions and geometry demands for the wave nature of light to be taken into consideration for accurate rendering. However, current full-wave model requires nonpratical, several days precomputation, that needs to be repeated for every change in the hair geometry or color, for appropriate results. We present in this paper a dual hair scattering model which considers the dual aspect of light: as a wave and as a ray. Our model accurately simulates both diffraction and scattering phenomena without requiring any precomputation. Furthermore, it can simulate light transport in hairs of arbitrary elliptical cross-sections. This new dual approach enables our model to significantly improve the appearance of rendered hair and very closely match scattering and diffraction effects seen in photos of real hair while adding little computation overhead."
+  picture: /img/2021/papers/1030.jpg
+  session_id: 15
+
+- title: Practical Ply-Based Appearance Modeling for Knitted Fabrics
+  authors: Montazeri, Zahra; Gammelmark, Soren; Jensen, Henrik Wann; Zhao, Shuang
+  abstract: "Modeling the geometry and the appearance of knitted fabrics has been challenging due to their complex geometries and interactions with light. Previous surface-based models have difficulties capturing fine-grained knit geometries; Micro-appearance models, on the other hands, typically store individual cloth fibers explicitly and are expensive to be generated and rendered. Further, neither of the models have been matched the photographs to capture both the reflection and the transmission of light simultaneously. In this paper, we introduce an efficient technique to generate knit models with user-specified knitting patterns. Our model stores individual knit plies with fiber-level detailed depicted using normal and tangent mapping. We evaluate our generated models using a wide array of knitting patterns. Further, we compare qualitatively renderings to our models to photos of real samples."
+  picture: /img/2021/papers/1059.jpg
+  session_id: 15
+
+- title: "MatMorpher: A Morphing Operator for SVBRDFs"
+  authors: Gauthier, Alban; Thiery, Jean-Marc; Boubekeur, Tamy
+  abstract: "We present a novel morphing operator for spatially-varying bidirectional reflectance distribution functions. Our operator takes as input digital materials modeled using a set of 2D texture maps which control the typical parameters of a standard BRDF model. It also takes an interpolation map, defined over the same texture domain, which modulates the interpolation at each texel of the material. Our algorithm is based on a transport mechanism which continuously transforms the individual source maps into their destination counterparts in a feature-sensitive manner. The underlying non-rigid deformation is computed using an energy minimization over a transport grid and accounts for the user-selected dominant features present in the input materials. During this process, we carefully preserve details by mixing the material channels using a histogram-aware color blending combined with a normal reorientation. As a result, our method allows to explore large regions of the space of possible materials using exemplars as anchors and our interpolation scheme as a navigation mean. We also give details about our real time implementation, designed to map faithfully to the standard physically-based rendering workflow and letting users rule interactively the morphing process."
+  picture: /img/2021/papers/1014.jpg
+  session_id: 15
+
+- title: "Deep Portrait Lighting Enhancement with 3D Guidance"
+  authors: Han, Fangzhou; Wang, Can; Du, Hao; Liao, Jing
+  abstract: "Despite recent breakthroughs in deep learning methods for image lighting enhancement, they are inferior when applied to portraits because 3D facial information is ignored in their models. To address this, we present a novel deep learning framework for portrait lighting enhancement based on 3D facial guidance. Our framework consists of two stages. In the first stage, corrected lighting parameters are predicted by a network from the input bad lighting image, with the assistance of a 3D morphable model and a differentiable renderer. Given the predicted lighting parameter, the differentiable renderer renders a face image with corrected shading and texture, which serves as the 3D guidance for learning image lighting enhancement in the second stage. To better exploit the long-range correlations between the input and the guidance, in the second stage, we design an image-to-image translation network with a novel transformer architecture, which automatically produces a lighting-enhanced result. Experimental results on the FFHQ dataset and in-the-wild images show that the proposed method outperforms state-of-the-art methods in terms of both quantitative metrics and visual quality."
+  picture: /img/2021/papers/1064.jpg
+  session_id: 16
+
+- title: "NeLF: Neural Light-transport Field for Portrait View Synthesis and Relighting"
+  authors: Sun, Tiancheng; Lin, Kai-En; Xu, Zexiang; Bi, Sai; Ramamoorthi, Ravi
+  abstract: "Human portraits exhibit various appearances when observed from different views under different lighting conditions. We can easily imagine how the face will look like in another setup, but computer algorithms still fail on this problem given limited observations. To this end, we present a system for portrait view synthesis and relighting: given multiple portraits, we use a neural network to predict the light-transport field in 3D space, and from the predicted Neural Light-transport Field (NeLF) produce a portrait from a new camera view under a new environmental lighting. Our system is trained on a large number of synthetic models, and can generalize to different synthetic and real portraits under various lighting conditions. Our method achieves simultaneous view synthesis and relighting given multi-view portraits as the input, and achieves state-of-the-art results."
+  session_id: 16
+
+- title: "Human Hair Inverse Rendering using Multi-View Photometric data"
+  authors: Sun, Tiancheng; Nam, Giljoo; Aliaga, Carlos; Hery, Christophe; Ramamoorthi, Ravi
+  abstract: "We introduce a hair inverse rendering framework to reconstruct high-fidelity 3D geometry of human hair, as well as its reflectance, which can be readily used for photorealistic rendering of hair. We take multi-view photometric data as input, i.e., a set of images taken from various viewpoints and different lighting conditions. Our method consists of two stages. First, we propose a novel solution for line-based multi-view stereo that yields accurate hair geometry from multi-view photometric data. Specifically, a per-pixel lightcode is proposed to efficiently solve the hair correspondence matching problem. Our new solution enables accurate and dense strand reconstruction from a smaller number of cameras compared to the state-of-the-art work. In the second stage, we estimate hair reflectance properties using multi-view photometric data. A simplified BSDF model is used for realistic appearance reproduction. Based on the 3D geometry of hair strands, we fit the longitudinal roughness and find the single strand color. We show that our method can faithfully reproduce the appearance of human hair and provide realism for digital humans."
+  session_id: 16
+
+- title: "Single-image Full-body Human Relighting"
+  authors: Lagunas, Manuel; Sun, Xin; Yang, Jimei; Villegas, Ruben; Zhang, Jianming; Shu, Zhixin; Masia, Belen; Gutierrez, Diego
+  abstract: "We present a single-image data-driven method to automatically relight images with full-body humans in them. Our framework is based on a physically-based decomposition leveraging precomputed radiance transfer (PRT) and spherical harmonics (SH) lighting. In contrast to previous work, we lift the assumptions on Lambertian materials and explicitly model diffuse and specular reflectance in our data. Moreover, we introduce an additional light-dependant residual term that accounts for errors in the PRT-based image reconstruction. We propose a new deep learning architecture, tailored to the decomposition performed in PRT, that is trained using a combination of L1, logarithmic, and rendering losses. Our model outperforms the state of the art for full-body human relighting both with synthetic images and photographs."
+  picture: /img/2021/papers/1028.jpg
+  session_id: 16
+
+2020:
+- title: "Neural Denoising with Layer Embeddings"
+  authors: "Jacob Munkberg, Jon Hasselgren"
+  abstract: "We propose an efficient and robust denoiser for Monte-Carlo path tracing that exploits individual samples from the renderer instead of only pixel aggregates. Individual samples are partitioned into layers, which are filtered separately, giving the network more freedom to handle outliers and complex visibility. Finally the layers are alpha-composited. The entire system is trained end-to-end, with learned layer partitioning, filter kernels and compositing. We show results on global illumination with stochastic primary visibility, e.g., motion blur and defocus blur. We obtain similar quality as recent state-of-the-art sample-based denoisers at a fraction of the computational cost and memory requirements."
+  session_id: 1
+  talk_id: 0
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_06.1_neural_denoising_with_layer_embeddings"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14049/v39i4pp001-012.pdf"
+
+- title: "Temporal normal distribution functions"
+  authors: "Lorenzo Tessari, Johannes Hanika, Carsten Dachsbacher, Marc Droske"
+  abstract: "Specular aliasing is a problem that can make seemingly simple scenes notoriously hard to render efficiently: small geometric features with high curvature and near specular reflectance properties result in tiny lighting features which are difficult to resolve at low sample counts per pixel. This is especially apparent in scenes including fluid simulation, which often feature fast moving elements such as spray particles. LEAN and LEADR mapping can be used to convert geometric surface detail to anisotropic surface roughness in a preprocess. For FX elements fine geometric detail can be represented as participating media. Both approaches are only valid in the far-field regime where the geometric detail is much smaller than a pixel and in the meso-scale the challenge of resolving highlights remains. Fast motion and the relatively long shutter intervals, commonly used in movie production, lead to strong variation of the surface normals seen under a pixel over time, thus aggravating the problem. Recently proposed specular anti aliasing approaches preintegrate geometric curvature under the pixel footprint for one specific ray to achieve noise free images at very low sample counts. To close the gap between LEADR mapping and precise ray tracing, we extend specular anti aliasing to anisotropic surface roughness and to account for the temporal surface normal variation due to motion blur."
+  session_id: 1
+  talk_id: 1
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_06.2_temporal_normal_distribution_functions"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.2312/sr20201132/001-012.pdf"
+
+- title: "Real-time Monte Carlo Denoising with the Neural Bilateral Grid"
+  authors: "Xiaoxu Meng, Quan Zheng, Amitabh Varshney, Gurprit Singh, Matthias Zwicker"
+  abstract: "Real-time denoising for Monte Carlo rendering remains a critical challenge with regard to the demanding requirements of both high fidelity and low computation time. In this paper, we propose a novel and practical deep learning approach to robustly denoise Monte Carlo images rendered at sampling rates as low as a single sample per pixel (1-spp). This causes severe noise, and previous techniques strongly compromise final quality to maintain real-time denoising speed. We develop an efficient convolutional neural network architecture to learn to denoise noisy inputs in a data-dependent, bilateral space. Our neural network learns to generate a guide image for first splatting noisy data into the grid, and then slicing it to read out the denoised data. To seamlessly integrate bilateral grids into our trainable denoising pipeline, we leverage a differentiable bilateral grid, called neural bilateral grid, which enables end-to-end training. In addition, we also show how we can further improve denoising quality using a hierarchy of multi-scale bilateral grids. Our experimental results demonstrate that this approach can robustly denoise 1-spp noisy input images at real-time frame rates (a few milliseconds per frame). At such low sampling rates, our approach outperforms state-of-the-art techniques based on kernel prediction networks both in terms of quality and speed, and it leads to significantly improved quality compared to the state-of-the-art feature regression technique."
+  session_id: 1
+  talk_id: 3
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_06.3_real-time_monte_carlo_denoising_with_the_neural_bilateral_grid"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.2312/sr20201133/013-024.pdf"
+
+- title: "A Scalable and Production Ready Sky and Atmosphere Rendering Technique"
+  authors: "Sebastien Hillaire"
+  abstract: "We present a physically based method to render the atmosphere of a planet from ground to space view. Our method is cheap to compute and, as compared to previous methods, does not require high dimensional look up tables (LUT), thus does not suffer from visual artefacts associated with them, and can approximate an infinite amount of multi-scattering bounce. We take a new look at what it means to render natural atmospheric effects and propose a set of simple look up tables and parameterizations to render a sky and its aerial perspective. The atmosphere composition can change dynamically to match artistic visions without requiring heavy LUTs update. The complete technique can be used for real-time applications such as games or architecture pre-visualizations. It scales from low power mobile platforms to high end GPU PCs and it is also useful to accelerate path tracing."
+  session_id: 2
+  talk_id: 4
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_07.1_a_scalable_and_production_ready_sky_and_atmosphere_rendering_technique"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14050/v39i4pp013-022.pdf"
+
+
+- title: "Multi-Scale Appearance Modeling of Granular Materials with Continuously Varying Grain Properties"
+  authors: "Cheng Zhang, Shuang Zhao"
+  abstract: "Many real-world materials such as sand, snow, salt, and rice are comprised of large collections of grains. Previously, multi-scale rendering of granular materials requires precomputing light transport per grain and has difficulty in handling materials with continuously varying grain properties. Further, existing methods usually describe granular materials by explicitly storing individual grains, which becomes hugely data-intensive to describe large objects, or replicating small blocks of grains, which lacks the flexibility to describe materials with grains distributed in nonuniform manners. We introduce a new method to model the appearance of granular materials with richly diverse or continuously varying grain optical properties efficiently. This is achieved using a symbolic and differentiable simulation of light transport during precomputation. Additionally, we introduce a new representation to depict large-scale granular materials with complex grain distributions. After constructing a template tile as preprocessing, we adapt it at render time to generate large quantities of grains with user-specified distributions. We demonstrate the effectiveness of our techniques using a few examples with a variety of grain properties and distributions."
+  session_id: 2
+  talk_id: 5
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_07.2_multi-scale_appearance_modeling_of_granular_materials_with_continuously_varying_grain_properties"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.2312/sr20201134/025-037.pdf"
+
+- title: "Practical Product Path Guiding Using Linearly Transformed Cosines"
+  authors: "Stavros Diolatzis, Adrien Gruson, Wenzel Jakob, Derek Nowrouzezahrai, George Drettakis"
+  abstract: "Path tracing is now the standard method used to generate realistic imagery in many domains, e.g., film, special effects, architecture etc. Path guiding has recently emerged as a powerful strategy to counter the notoriously long computation times required to render such images. In this paper we present a practical path guiding algorithm that performs product sampling, i.e., samples based on the product of the bidirectional scattering distribution function (BSDF) and incoming radiance. We use a spatial-directional subdivision to represent incoming radiance as in previous work, and introduce the use of Linear Transformed Cosines (LTCs) to represent the BSDF during path guiding, thus enabling efficient product sampling. Despite the computational efficiency of LTCs, several optimizations are needed to make our method worthwhile. In particular, we show how we can use vectorization, precomputation, as well as strategies to optimize multiple importance sampling and russian roulette to improve performance. We evaluate our method on several different scenes; the results show overall gains in efficiency, especially in scenes with significant inter-reflection between glossy objects."
+  session_id: 3
+  talk_id: 6
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_09.1_practical_product_path_guiding"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14051/v39i4pp023-033.pdf"
+
+- title: "Temporal Sample Reuse for Next Event Estimation and Path Guiding for Real-Time Path Tracing"
+  authors: "Addis Dittebrandt, Johannes Hanika, Carsten Dachsbacher"
+  abstract: "Good importance sampling is crucial for real-time path tracing where only low sample budgets are possible. We present two efficient sampling techniques tailored for massively-parallel GPU path tracing which improve next event estimation (NEE) for rendering with many light sources and sampling of indirect illumination. As sampling density needs to vary spatially, we use an octree structure in world space and introduce algorithms to continuously adapt the partitioning and distribution of the sampling budget. Both sampling techniques exploit temporal coherence by reusing samples from the previous frame: For NEE we collect unoccluded samples on light sources and show how to deduplicate, but also diffuse this information to efficiently sample light sources in the subsequent frame. For sampling indirect illumination, we present a compressed directional quadtree structure which is iteratively adapted towards high-energy directions using samples from the previous frame. The updates and rebuilding of all data structures takes about 1 ms in our test scenes, and adds about 6 ms at 1080p to the path tracing time compared to using state-of-the-art light hierarchies and BRDF sampling. We show that this additional effort reduces noise in terms of mean squared error by at least one order of magnitude in many situations."
+  session_id: 3
+  talk_id: 7
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_09.2_temporal_sample_reuse_for_next_event_estimation_and_path_guiding_for_real-time_path_tracing"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.2312/sr20201135/039-051.pdf"
+
+- title: "Adaptive Caustics Rendering in Production with Photon Guiding"
+  authors: "Alejandro Conty, Christopher Kulla"
+  abstract: "We present a user controlled technique for achieving fast and stable caustics in a production renderer for both surface and participating media. We combine a progressive photon mapping approach with emission guiding in an on-demand framework hat avoids the raytracing overhead of robust bidirectional systems. We also contribute modifications to turn bias into noise while speeding up the render, making the result usable for both adaptive picture refinement and denoisers."
+  session_id: 3
+  talk_id: 8
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_09.3_adaptive_caustics_rendering_in_production_with_photon_guiding"
+  industry_track: 1
+
+- title: "Deep Kernel Density Estimation for Photon Mapping"
+  authors: "Shilin Zhu, Zexiang Xu, Henrik Wann Jensen, Hao Su, Ravi Ramamoorthi"
+  abstract: "Recently, deep learning-based denoising approaches have led to dramatic improvements in low sample-count Monte Carlo rendering. These approaches are aimed at path tracing, which is not ideal for simulating challenging light transport effects like caustics, where photon mapping is the method of choice. However, photon mapping requires very large numbers of traced photons to achieve high-quality reconstructions. In this paper, we develop the first deep learning-based method for particle-based rendering, and specifically focus on photon density estimation, the core of all particle-based methods. We train a novel deep neural network to predict a kernel function to aggregate photon contributions at shading points. Our network encodes individual photons into per-photon features, aggregates them in the neighborhood of a shading point to construct a photon local context vector, and infers a kernel function from the per-photon and photon local context features. This network is easy to incorporate in previous photon mapping methods (by simply swapping the photon density estimator) and can produce high-quality reconstructions of complex global illumination effects like caustics with an order of magnitude fewer photons compared to previous photon mapping methods."
+  session_id: 4
+  talk_id: 9
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_10.1_Deep_Kernel_Density_Estimation_for_Photon_Mapping"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14052/v39i4pp035-045.pdf"
+
+- title: "Adaptive Matrix Completion for Fast Visibility Computations with Many Lights Rendering"
+  authors: "Sunrise Wang, Nicolas Holzschuch"
+  abstract: "Several fast global illumination algorithms rely on the Virtual Point Lights framework. This framework separates illumination into two steps: first, propagate radiance in the scene and store it in virtual lights, then gather illumination from these virtual lights. To accelerate the second step, virtual lights and receiving points are grouped hierarchically, for example using Multi-Dimensional Lightcuts. Computing visibility between clusters of virtual lights and receiving points is a bottleneck. Separately, matrix completion algorithms reconstruct completely a low-rank matrix from an incomplete set of sampled elements. In this paper, we use adaptive matrix completion to approximate visibility information after an initial clustering step. We reconstruct visibility information using as little as 7.5% samples, and combine it with shading information computed separately, in parallel on the GPU. Overall, our method computes global illumination 3-5 times faster than previous state-of-the-art methods on most test scenes."
+  session_id: 4
+  talk_id: 10
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_10.2_adaptive_matrix_completion_for_fast_visibility_computations_with_many_lights_rendering"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14053/v39i4pp047-058.pdf"
+
+- title: "An Adaptive BRDF Fitting Metric"
+  authors: "James Bieron, Pieter Peers"
+  abstract: "We propose a novel image-driven fitting strategy for isotropic BRDFs. Whereas existing BRDF fitting methods minimize a cost function directly on the error between the fitted analytical BRDF and the measured isotropic BRDF samples, we also take into account the resulting material appearance in visualizations of the BRDF. This change of fitting paradigm improves the appearance reproduction fidelity, especially for analytical BRDF models that lack the expressiveness to reproduce the measured surface reflectance. We formulate BRDF fitting as a two-stage process that first generates a series of candidate BRDF fits based only on the BRDF error with measured BRDF samples. Next, from these candidates, we select the BRDF fit that minimizes the visual error. We demonstrate qualitatively and quantitatively improved fits for the Cook-Torrance and GGX microfacet BRDF models. Furthermore, we present an analysis of the BRDF fitting results, and show that the image-driven isotropic BRDF fits generalize well to other light conditions, and that depending on the measured material, a different weighting of errors with respect to the measured BRDF is necessary."
+  session_id: 5
+  talk_id: 11
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_11.1_an_adaptive_brdf_fitting_metric"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14054/v39i4pp059-074.pdf"
+
+- title: "Joint SVBRDF Recovery and Synthesis From a Single Image using an Unsupervised Generative Adversarial Network"
+  authors: "Yezi Zhao, Beibei Wang, Yanning Xu, Zheng Zeng, Lu Wang, Nicolas Holzschuch"
+  abstract: "We want to recreate spatially-varying bi-directional reflectance distribution functions (SVBRDFs) from a single image. Producing these SVBRDFs from single images will allow designers to incorporate many new materials in their virtual scenes, increasing their realism. A single image contains incomplete information about the SVBRDF, making reconstruction difficult. Existing algorithms can produce high-quality SVBRDFs with single or few input photographs using supervised deep learning. The learning step relies on a huge dataset with both input photographs and the ground truth SVBRDF maps. This is a weakness as ground truth maps are not easy to acquire. For practical use, it is also important to produce large SVBRDF maps, much larger than the input images. Existing algorithm rely on a separate texture synthesis step to generate these large maps. In this paper, we address both issues simultaneously. We present an unsupervised generative adversarial neural network that addresses both SVBRDF capture from a single image and synthesis at the same time. We could generate high-resolution SVBRDFs much larger than the input image. We train a generative adversarial network (GAN) to get SVBRDF maps, which have both a large spatial extent and detailed texels. We employ a two-stream generator that divides the training of maps into two groups (normal and roughness as one, diffuse and specular as the other) to better optimize those four maps. In the end, our method is able to generate large scale SVBRDF maps from a single input photograph with high quality and provide higher quality rendering results with more details compared to the previous works."
+  session_id: 5
+  talk_id: 12
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_11.2_joint_svbrdf_recovery_and_synthesis_from_a_single_image_using_an_unsupervised_generative_adversarial_network"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.2312/sr20201136/053-066.pdf"
+
+- title: "Practical Measurement and Reconstruction of Spectral Skin Reflectance"
+  authors: "Yuliya Gitlina, Giuseppe Claudio Guarnera, Daljit Singh Dhillon, Jan Hansen, Alexandros Lattas, Dinesh Pai, Abhijeet Ghosh"
+  abstract: "We present two practical methods for measurement of spectral skin reflectance suited for live subjects, and drive a spectral BSSRDF model with appropriate complexity to match skin appearance in photographs, including human faces. Our primary measurement method employs illuminating a subject with two complementary uniform spectral illumination conditions using a multispectral LED sphere to estimate spatially varying parameters of chromophore concentrations including melanin and hemoglobin concentration, melanin blend-type fraction, and epidermal hemoglobin fraction. We demonstrate that our proposed complementary measurements enable higher-quality estimate of choromophores than those obtained using standard broadband illumination, while being suitable for integration with multiview facial capture. Besides novel optimal measurements with controlled illumination, we also demonstrate how to adapt practical skin patch measurements using a hand-held dermatological skin measurement device, a Miravex Antera 3D camera, for skin appearance reconstruction and rendering. Furthermore, we introduce a novel approach for parameter estimation given the measurements using neural networks which is much faster than a lookup table search and avoids parameter quantization. We demonstrate high quality matches of skin appearance with photographs for a variety of skin types with our proposed practical measurement procedures, including photorealistic spectral reproduction and renderings of facial appearance."
+  session_id: 5
+  talk_id: 13
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_11.3_practical_measurement_and_reconstruction_of_spectral_skin_reflectance"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14055/v39i4pp075-089.pdf"
+
+- title: "Guided Fine-Tuning for Large-Scale Material Transfer"
+  authors: "Valentin Deschaintre, George Drettakis, Adrien Bousseau"
+  abstract: "We present a method to transfer the appearance of one or a few exemplar SVBRDFs to a target image representing similar materials. Our solution is extremely simple: we fine-tune a deep appearance-capture network on the provided exemplars, such that it learns to extract similar SVBRDF values from the target image. We introduce two novel material capture and design workflows that demonstrate the strength of this simple approach. Our first workflow allows to produce plausible SVBRDFs of large-scale objects from only a few pictures. Specifically, users only need take a single picture of a large surface and a few close-up flash pictures of some of its details. We use existing methods to extract SVBRDF parameters from the close-ups, and our method to transfer these parameters to the entire surface, enabling the lightweight capture of surfaces several meters wide such as murals, floors and furniture. In our second workflow, we provide a powerful way for users to create large SVBRDFs from internet pictures by transferring the appearance of existing, pre-designed SVBRDFs. By selecting different exemplars, users can control the materials assigned to the target image, greatly enhancing the creative possibilities offered by deep appearance capture."
+  session_id: 6
+  talk_id: 14
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_12.1_guided_fine-tuning_for_large-scale_material_transfer"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14056/v39i4pp091-105.pdf"
+
+- title: "Photorealistic Material Editing Through Direct Image Manipulation"
+  authors: "Károly Zsolnai-Fehér, Peter Wonka, Michael Wimmer"
+  abstract: "Creating photorealistic materials for light transport algorithms requires carefully fine-tuning a set of material properties to achieve a desired artistic effect. This is typically a lengthy process that involves a trained artist with specialized knowledge. In this work, we present a technique that aims to empower novice and intermediate-level users to synthesize high-quality photorealistic materials by only requiring basic image processing knowledge. In the proposed workflow, the user starts with an input image and applies a few intuitive transforms (e.g., colorization, image inpainting) within a 2D image editor of their choice, and in the next step, our technique produces a photorealistic result that approximates this target image. Our method combines the advantages of a neural network-augmented optimizer and an encoder neural network to produce high-quality output results within 30 seconds. We also demonstrate that it is resilient against poorly-edited target images and propose a simple extension to predict image sequences with a strict time budget of 1-2 seconds per image."
+  session_id: 6
+  talk_id: 15
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_12.2_photorealistic_material_editing_through_direct_image_manipulation"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14057/v39i4pp107-120.pdf"
+
+- title: "Can't Invert the CDF? The Triangle-Cut Parameterization of the Region under the Curve"
+  authors: "Eric Heitz"
+  abstract: "We present an exact, analytic and deterministic method for sampling densities whose Cumulative Distribution Functions (CDFs) cannot be inverted analytically. Indeed, the inverse-CDF method is often considered the way to go for sampling non-uniform densities. If the CDF is not analytically invertible, the typical fallback solutions are either approximate, numerical, or non-deterministic such as acceptance-rejection. To overcome this problem, we show how to compute an analytic area-preserving parameterization of the region under the curve of the target density. We use it to generate random points uniformly distributed under the curve of the target density and their abscissae are thus distributed with the target density. Technically, our idea is to use an approximate analytic parameterization whose error can be represented geometrically as a triangle that is simple to cut out. This triangle-cut parameterization yields exact and analytic solutions to sampling problems that were presumably not analytically resolvable."
+  session_id: 7
+  talk_id: 16
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_13.1_cant_invert_the_cdf_the_triangle-cut_parameterization_of_the_region_under_the_curve"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14058/v39i4pp121-132.pdf"
+
+- title: "A Comprehensive Theory and Variational Framework for Anti-aliasing Sampling Patterns"
+  authors: "Cengiz Oztireli"
+  abstract: "In this paper, we provide a comprehensive theory of anti-aliasing sampling patterns that explains and revises known results, and show how patterns as predicted by the theory can be generated via a variational optimization framework. We start by deriving the exact spectral expression for expected error in reconstructing an image in terms of power spectra of sampling patterns, and analyzing how the shape of power spectra is related to anti-aliasing properties. Based on this analysis, we then formulate the problem of generating anti-aliasing sampling patterns as constrained variational optimization on power spectra. This allows us to not rely on any parametric form, and thus explore the whole space of realizable spectra. We show that the resulting optimized sampling patterns lead to reconstructions with less visible aliasing artifacts, while keeping low frequencies as clean as possible."
+  session_id: 7
+  talk_id: 17
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_13.2_a_comprehensive_theory_and_variational_framework_for_anti-aliasing_sampling_patterns"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14059/v39i4pp133-148.pdf"
+
+- title: "Practical Product Sampling by Fitting and Composing Warps"
+  authors: "David Hart, Matt Pharr, Thomas Müller, Ward Lopes, Morgan McGuire, Peter Shirley"
+  abstract: "We introduce a Monte Carlo importance sampling method for integrands composed of products and show its application to rendering where direct sampling of the product is often difficult. Our method is based on warp functions that operate on the primary samples in [0,1)^n, where each warp approximates sampling a single factor of the product distribution. Our key insight is that individual factors are often well-behaved and inexpensive to fit and sample in primary sample space, which leads to a practical, efficient sampling algorithm. Our sampling approach is unbiased, easy to implement, and compatible with multiple importance sampling. We show the results of applying our warps to projected solid angle sampling of spherical triangles, to sampling bilinear patch light sources, and to sampling glossy BSDFs and area light sources, with efficiency improvements of over 1.6× on real-world scenes."
+  session_id: 7
+  talk_id: 18
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_13.3_practical_product_sampling_by_fitting_and_composing_warps"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14060/v39i4pp149-158.pdf"
+
+- title: "Semi-Procedural Textures Using Point Process Texture Basis Functions"
+  authors: "Pascal Guehl, Remi Allegre, Jean-Michel Dischler, Bedrich Benes, Eric Galin"
+  abstract: "We introduce a novel semi-procedural approach that avoids drawbacks of procedural textures and leverages advantages of data-driven texture synthesis. We split synthesis in two parts: 1) structure synthesis, based on a procedural parametric model and 2) color details synthesis, being data-driven. The procedural model consists of a generic Point Process Texture Basis Function (PPTBF), which extends sparse convolution noises by defining rich convolution kernels. They consist of a window function multiplied with a statistical mixture of Gabor functions, both designed to encapsulate a large span of spatial stochastic structures, including cells, cracks, grains, scratches, spots, stains, and waves. Parameters can be prescribed automatically by supplying binary structure exemplars. As for noise-based Gaussian textures, the PPTBF is used as stand-alone function, avoiding classification tasks that occur when handling multiple procedural assets. Because the PPTBF is based on a single set of parameters it allows for continuous transitions between different visual structures and an easy control over its visual characteristics. Color is consistently synthesized from the exemplar using a novel multiscale parallel texture synthesis by numbers, constrained by the PPTBF. The generated procedural noises are parametric, infinite, continuous, and they avoid repetition. The synthesis of the data-driven part is automatic and guarantees strong visual resemblance with inputs."
+  session_id: 8
+  talk_id: 19
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_14.1_semi-procedural_textures_using_point_process_texture_basis_functions"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14061/v39i4pp159-171.pdf"
+
+- title: "High-Resolution Neural Face Swapping for Visual Effects"
+  authors: "Jacek Naruniec, Leonhard Helminger, Christopher Schroers, Romann Weber"
+  abstract: "In this paper, we propose an algorithm for fully automatic neural face swapping in images and videos. To the best of our knowledge, this is the first method capable of rendering photo-realistic and temporally coherent results at megapixel resolution. To this end, we introduce a progressively trained multi-way {comb network} and a light- and contrast-preserving blending method. We also show that while progressive training enables generation of high-resolution images, extending the architecture and training data beyond two people allows us to achieve higher fidelity in generated expressions. When compositing the generated expression onto the target face, we show how to adapt the blending strategy to preserve contrast and low-frequency lighting. Finally, we incorporate a refinement strategy into the face landmark stabilization algorithm to achieve temporal stability, which is crucial for working with high-resolution videos. We conduct an extensive ablation study to show the influence of our design choices on the quality of the swap and compare our work with popular state-of-the-art methods."
+  session_id: 8
+  talk_id: 20
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/SR_14.2_high-resolution_neural_face_swapping_for_visual_effects"
+  paper_link: "https://diglib.eg.org/bitstream/handle/10.1111/cgf14062/v39i4pp173-184.pdf"
+  live_only: 1
+
+- title: "An Adaptive Metric for BRDF Appearance Matching"
+  authors: "J. Bieron P. Peers"
+  session_id: 21
+  talk_id: 21
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/MAM_1.1_an_adaptive_metric_for_brdf_appearance_matching"
+
+- title: "The Problem of Entangled Material Properties in SVBRDF Recovery"
+  authors: "S. Saryazdi , C. Murphy and S. Mudur"
+  session_id: 21
+  talk_id: 22
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/MAM_1.2_the_problem_of_entangled_material_properties_in_svbrdf_recovery"
+
+- title: "Improving Spectral Upsampling with Fluorescence"
+  authors: "L. König, A. Jung, C. Dachsbacher"
+  session_id: 21
+  talk_id: 23
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/MAM_1.3_improving_spectral_upsampling_with_fluorescence"
+
+- title: "A Genetic Algorithm Based Heterogeneous Subsurface Scattering Representation"
+  authors: "M. Kurt"
+  session_id: 22
+  talk_id: 24
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/MAM_2.1_a_genetic_algorithm_based_heterogeneous_subsurface_scattering_representation"
+
+- title: "On the Nature of Perceptual Translucency"
+  authors: "D. Gigilashvili, J-B. Thomas, J. Yngve Hardeberg, M. Pedersen"
+  session_id: 22
+  talk_id: 25
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/MAM_2.2_on_the_nature_of_perceptual_translucency"
+
+- title: "Bonn Appearance Benchmark"
+  authors: "S. Merzbach and R. Klein"
+  session_id: 23
+  talk_id: 26
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/MAM_3.1_bonn_appearance_benchmark"
+
+- title: "A Taxonomy of Bidirectional Scattering Distribution Function Lobes for Rendering Engineers"
+  authors: "M. McGuire, J. Dorsey, E. Haines, J. F. Hughes, S. Marschner, M. Pharr, P. Shirley"
+  session_id: 23
+  talk_id: 27
+  rc_link: "https://go.rocket.chat/room?host=rc.egsr2020.london&rid=GENERAL&path=channel/MAM_3.2_taxonomy_bsdf_function_"

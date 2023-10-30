@@ -1,0 +1,26 @@
+papers:
+  - name: Adrien Bousseau
+    url: http://www-sop.inria.fr/members/Adrien.Bousseau/
+    affiliation: Inria - Université Côte d’Azur
+
+  - name: Morgan McGuire
+    url: https://casual-effects.com/morgan/index.html
+    affiliation: Roblox
+
+awards:
+  - name: Elmar Eisemann
+    url: https://graphics.tudelft.nl/~eisemann/
+    affiliation: TU Delft
+
+conference:
+  - name: Pascal Grittmann
+    url: https://graphics.cg.uni-saarland.de/people/grittmann.html
+    affiliation: Saarland University
+
+  - name: Gurprit Singh
+    url: https://people.mpi-inf.mpg.de/~gsingh/
+    affiliation: Max-Planck-Institut für Informatik
+
+  - name: Philipp Slusallek
+    url: https://graphics.cg.uni-saarland.de/people/slusallek.html
+    affiliation: Saarland University

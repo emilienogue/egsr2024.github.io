@@ -1,11 +1,6 @@
 # Site settings
 title: "EGSR"
-tagline: "Eurographics Symposium on Rendering"
-
-# URL - Deployment
-# url: "https://www.egsr2024.org"
-url: "https://emilienogue.github.io"
-#url: "localhost:4000"
+tagline: "Eurographics Symposium on Rendering 2022"
 
 # Handling Reading
 safe: true
@@ -15,16 +10,18 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /:categories/:title/
 markdown: kramdown
 
+timezone: Europe/Berlin
+
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
 # Contact
-email: "chairs-egsr2024@eg.org"
+# email: "egsr2020@cs.ucl.ac.uk"
 
 # Social
-#facebook: Conference-on-Visual-Media-Production-307514829299111
-twitter: EGSympRendering
+#facebook: egsr-4668468684?
+#twitter: egsr
 
 
 # Use this for production
@@ -32,3 +29,18 @@ sass:
     style: compressed
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
 
+
+theme: jekyll-theme-slate
+
+collections:
+  session:
+    output: true
+    sort_by: session_id
+
+defaults:
+  # Sort News into years
+  - scope:
+      path: "_posts/news"
+      type: posts
+    values:
+      permalink: /:year/news/:title

@@ -1,270 +1,206 @@
-2024:
-
-
-2023:
-- name: ACM SIGGRAPH
-  url: https://www.siggraph.org/
-  image: img/2023/sponsors/logo-acm-siggraph-wide.png
-  level: conference
-
-#- name: Disguise
-#  url: https://www.disguise.one/
-#  image: img/2023/sponsors/logo-disguise.png
-#  level: gold
-#
-#- name: Foundry
-#  url: https://www.foundry.com/
-#  image: img/2023/sponsors/logo-foundry-2x.png
-#  level: silver
-#
-- name: Adobe
-  url: https://research.adobe.com/
-  image: img/2023/sponsors/logo-adobe.png
-  level: silver
-
-#
-#- name: Niantic
-#  url: https://nianticlabs.com/
-#  image: img/2023/sponsors/logo-niantic.png
-#  level: bronze
-#
-- name: CAMERA
-  url: https://www.camera.ac.uk/
-  image: img/2023/sponsors/logo-camera-2x.png
-  level: academic
-
-- name: Reality Labs
-  url: https://about.meta.com/uk/realitylabs/
-  image: img/2023/sponsors/logo-reality_labs_research.png
-  level: silver
-
-- name: Disguise
-  url: https://www.disguise.one/
-  image: img/2023/sponsors/logo-disguise_Black.png
-  level: silver
-
-- name: People-Centred AI Institute
-  url: https://www.surrey.ac.uk/artificial-intelligence
-  image: img/2023/sponsors/logo-people-centred-ai-UoS.png
-  level: academic
-
-#- name: CVSSP
-#  url: https://www.surrey.ac.uk/centre-vision-speech-signal-processing
-#  image: img/2023/sponsors/logo-cvssp.png
-#  level: academic
-
 2022:
-- name: ACM SIGGRAPH
-  url: https://www.siggraph.org/
-  image: img/2022/sponsors/logo-acm-siggraph-wide.png
-  level: conference
+  show: true
+  num_columns: 2
 
-- name: Disguise
-  url: https://www.disguise.one/
-  image: img/2022/sponsors/logo-disguise.png
-  level: gold
+  list:
+  - name: Adobe
+    url: https://www.adobe.com
+    image: img/2022/adobe.png
+    level: gold
 
-- name: Foundry
-  url: https://www.foundry.com/
-  image: img/2022/sponsors/logo-foundry-2x.png
-  level: silver
+  - name: Reality Labs Research
+    image: img/2022/realitylabs.png
+    level: gold
 
-- name: Adobe
-  url: https://www.adobe.com/
-  image: img/2022/sponsors/logo-adobe.png
-  level: silver
+  - name: Chaos
+    url: https://www.chaos.com
+    image: img/2022/chaos.png
+    level: silver
 
-- name: Niantic
-  url: https://nianticlabs.com/
-  image: img/2022/sponsors/logo-niantic.png
-  level: bronze
+  - name: Intel
+    url: https://www.intel.com
+    image: img/2022/intel.png
+    level: silver
 
-- name: CAMERA
-  url: https://www.camera.ac.uk/
-  image: img/2022/sponsors/logo-camera-2x.png
-  level: academic
+  - name: Huawei
+    url: https://www.huawei.com
+    image: img/2022/huawei.png
+    level: silver
 
-- name: CVSSP
-  url: https://www.surrey.ac.uk/centre-vision-speech-signal-processing
-  image: img/2022/sponsors/logo-cvssp.png
-  level: academic
+  - name: Unity
+    url: https://unity.com
+    image: img/2022/unity.png
+    level: silver
+
+  - name: Autodesk
+    url: https://www.autodesk.com
+    image: img/2022/autodesk.png
+    level: silver
+
+  - name: NVIDIA
+    url: https://www.nvidia.com
+    image: img/2020/sponsors/logo_nvidia.png
+    level: paperAward
 
 2021:
-- name: ACM SIGGRAPH
-  url: https://www.siggraph.org/
-  image: img/2021/sponsors/logo-acm-siggraph-wide.png
-  level: conference
+  show: true
+  num_columns: 2
 
-- name: YouTube
-  url: https://www.youtube.com/
-  image: img/2021/sponsors/logo-youtube.png
-  level: gold
+  list:
+  - name: Saarland University
+    url: https://www.uni-saarland.de/en/home.html
+    image: img/2021/uds.png
+    level: institutional
 
-- name: Autodesk
-  url: https://www.autodesk.com/
-  image: img/2021/sponsors/logo-autodesk-2x.png
-  level: gold
+  - name: Saarland Informatics Campus
+    url: https://saarland-informatics-campus.de/
+    image: img/2021/SIC_RZ.png
+    level: institutional
 
-- name: NVIDIA
-  url: https://www.nvidia.com/
-  image: img/2021/sponsors/logo-nvidia-2x.png
-  level: gold
+  - name: Max-Planck-Institut für Informatik
+    url: https://www.mpi-inf.mpg.de/home/
+    image: img/2021/logo-mpii.png
+    level: institutional
 
-- name: Adobe
-  url: https://www.adobe.com/
-  image: img/2021/sponsors/logo-adobe.png
-  level: silver
+  - name: Eurographics
+    url: https://www.eg.org/
+    image: img/2020/academics/EG_logo.jpg
+    level: institutional
 
-- name: Foundry
-  url: https://www.foundry.com/
-  image: img/2021/sponsors/logo-foundry-2x.png
-  level: silver
+  - name: Unity
+    url: http://unity3d.com/
+    image: img/2021/sponsors/unity-masterbrand-black.png
+    image2: img/2021/sponsors/unity-masterbrand-black.png
+    level: gold
+    description: |
+      <b>Unity</b> is the creator of the world’s leading real-time 3D development platform, giving users the most powerful and accessible tools to create, operate, and monetize experiences for the real-time world.
+      Unity empowers anyone, regardless of skill level and industry, to create 3D visual content using world-class technology, operate using resources that maximize ease-of-use, and monetize, so that they can find success with their creations.
+      Made with Unity experiences reach nearly 3 billion devices worldwide and have been installed more than 29 billion times in the last 12 months.
 
-- name: Vicon
-  url: https://www.vicon.com/
-  image: img/2021/sponsors/logo-vicon-2x.png
-  level: silver
+  - name: Adobe Research
+    url: https://research.adobe.com/
+    image: img/2021/sponsors/Adobe_Corporate_Vertical_Lockup_Red_RGB.png
+    image2: img/2021/sponsors/Adobe_2.png
+    level: gold
+    description: |
+      <b>Adobe Research</b> is a team of world-class research scientists, engineers, artists, and designers that combines academic discovery with industry impact. Our collaborative projects advance the state of the art across a range of 12 research areas. Our scientists and engineers work with Adobe product teams to transform many of their early state technologies into features for Adobe products, reaching millions of screens across the globe.
 
-- name: IO Industries
-  url: http://www.ioindustries.com/
-  image: img/2021/sponsors/logo-ioindustries-2x.png
-  level: bronze
+  - name: Huawei
+    url: http://www.huawei.com/
+    image: img/2021/sponsors/HW_POS_CMYK_Horizontal-300ppi.jpg
+    image2: img/2021/sponsors/HW_POS_CMYK_Horizontal-300ppi.jpg
+    level: gold
+    description: Founded in 1987, <b>Huawei</b> is a leading global provider of information and communications technology (ICT) infrastructure and smart devices. In Europe, Huawei has operated since 20 years and now employs over 13,000 people thereof approximately 2400 researchers. We have worked hard to deeply integrate into local communities to jointly promote academic research and industry development. Our vision and mission is to bring digital to every person, home and organization for a fully connected, intelligent world.
 
-- name: Activision
-  url: https://www.activision.com/
-  image: img/2021/sponsors/logo-activision-2x.png
-  level: bronze
+  - name: Disney Research|Studios
+    url:
+    image: img/2021/sponsors/DRS_Logo.jpg
+    image2: img/2021/sponsors/DRS_Logo.jpg
+    level: bronze
+    description: >
+      <b>DisneyResearch|Studios</b> in Zurich, Switzerland, focuses on exploring the scientific frontiers in a variety of domains in service to the technical and creative filmmaking process. Our world-class research talent in visual computing, machine learning, and artificial intelligence shapes early-stage ideas into technological innovations that revolutionize the way we produce movies and create media content.
+      Our inventions are used in almost every Disney feature film production and have dazzled hundreds of millions of people in audiences worldwide. DisneyResearch|Studios is part of a wider innovation ecosystem operating in close partnership with our technology units at the Walt Disney Animation Studios, Pixar Animation Studios, Lucasfilm/ILM, Marvel Studios, and Walt Disney Pictures.
+      To complement our considerable research talent, DisneyResearch|Studios maintains a close academic partnership with ETH Zürich and collaborates with the best of academia and industry from all over the world. With such a strong academic and creative grounding, DisneyResearch|Studios is a lab like no other—with the unique mission of bringing the magic to life.
 
-- name: CAMERA
-  url: https://www.camera.ac.uk/
-  image: img/2021/sponsors/logo-camera-2x.png
-  level: academic
+  - name: Facebook Reality Labs Research
+    url: https://about.fb.com/realitylabs/
+    image: img/2021/sponsors/FRL_Research_Black_RGB.jpg
+    image2: img/2021/sponsors/FRL_Research_Black_RGB.jpg
+    level: gold
+    description: <b>Facebook Reality Labs Research</b> brings together a world-class team of researchers, developers, and engineers to build the future of connection within virtual and augmented reality. From AR glasses and VR headsets to brain computer interface and haptic interaction, we’re creating the next wave of technology just as previous generations have done for us with the potential of changing the world.
 
-- name: CVSSP
-  url: https://www.surrey.ac.uk/centre-vision-speech-signal-processing
-  image: img/2021/sponsors/logo-cvssp.png
-  level: academic
+  - name: Autodesk
+    url: https://www.autodesk.com/
+    image: img/2020/sponsors/Autodesk.png
+    image2: img/2020/sponsors/Autodesk2.png
+    level: gold
+    description: <b>Autodesk</b> makes software for people who make things. If you’ve ever driven a high-performance car, admired a towering skyscraper, used a smartphone, or watched a great film, chances are you’ve experienced what millions of Autodesk customers are doing with our software.
+
+  - name: NVIDIA
+    url: https://www.nvidia.com
+    image: img/2020/sponsors/logo_nvidia.png
+    level: paperAward
 
 2020:
-- name: ACM SIGGRAPH
-  url: https://www.siggraph.org/
-  image: img/2020/sponsors/logo-acm-siggraph-wide.png
-  level: conference
+  show: true
+  num_columns: 2
 
-- name: NVIDIA
-  url: https://www.nvidia.com/
-  image: img/2020/sponsors/logo-nvidia-2x.png
-  level: gold
+  list:
+  - name: Activision
+    url: https://www.activision.com/
+    image: img/2020/sponsors/logo-activision.png
+    image2: img/2020/sponsors/logo-activision2.png
+    level: gold
+    description: For over 30 years, <b>Activision</b> has been changing the way people play. We develop, distribute, and publish deeply immersive interactive entertainment for gaming consoles, mobile and tablet platforms, and PCs, including blockbuster franchises like Call of Duty®, Skylanders® and Destiny®. We strive to make the most fun, thrilling, and engaging entertainment experiences for our players, who live in a world with many entertainment options. Operating in more than 15 countries, our success is built upon the shared dedication of great people whose sense of mutual respect and teamwork drives our performance.
 
-- name: YouTube
-  url: https://www.youtube.com/
-  image: img/2020/sponsors/logo-youtube.png
-  level: silver
+  - name: Adobe
+    url: https://www.adobe.com/
+    image: img/2020/sponsors/logo-adobe-classic.png
+    image2: img/2020/sponsors/logo-adobe-classic2.png
+    level: gold
+    description: <b>Adobe</b> is the global leader in digital media and digital marketing solutions. Our creative, marketing and document solutions empower everyone – from emerging artists to global brands – to bring digital creations to life and deliver immersive, compelling experiences to the right person at the right moment for the best results. In short, Adobe is everywhere, and we’re changing the world through digital experiences.
 
-- name: Adobe
-  url: https://www.adobe.com/
-  image: img/2020/sponsors/logo-adobe.png
-  level: silver
+  - name: Autodesk
+    url: https://www.autodesk.com/
+    image: img/2020/sponsors/Autodesk.png
+    image2: img/2020/sponsors/Autodesk2.png
+    level: gold
+    description: <b>Autodesk</b> makes software for people who make things. If you’ve ever driven a high-performance car, admired a towering skyscraper, used a smartphone, or watched a great film, chances are you’ve experienced what millions of Autodesk customers are doing with our software.
 
-- name: Activision
-  url: https://www.activision.com/
-  image: img/2020/sponsors/logo-activision-2x.png
-  level: bronze
+  - name: Facebook Reality Labs
+    url: https://research.fb.com/category/augmented-reality-virtual-reality/
+    image: img/2020/sponsors/logo-FRL-2019.png
+    image2: img/2020/sponsors/logo-FRL-20192.png
+    level: gold
+    description: <b>Facebook Reality Labs</b> brings together a world-class team of researchers, developers, and engineers to create the future of virtual and augmented reality, which together will become as universal and essential as smartphones and personal computers are today – and just as personal computers have done over the past 45 years, AR and VR will ultimately change everything about how we work, play, and connect. We are developing all the technologies needed to enable breakthrough AR glasses and VR headsets, including optics and displays, computer vision, audio, graphics, brain-computer interface, haptic interaction, eye/hand/face/body tracking, perception science, and true telepresence.
 
-- name: 4dface
-  url: https://www.4dface.io/
-  image: img/2020/sponsors/logo-4dface-2x.png
-  level: bronze
+  - name: Renderman Pixar
+    url: https://renderman.pixar.com/
+    image: img/2020/sponsors/Pixar_Logo.svg
+    image2: img/2020/sponsors/Pixar_Logo2.svg
+    level: gold
+    description: <b>Pixar Animation Studios</b> is an Academy Award®-winning film studio with world-renowned technical, creative and production capabilities in the art of computer animation. The Northern California studio has created some of the most successful and beloved animated films of all time, including “Toy Story,” “Monsters, Inc.,” “Cars,” “The Incredibles,” “Ratatouille,” “WALL•E,” “Up,” “Toy Story 3,” “Brave,” “Inside Out,” and “Coco.” Its movies have won 35 Academy Awards® and have grossed more than $14 billion at the worldwide box office. "Onward,"​ Pixar's 22nd feature, opens in theaters on March 6, 2020. Pixar's objective is to combine groundbreaking technology and world-class creative talent to develop computer-animated feature films with memorable characters and heartwarming stories that appeal to audiences of all ages.
 
-- name: CAMERA
-  url: https://www.camera.ac.uk/
-  image: img/2020/sponsors/logo-camera-2x.png
-  level: academic
+  - name: Unity
+    url: https://unity.com/
+    image: img/2020/sponsors/logo-unity-2018.png
+    image2: img/2020/sponsors/logo-unity-20182.png
+    level: gold
+    description: <b>Unity</b> democratizes game development and enables success by solving many of the hard technical and business-related problems for you. More game developers use Unity than any other engine. A community of millions – from hobbyists and students to indie and AAA studios – have used Unity to create 2D, 3D, and VR/AR games and experiences. In fact, Unity creators have distributed their content to over one-billion devices reaching over 700 million gamers
 
-- name: CDE
-  url: https://www.digital-entertainment.org/
-  image: img/2020/sponsors/logo-cde_tag_green.png
-  level: academic
+  - name: Google Deepmind
+    url: https://deepmind.com/
+    image: img/2020/sponsors/deepmind-logo.png
+    image2: img/2020/sponsors/deepmind-logo2.png
+    level: silver
+    factorLogo: 100
+    description: Artificial intelligence could be one of humanity’s most useful inventions. We research and build safe AI systems that learn how to solve problems and advance scientific discovery for all. We’re a team of scientists, engineers, machine learning experts and more, working together to advance the state of the art in artificial intelligence. We use our technologies for widespread public benefit and scientific discovery, and collaborate with others on critical challenges, ensuring safety and ethics are the highest priority.
 
-- name: CVSSP
-  url: https://www.surrey.ac.uk/centre-vision-speech-signal-processing
-  image: img/2020/sponsors/logo-cvssp.png
-  level: academic
+  - name: Weta
+    url: https://www.wetafx.co.nz/
+    image: img/2020/sponsors/Weta.png
+    image2: img/2020/sponsors/Weta2.png
+    level: silver
+    factorLogo: 85
+    description: "<b>Weta Digital</b> is one of the world’s premier visual effects companies. Led by Senior Visual Effects Supervisor Joe Letteri, Weta Digital is known for uncompromising creativity and a commitment to developing innovative technology. Groundbreaking performance-driven digital characters like Gollum, Kong, Neytiri, and Caesar are widely acknowledged as some of the best digital characters ever put on screen. Recently finished projects include Avengers: Endgame, Game of Thrones, and Alita: Battle Angel."
 
-2019:
-- name: ACM SIGGRAPH
-  url: https://www.siggraph.org/
-  image: img/2019/sponsors/logo-acm-siggraph-wide.png
-  level: conference
+  - name: Imperial College London
+    url: https://www.imperial.ac.uk/
+    image: img/2020/academics/logo_imperial.png
+    level: institutional
 
-- name: Foundry
-  url: https://www.foundry.com/
-  image: img/2019/sponsors/logo-foundry-2x.png
-  level: gold
+  - name: University College London
+    url: https://www.ucl.ac.uk/
+    image: img/2020/academics/UCL_logo.png
+    level: institutional
 
-- name: NVidia
-  url: https://www.nvidia.com/
-  image: img/2019/sponsors/logo-nvidia-2x.png
-  level: gold
+  - name: Eurographics
+    url: https://www.eg.org/
+    image: img/2020/academics/EG_logo.jpg
+    level: institutional
 
-- name: YouTube
-  url: https://www.youtube.com/
-  image: img/2019/sponsors/logo-youtube.png
-  level: gold
+  - name: NVIDIA
+    url: https://www.nvidia.com
+    image: img/2020/sponsors/logo_nvidia.png
+    level: paperAward
 
-- name: Activision
-  url: https://www.activision.com/
-  image: img/2019/sponsors/logo-activision-2x.png
-  level: bronze
-
-
-2018:
-- name: ACM SIGGRAPH
-  url: https://www.siggraph.org/
-  image: img/2018/sponsors/logo-acm-siggraph-wide.png
-  level: conference
-
-- name: Google/YouTube
-  url: https://www.google.com/
-  image: img/2018/sponsors/logo-google-2x.png
-  level: gold
-
-- name: Foundry
-  url: https://www.foundry.com/
-  image: img/2018/sponsors/logo-foundry-2x.png
-  level: gold
-
-- name: NVidia
-  url: https://www.nvidia.com/
-  image: img/2018/sponsors/logo-nvidia-2x.png
-  level: gold
-
-- name: Activision
-  url: https://www.activision.com/
-  image: img/2018/sponsors/logo-activision-2x.png
-  level: bronze
-
-- name: Allegorithmic
-  url: https://www.allegorithmic.com/
-  image: img/2018/sponsors/logo-allegorithmic-2x.png
-  level: silver
-
-- name: Autodesk
-  url: https://www.autodesk.com/
-  image: img/2018/sponsors/logo-autodesk-2x.png
-  level: silver
-
-- name: Render Legion
-  url: https://corona-renderer.com/
-  image: img/2018/sponsors/logo-corona-2x.png
-  level: bronze
-
-- name: CDE – Centre for Digital Entertainment
-  url: http://www.digital-entertainment.org/
-  image: img/2018/sponsors/logo-cde-2x.png
-  level: academic
-
-- name: ImmerseUK
-  url: https://www.immerseuk.org/
-  image: img/2018/sponsors/logo-immerseuk-2x.png
-  level: academic

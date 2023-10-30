@@ -1,10 +1,12 @@
+
 {% capture nav_prefix %}/{% endcapture %}
 
 {% if page.year != null %}
     {% assign year = page.year %}
 {% else %}
-    {% assign year = site.data.cvmp.current-year %}
+    {% assign year = site.data.egsr.current-year %}
 {% endif %}
+
 
 <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
   <div class="container">
@@ -15,15 +17,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{site.url}}/{{page.year}}">{{site.title}} {{year}}</a>
+      <a class="navbar-brand" href="{{site.url}}/{{year}}/">{{site.title}} {{year}}</a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         {% for link in site.data.navigation[year] %}
-          <li><a href='{% if link.url contains '/' %}{{site.url}}/{{link.url}}{% else %}{{site.url}}/{{year}}/{{link.url}}{% endif %}'>{{link.title}}</a></li>
+          <li><a href="{{site.url}}/{{link.url}}">{{link.title}}</a></li>
         {% endfor %}
+        <li><a href="{{site.url}}/previous">Previous Years</a></li>
       </ul>
     </div>
   </div>
 </nav>
-

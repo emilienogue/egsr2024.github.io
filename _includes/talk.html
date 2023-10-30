@@ -1,0 +1,104 @@
+
+{% if page.year != null %}
+	{% assign year = page.year %}
+{% else %}
+	{% assign year = site.data.egsr.current-year %}
+{% endif %}
+
+<div class="col-xs-12 col-sm-9">
+  <div id="main" role="main">
+    <article class="entry">
+      <!--HEADER-->
+      {% if page.image.feature %}
+        <img src="{{site.url}}/{{page.image.feature}}" class="entry-feature-image" alt="{{ page.title }}">
+        {% if page.image.credit %}
+          <p class="image-credit"><a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></p>
+        {% endif %}
+      {% endif %}
+      <!--ENTRY-->
+      <div class="entry-wrapper">
+        <header class="entry-header">
+		  <a href="/{{year}}/program/#{{page.session_id}}">< Back to the program</a>
+          <h1 class="entry-title">{{ page.title }} {{ page.event_date }}</h1>
+		  <!--<h2 class="entry-title">{{ page.authors }}</h2>-->
+
+        </header>
+        <div class="entry-content">
+
+			{% if page.year != null %}
+				{% assign year = page.year %}
+			{% else %}
+				{% assign year = site.data.egsr.current-year %}
+			{% endif %}
+			{% assign allTalks = site.data.talks[year]  | sort: 'talk_id' %}
+
+			<div class="session-content">
+
+				<h3 id="{{page.session_id}}" style="overflow: auto;"> <a href="{{page.permalink}}" ></a>{% if page.youtube_url%}<a href="{{page.youtube_url}}" ><img src="https://i.pinimg.com/originals/2d/2b/e2/2d2be2421911037d80f9921dc29d54c2.jpg" height="40px" width="65px" style="float: left;"></a>{% endif %}</h3>
+				<h4 class="time">{{page.start}}</h4>
+				<!--<h5>{{page.authors}}</h5>-->
+				<div class="session-talks" >
+					{% for talk in allTalks %}
+						{% if talk.session_id == page.session_id%}
+							<hr width="40%">
+							<div>
+								<h4 style="overflow: auto;"><span style="float: left; margin-top: 10px; margin-right: 10px;">{{talk.title}}</span> {% if page.rocket_chat_url%}<a href="{{page.rocket_chat_url}}" ><img src="https://cdn.worldvectorlogo.com/logos/rocket-chat-1.svg" height="20px" width="33px" style="float: left; margin-top: 10px;"></a>{% endif %}</h4>
+								<h5>{{talk.authors}}</h5>
+								{% if talk.abstract%}
+
+								 <button type="button" class="abstract">Abstract</button>
+								<div class="abstract_content">
+								  <p>{{talk.abstract}}</p>
+								</div>
+								{% endif %}
+							</div>
+						{% endif %}
+
+					{% endfor %}
+					<hr width="75%">
+				</div>
+			</div>
+
+
+			<script>
+			var coll = document.getElementsByClassName("abstract");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+				this.classList.toggle("abstract_open");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+				  content.style.display = "none";
+				} else {
+				  content.style.display = "block";
+				}
+			  });
+			}
+			</script>
+
+          {{ content }}
+        </div><!-- /.entry-content -->
+      </div><!-- /.entry-wrapper -->
+    </article>
+  </div><!-- /#main -->
+</div>
+<script src="/scripts/moment.min.js"></script>
+<script src="/scripts/moment-timezone-with-data.min.js"></script>
+
+<script>
+	function timeFormat(utcTime){
+		var local_date= moment.utc(utcTime).local().format('dddd DD MMMM HH:mm');
+		var timeZoneStr = moment.tz.guess();
+		var time = new Date();
+		var timeZoneOffset = time.getTimezoneOffset();
+		return local_date +" " +timeZoneStr + " (" + moment.tz.zone(timeZoneStr).abbr(timeZoneOffset) + ")";
+	}
+
+	var elements = document.getElementsByClassName("time");
+	console.log(elements);
+
+	for(var i=0; i<elements.length; i++) {
+		elements[i].innerHTML = timeFormat(elements[i].innerHTML);
+	}
+</script>

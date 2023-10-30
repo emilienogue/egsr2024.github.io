@@ -3,5 +3,5 @@ source 'https://rubygems.org'
 gem 'github-pages'
 gem "jekyll"
 gem 'jekyll-redirect-from'
+gem 'tzinfo-data'
 
-gem "webrick", "~> 1.8"

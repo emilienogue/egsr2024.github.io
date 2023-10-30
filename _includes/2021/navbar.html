@@ -1,0 +1,36 @@
+
+{% capture nav_prefix %}/{% endcapture %}
+
+{% if page.year != null %}
+    {% assign year = page.year %}
+{% else %}
+    {% assign year = site.data.egsr.current-year %}
+{% endif %}
+
+
+<nav class="navbar navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header navbar-inverse" style="padding-left: 20px;">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{site.url}}/{{year}}/">{{site.title}} {{year}}</a>
+    </div>
+    <div class="collapse navbar-collapse navbar-inverse">
+      <ul class="nav navbar-nav">
+        {% for link in site.data.navigation[year] %}
+          {% capture linkedurl %}/{{ link.url }}/{% endcapture %}
+          {% if page.url == linkedurl %}
+            <li class="active"><a href="{{site.url}}/{{link.url}}">{{link.title}}</a></li>
+          {% else %}
+            <li><a href="{{site.url}}/{{link.url}}">{{link.title}}</a></li>
+          {% endif %}
+        {% endfor %}
+        <li><a href="{{site.url}}/previous">Previous Years</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,27 @@
+{% if page.year != null %}
+    {% assign year = page.year %}
+{% else %}
+    {% assign year = site.data.egsr.current-year %}
+{% endif %}
+
+<header>
+<div class="page-header" id="title-header">
+  <picture>
+    <source media="(min-width: 991px)" srcset="{{site.url}}/img/2021/egsr_2021_header_desktop.svg">
+    <img src="{{site.url}}/img/2021/egsr_2021_header_mobile.svg">
+  </picture>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-6"></div>
+    <div class="col-xs-12 col-sm-6">
+    <h1 style="text-align: right; margin-top: 4px;">
+        <!-- {{site.data.egsr[year].title}}<br> -->
+        <small class="conference-dates">
+          <b>{{site.data.egsr[year].date}}</b><br>
+          {{site.data.egsr[year].location}}
+        </small>
+    </h1>
+    </div>
+  </div>
+</div>
+</header>
