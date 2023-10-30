@@ -37,11 +37,4 @@ For your convenience, we recommend the following accommodation options:
 
 Make the most of your EGSR 2024 experience with comfortable and accessible accommodation options.
 
----
 
-Join us for the EGSR 2024 conference at the iconic Huxley Building, Imperial College London. We look forward to a vibrant exchange of ideas and cutting-edge research presentations during this event.
-
-##### Important Dates:
-- Abstract Submission Deadline: [Date]
-- Conference Dates: [Dates]
-- Registration Deadline: [Date]
