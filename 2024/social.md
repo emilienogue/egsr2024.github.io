@@ -3,6 +3,13 @@ layout: cvmp-default
 title: Social Events
 year: 2024
 ---
+<style>
+  /* Add CSS styles to control image width */
+  .event-image {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
 
 ## Evening Reception at Serpentine Restaurant
 

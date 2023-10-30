@@ -4,6 +4,14 @@ title: EGSR 2024
 year: 2024
 ---
 
+<style>
+  /* Add CSS styles to control image width */
+  .venue-image {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
 ## Venue
 
 ![Huxley Building](/img/venue/Huxley.jpg)
