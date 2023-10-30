@@ -8,7 +8,7 @@ body {
   padding-top: 64px;
   border: 0px;
   border-radius: 4px;
-  margin: 10px;
+  max-width: 100%;
 }
 
 html {
@@ -246,8 +246,8 @@ div.progress-bar-none {
 @media print {
 
   body {
-    padding-left: 66px;
-    padding-right: 66px;
+    padding-left: 96px;
+    padding-right: 96px;
   }
 
   #sidebar, #sponsors, #news-toggle, footer, hr {
