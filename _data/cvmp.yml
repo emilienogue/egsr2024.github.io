@@ -1,4 +1,4 @@
-current-year: 2024
+current-year: 2023
 previous-years:
     - 2023
     - 2022
@@ -7,11 +7,11 @@ previous-years:
     - 2019
     - 2018
 
-2024:
-    title: "The 35<sup>th</sup> <b>Eurographics Symposium on Rendering</b>"
-    date: "1st July - 3rd July 2024"
-    location: "Imperial College London, South Kensington, London, UK"
-    logo: img/2024/egsr2024.pdf
+2023:
+    title: "The 20<sup>th</sup> <b>ACM SIGGRAPH European Conference on Visual Media Production</b>"
+    date: "30th November - 1st December 2023"
+    location: "BFI Southbank, London, UK"
+    logo: img/2023/CVMP-logo-1200w.png
 
 2022:
     title: "The 19<sup>th</sup> <b>ACM SIGGRAPH European Conference on Visual Media Production</b>"
