@@ -14,6 +14,7 @@ year: 2024
 
 ## Venue
 
+<img src="{{site.url}}/img/venue/Huxley.jpg" class="img-thumbnail">
 ![Huxley Building](/img/venue/Huxley.jpg)
 
 The EGSR 2024 conference will be hosted at the Huxley Building within the campus of Imperial College London. 
