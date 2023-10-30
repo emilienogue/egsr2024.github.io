@@ -245,8 +245,8 @@ div.progress-bar-none {
 @media print {
 
   body {
-    padding-left: 96px;
-    padding-right: 96px;
+    padding-left: 66px;
+    padding-right: 66px;
   }
 
   #sidebar, #sponsors, #news-toggle, footer, hr {
