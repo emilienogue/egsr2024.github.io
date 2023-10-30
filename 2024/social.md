@@ -13,7 +13,8 @@ year: 2024
 
 ## Evening Reception at Serpentine Restaurant
 
-![Serpentine Restaurant](/img/social/hydepark.jpg)
+<img class="event-image" src="{{site.url}}/img/venue/hydepark.jpg" alt="Serpentine Restaurant">
+<!--![Serpentine Restaurant](/img/social/hydepark.jpg)-->
 
 Join us for an enchanting evening reception at the renowned Serpentine Restaurant in Hyde Park on July 3rd. Nestled in the heart of Hyde Park, the Serpentine Restaurant offers a picturesque setting for an unforgettable gathering.
 
@@ -22,7 +23,8 @@ Join us for an enchanting evening reception at the renowned Serpentine Restauran
 <!--- **Time:** [Insert Time]-->
 - **Address:** Serpentine Road, Hyde Park, London, W2 3XA
 
-![Map](/img/social/serpentinemap.png)
+<img class="event-image" src="{{site.url}}/img/venue/serpentinemap.png" alt="Map to Serpentine">
+<!--![Map](/img/social/serpentinemap.png)-->
 
 ## Conference Dinner Cruise
 

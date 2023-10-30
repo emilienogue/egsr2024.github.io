@@ -14,14 +14,15 @@ year: 2024
 
 ## Venue
 
-<img src="{{site.url}}/img/venue/Huxley.jpg" class="img-thumbnail">
-![Huxley Building](/img/venue/Huxley.jpg)
+<img class="venue-image" src="{{site.url}}/img/venue/Huxley.jpg" alt="Huxley Building">
+<!--![Huxley Building](/img/venue/Huxley.jpg)-->
 
 The EGSR 2024 conference will be hosted at the Huxley Building within the campus of Imperial College London. 
 
 ## Transportation
 
-![Transport Image](/img/venue/transportmap.pdf)
+<img class="venue-image" src="{{site.url}}/img/venue/transportmap.pdf" alt="Transport Map">
+<!--![Transport Image](/img/venue/transportmap.pdf)-->
 
 ### Getting to Imperial College London
 
@@ -34,7 +35,8 @@ Imperial College London is conveniently accessible by various modes of transport
 
 ## Accommodation
 
-![Accommodation Image](/img/venue/RoyalAlbertHall.jpeg)
+<img class="venue-image" src="{{site.url}}/img/venue/RoyalAlbertHall.jpeg" alt="Beit Quad">
+<!--![Accommodation Image](/img/venue/RoyalAlbertHall.jpeg)-->
 
 ### Accommodation Options
 
