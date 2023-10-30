@@ -3,12 +3,12 @@
 2024:
 - title: About
   url: about
-# - title: Programme
- # url: programme
-# - title: Keynotes
-  # url: keynotes
-# - title: Registration
-  # url: registration
+- title: Programme
+  url: programme
+- title: Keynotes
+  url: keynotes
+- title: Registration
+  url: registration
 # - title: Call for Submissions
   # url: call-for-submissions
 # - title: Committees
