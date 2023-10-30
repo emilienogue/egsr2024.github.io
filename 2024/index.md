@@ -4,7 +4,7 @@ layout: cvmp-plain
 title: "EGSR 2024"
 year: 2024
 image:
-    feature: img/teaser/London-teaser.jpg
+    feature: img/teaser/RoyalAlbertHall.jpeg
 ---
 ## 1st July - 3rd July, Imperial College London, South Kensington, London, UK
 
