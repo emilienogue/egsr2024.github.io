@@ -1,11 +1,11 @@
 current-year: 2024
-previous-years:
-    - 2023
-    - 2022
-    - 2021
-    - 2020
-    - 2019
-    - 2018
+#previous-years:
+#    - 2023
+#    - 2022
+#    - 2021
+#    - 2020
+#    - 2019
+#    - 2018
 
 2024:
     title: "The 35<sup>th</sup> <b>Eurographics Symposium on Rendering</b>"
