@@ -15,7 +15,7 @@ Join us for an enchanting evening reception at the renowned Serpentine Restauran
 <!--- **Time:** [Insert Time]-->
 - **Address:** Serpentine Road, Hyde Park, London, W2 3XA
 
-![Map]({{site.url}}/img/social/serpentinemap.jpg)
+![Map](/img/social/serpentinemap.jpg)
 
 ## Conference Dinner Cruise
 
