@@ -8,7 +8,7 @@ year: 2024
 
 ![Huxley Building](img/venue/Huxley.jpg)
 
-The EGSR 2024 conference will be hosted at the prestigious Huxley Building within the beautiful campus of Imperial College London. The Huxley Building provides an inspiring environment for the exchange of ideas, research presentations, and networking among computer graphics enthusiasts.
+The EGSR 2024 conference will be hosted at the Huxley Building within the campus of Imperial College London. 
 
 ## Transportation
 
