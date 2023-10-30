@@ -6,7 +6,7 @@ year: 2024
 image:
     feature: img/teaser/RoyalAlbertHall.jpeg
 ---
-## 1st July - 3rd July, Imperial College London, South Kensington, London, UK
+## 3rd July - 5th July, Imperial College London, South Kensington, London, UK
 
 Welcome to the 35th Eurographics Symposium on Rendering (EGSR).
 
