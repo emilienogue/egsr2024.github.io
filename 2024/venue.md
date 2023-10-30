@@ -49,3 +49,4 @@ For your convenience, we recommend the following accommodation options:
 Make the most of your EGSR 2024 experience with comfortable and accessible accommodation options.
 
 
+<img class="venue-image" src="{{site.url}}/img/venue/SouthKensingtonCampus.png" alt="SouthKenMap">
