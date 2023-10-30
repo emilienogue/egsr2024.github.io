@@ -1,8 +1,9 @@
 # Site settings
-title: "CVMP"
-tagline: "The European Conference for Visual Media Production"
+title: "EGSR"
+tagline: "Eurographics Symposium on Rendering"
 
 # URL - Deployment
+# url: "https://www.egsr2024.org"
 url: "https://www.emilienogue.github.io"
 #url: "localhost:4000"
 
@@ -19,11 +20,11 @@ plugins:
   - jekyll-redirect-from
 
 # Contact
-email: "contact@cvmp-conference.org"
+email: "chairs-egsr2024@eg.org"
 
 # Social
-facebook: Conference-on-Visual-Media-Production-307514829299111
-twitter: CVMP
+#facebook: Conference-on-Visual-Media-Production-307514829299111
+twitter: EGSympRendering
 
 
 # Use this for production
