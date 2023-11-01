@@ -29,7 +29,7 @@ The EGSR 2024 conference will be hosted at the Huxley Building within the campus
 Imperial College London is conveniently accessible by various modes of transportation:
 - **By Plane:** You can fly into any of London's major airports, such as Heathrow, Gatwick, or London City Airport. From the airport, you can take direct transportation to Imperial College.
 
-- **By Bus:** London has an extensive bus network. You can easily reach Imperial College using the city's efficient bus services. Several bus routes connect to the campus.
+- **By Bus:** London has an extensive bus network. You can easily reach Imperial College using the city's efficient bus and tube services. The campus is well-connected with multiple bus routes, and it's conveniently situated near two Underground stations: South Kensington and Gloucester Road. These stations are serviced by the Piccadilly line, which offers a direct connection to Heathrow Airport.
 
 - **By Train:** The university is well-connected to London's railway system. The nearest train stations are a short walk or bus ride away.
 
