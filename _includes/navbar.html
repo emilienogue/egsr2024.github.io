@@ -20,7 +20,7 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         {% for link in site.data.navigation[year] %}
-          <li><a href='{% if link.url contains '/' %}{{site.url}}/{{link.url}}{% else %}{{site.url}}/{{year}}/{{link.url}}{% endif %}'>{{link.title}}</a></li>
+          <li><a href='{% if link.url contains '/' %}{{site.url}}/{{link.url}}{% else %}{{site.url}}/{{link.url}}{% endif %}'>{{link.title}}</a></li>
         {% endfor %}
       </ul>
     </div>
