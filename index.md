@@ -1,5 +1,4 @@
 ---
-redirect_from: "/"
 layout: cvmp-plain
 title: "EGSR 2024"
 year: 2024
