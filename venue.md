@@ -12,7 +12,7 @@ year: 2024
   }
 </style>
 
-## Venue
+## Location
 
 <img class="venue-image" src="{{site.url}}/img/venue/Huxley.jpg" alt="Huxley Building">
 <!--![Huxley Building](/img/venue/Huxley.jpg)-->
