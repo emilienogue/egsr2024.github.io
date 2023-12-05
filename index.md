@@ -1,6 +1,6 @@
 ---
 layout: cvmp-plain
-title: "EGSR 2024"
+title: "2024"
 year: 2024
 image:
     feature: img/teaser/IMG_0219.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: cvmp-default
-title: EGSR 2024
+title: Venue
 year: 2024
 ---
 
