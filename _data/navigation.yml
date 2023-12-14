@@ -9,8 +9,8 @@
 #   url: keynotes
 # - title: Registration
 #   url: registration
-# - title: Call for Submissions
-#   url: call-for-submissions
+- title: Call for Submissions
+  url: call-for-submissions
 - title: Committee
   url: committee
 - title: Social Events
