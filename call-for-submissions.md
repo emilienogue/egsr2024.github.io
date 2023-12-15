@@ -5,7 +5,8 @@ excerpt: "Submit your work to EGSR 2024"
 year: 2024
 ---
 
-To submit, please access: https://srmv2.eg.org/COMFy/Conference/SR_2024
+To submit, please access: <a href="https://srmv2.eg.org/COMFy/Conference/SR_2024">https://srmv2.eg.org/COMFy/Conference/SR_2024</a>
+
 
 The Eurographics Symposium on Rendering 2024 will take place from Wednesday, July 3 through Friday, July 5, at Imperial College, London, United Kingdom. This 35th event continues the series of highly successful Eurographics Symposia and Workshops on Rendering.
 
