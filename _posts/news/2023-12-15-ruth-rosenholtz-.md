@@ -3,7 +3,7 @@ layout: cvmp-default
 categories: news
 title: Keynote Announcement
 excerpt: Ruth Rosenholtz will be keynote speaker at EGSR 2024
-year: 2024
+year: 2023
 
 ---
 
