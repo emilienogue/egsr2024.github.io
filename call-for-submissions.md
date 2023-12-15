@@ -7,6 +7,7 @@ year: 2024
 
 To submit, please access: <a href="https://srmv2.eg.org/COMFy/Conference/SR_2024">https://srmv2.eg.org/COMFy/Conference/SR_2024</a>
 
+<hr>
 
 The Eurographics Symposium on Rendering 2024 will take place from Wednesday, July 3 through Friday, July 5, at Imperial College, London, United Kingdom. This 35th event continues the series of highly successful Eurographics Symposia and Workshops on Rendering.
 
@@ -65,6 +66,8 @@ We invite original contributions that advance the state-of-the-art in topics rel
 
 Please submit your work using the SRM online submission system (submit <a href="https://srmv2.eg.org/COMFy/Conference/SR_2024">here</a>). The submission should use the EGSR 2024 LaTeX template available on SRM (first create an account on the SRM system to download the template).
 
+<hr>
+
 ## Industry/Position Papers Track
 
 The Eurographics Symposium on Rendering (EGSR) 2024 includes an Industry/Positions Papers Track that includes invited papers from our colleagues in industry that are on topics of interest to the general rendering community. One goal of this track is to provide an accessible venue for getting out ideas that have found practical use in industry and could impact the future of rendering research, but might not meet the standards/expectations of scientific evaluation expected in formal research papers. These papers will be curated by the paper co-chairs and will be presented in the conference along with the traditional research papers. We are looking for papers that present ideas and applications of rendering (both high-end and real-time), as well as other aspects of image synthesis (e.g., image-based rendering, rendering for AR/VR, machine learning for rendering, etc.). Topics for possible Industry/Position papers could include, but are not limited to:
@@ -84,6 +87,8 @@ Industry track paper submissions can be directly sent to the program chairs via 
 - Industry Track papers deadline: Wednesday, May 29
 - Author notification: Thursday, June 6
 - Final papers due: Wednesday, June 26
+
+<hr>
 
 ## Submission Policy
 
