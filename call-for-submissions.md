@@ -63,7 +63,7 @@ We invite original contributions that advance the state-of-the-art in topics rel
 
 ### How to Submit Your Work
 
-Please submit your work using the SRM online submission system (submit here). The submission should use the EGSR 2024 LaTeX template available on SRM (first create an account on the SRM system to download the template).
+Please submit your work using the SRM online submission system (submit <a href="https://srmv2.eg.org/COMFy/Conference/SR_2024">here</a>). The submission should use the EGSR 2024 LaTeX template available on SRM (first create an account on the SRM system to download the template).
 
 ## Industry/Position Papers Track
 
@@ -77,7 +77,7 @@ The Eurographics Symposium on Rendering (EGSR) 2024 includes an Industry/Positio
 - A new dataset that would facilitate research in rendering
 
 Papers accepted in this track will be published in the Eurographics Digital Library for archival purposes and presented at EGSR 2024. At least one author is expected to register and present their work in person.
-Industry track paper submissions can be directly sent to the program chairs via email to chairs-egsr2024@eg.org.
+Industry track paper submissions can be directly sent to the program chairs via email to <a href="mailto:chairs-egsr2024@eg.org">chairs-egsr2024@eg.org</a>.
 
 ### Important dates (All times are midnight, 23:59 UTC)
 
