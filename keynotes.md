@@ -8,6 +8,7 @@ year: 2024
   /* Add CSS styles to control image width */
   .keynotes-image {
     float: left;
+    width: 20%; /* Set the image width to 20% of the container width */
     margin-right: 10px; /* Optional: Add some margin for spacing */
   }
 </style>
