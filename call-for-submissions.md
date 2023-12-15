@@ -26,10 +26,10 @@ For each submitted paper, a minimum of three reviews will be provided to the aut
 ### Important dates (All times are midnight, 23:59 UTC)
 - Abstract deadline: Tuesday, April 9
 - Papers deadline: Monday, April 15
-- Reviews released to authors: Sunday, May 19
-- Rebuttals due: Friday, May 24
-- Author notification: Monday, June 3
-- Final papers due: Monday, June 17
+- Reviews released to authors: Monday, May 13
+- Rebuttals due: Monday, May 20
+- Author notification: Friday, May 31
+- Final papers due: Thursday, June 13
 - Final notification (CGF): Monday, June 17
 - Conference: Wednesday, July 3 through Friday, July 5
 
