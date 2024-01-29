@@ -8,7 +8,7 @@ year: 2024
   /* Add CSS styles to control image width */
   .keynotes-image {
     float: left;
-    width: 35%; /* Set the image width to 20% of the container width */
+    width: 30%; /* Set the image width to 20% of the container width */
     margin-right: 10px; /* Optional: Add some margin for spacing */
   }
 </style>
@@ -23,6 +23,7 @@ We are pleased to announce the following keynote speakers for EGSR 2024:
 
 <a href="https://persci.mit.edu/people/rosenholtz">Website</a>
 
+<hr>
 
 ### <em>Niloy Mitra</em>
 
