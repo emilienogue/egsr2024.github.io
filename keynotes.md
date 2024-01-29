@@ -23,6 +23,11 @@ We are pleased to announce the following keynote speakers for EGSR 2024:
 
 <a href="https://persci.mit.edu/people/rosenholtz">Website</a>
 
+
+
+
+
+
 <hr>
 
 ### <em>Niloy Mitra</em>
