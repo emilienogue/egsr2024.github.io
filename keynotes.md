@@ -24,4 +24,11 @@ We are pleased to announce the following keynote speakers for EGSR 2024:
 <a href="https://persci.mit.edu/people/rosenholtz">Website</a>
 
 
+### <em>Niloy Mitra</em>
+
+<img class="keynotes-image" src="{{site.url}}/img/keynotes/NiloyMitra.jpeg" alt="Niloy Mitra">
+<strong>Bio</strong>: Niloy J. Mitra leads the Smart Geometry Processing group in the Department of Computer Science at University College London and the Adobe Research London Lab. He received his Ph.D. from Stanford University under the guidance of Leonidas Guibas. His research focuses on developing machine learning frameworks for generative models for high-quality geometric and appearance content for CG applications. He was awarded the Eurographics Outstanding Technical Contributions Award in 2019, the British Computer Society Roger Needham Award in 2015, and the ACM SIGGRAPH Significant New Researcher Award in 2013. He was elected as a fellow of Eurographics in 2021 and served as the Technical Papers Chair for SIGGRAPH in 2022. His work has also earned him a place in the SIGGRAPH Academy in 2023. Besides research, Niloy is an active DIYer and loves reading, cricket, and cooking. 
+
+<a href="https://geometry.cs.ucl.ac.uk">Website</a>
+
 
