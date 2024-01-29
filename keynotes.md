@@ -35,6 +35,7 @@ year: 2024
 
 <div class="keynote-container">
   <!-- Second Keynote -->
+  <h3>TBA</h3>
   <h3><em>Niloy Mitra</em></h3>
 
   <img class="keynotes-image" src="{{site.url}}/img/keynotes/NiloyMitra.jpeg" alt="Niloy Mitra">
