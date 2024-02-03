@@ -109,6 +109,36 @@ Jorge Lopez-Moreno, <i>Universidad Rey Juan Carlos</i><br>
 Daniel Meister, <i>Advanced Micro Devices, Inc.</i><br>
 Xiaoxu Meng, <i>Tencent</i><br>
 Quirin Meyer, <i>Coburg University</i><br>
-Z
+Zahra Montazeri, <i>University of Manchester</i><br>
+Bochang Moon, <i>Gwangju Institute of Science and Technology</i><br>
+Krishna Mullia, <i>Adobe Research</i><br>
+Jacob Munkberg, <i>NVIDIA</i><br>
+Thu Nguyen-Phuoc, <i>Meta</i><br>
+Merlin Nimier-David, <i>NVIDIA</i><br>
+Christoph Peters, <i>Intel</i><br>
+Matt Pharr, <i>NVIDIA</i><br>
+Julien Philip, <i>Adobe Research</i><br>
+Alexander Reshetov, <i>NVIDIA</i><br>
+Fabrice Rousselle, <i>NVIDIA</i><br>
+Marco Salvi, <i>NVIDIA</i><br>
+Nicolas Savva, <i>Autodesk, Inc.</i><br>
+Johannes Schudeiske (Hanika), <i>KIT</i><br>
+Kai Selgrad, <i>OTH Regensburg</i><br>
+Ari Silvennoinen, <i>Activision</i><br>
+Gurprit Singh, <i>MPI Informatik</i><br>
+Erik Sintorn, <i>Chalmers University of Technology</i><br>
+Peter-Pike Sloan, <i>Activision</i><br>
+Cara Tursun, <i>Rijksuniversiteit Groningen</i><br>
+Karthik Vaidyanathan, <i>NVIDIA</i><br>
+Konstantinos Vardis, <i>Athens University of Economics and Business</i><br>
+Delio Vicini, <i>Google</i><br>
+Jiří Vorba, <i>Weta Digital</i><br>
+Bruce Walter, <i>Cornell University</i><br>
+Li-Yi Wei, <i>Adobe Research</i><br>
+Hongzhi Wu, <i>Zhejiang University</i><br>
+Zexiang Xu, <i>Adobe Research</i><br>
+Tizian Zeltner, <i>NVIDIA</i><br>
+Shuang Zhao, <i>University of California, Irvine</i><br>
+
 
 
