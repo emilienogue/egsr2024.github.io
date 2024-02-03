@@ -73,3 +73,70 @@ year: 2024
 <!--        </div>-->
 <!--    </div>-->
 <!--</div>-->
+
+<h2>Programme Committee</h2>
+Laurent Belcour, Intel
+Jiří Bittner, Czech Technical University in Prague
+Pierre Bénard, Bordeaux University, Inria Bordeaux-Sud-Ouest
+Tamy Boubekeur, Adobe Research
+Per Christensen, Pixar
+Petrik Clarberg, NVIDIA
+Eugene d’Eon, NVIDIA
+Daljit Singh Dhillon, Clemson University
+George Drettakis, INRIA
+Marc Droske, Unity
+Jonathan Dupuy, Intel
+Farshad Einabadi, University of Surrey
+Alban Fichet, Intel
+Iliyan Georgiev, Adobe Research
+Yotam Gingold, George Mason University
+Artur Grigorev, ETH Zurich
+Pascal Grittman, Saarland University
+Thorsten Grosch, TU Clausthal
+Adrien Gruson, École de Technologie Supérieure
+Tobias Günther, FAU Erlangen-Nuremberg
+Milos Hasan, Adobe Research
+Julian Iseringhausen, Google Research
+Adrián Jarabo, Zaragoza University
+Markus Kettunen, NVIDIA
+Georgios Kopanas, Inria & Université Côte d'Azur
+Rafael Kuffner dos Anjos, University of Leeds
+Manuel Lagunas, Amazon
+Thomas Leimkühler, MPI Informatik
+Hendrik Lensch, University of Tübingen
+Gabor Liktor, Intel
+Jorge Lopez-Moreno, Universidad Rey Juan Carlos
+Daniel Meister, Advanced Micro Devices, Inc.
+Xiaoxu Meng, Tencent
+Quirin Meyer, Coburg University
+Zahra Montazeri, University of Manchester
+Bochang Moon, Gwangju Institute of Science and Technology
+Krishna Mullia, Adobe Research
+Jacob Munkberg, NVIDIA
+Thu Nguyen-Phuoc, Meta
+Merlin Nimier-David, NVIDIA
+Christoph Peters, Intel
+Matt Pharr, NVIDIA
+Julien Philip, Adobe Research
+Alexander Reshetov, NVIDIA
+Fabrice Rousselle, NVIDIA
+Marco Salvi, NVIDIA
+Nicolas Savva, Autodesk, Inc.
+Johannes Schudeiske (Hanika), KIT
+Kai Selgrad, OTH Regensburg
+Ari Silvennoinen, Activision
+Gurprit Singh, MPI Informatik
+Erik Sintorn, Chalmers University of Technology
+Peter-Pike Sloan, Activision
+Cara Tursun, Rijksuniversiteit Groningen
+Karthik Vaidyanathan, NVIDIA
+Konstantinos Vardis, Athens University of Economics and Business
+Delio Vicini, Google
+Jiří Vorba, Weta Digital
+Bruce Walter, Cornell University
+Li-Yi Wei, Adobe Research
+Hongzhi Wu, Zhejiang University
+Zexiang Xu, Adobe Research
+Tizian Zeltner, NVIDIA
+Shuang Zhao, University of California, Irvine
+
