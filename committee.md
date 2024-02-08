@@ -84,7 +84,7 @@ Petrik Clarberg, <i>NVIDIA</i><br>
 Eugene d’Eon, <i>NVIDIA</i><br>
 Daljit Singh Dhillon, <i>Clemson University</i><br>
 George Drettakis, <i>INRIA</i><br>
-Marc Droske, <i>Unity</i><br>
+Marc Droske, <i>Wētā FX</i><br>
 Jonathan Dupuy, <i>Intel</i><br>
 Farshad Einabadi, <i>University of Surrey</i><br>
 Alban Fichet, <i>Intel</i><br>
@@ -97,7 +97,7 @@ Adrien Gruson, <i>École de Technologie Supérieure</i><br>
 Tobias Günther, <i>FAU Erlangen-Nuremberg</i><br>
 Milos Hasan, <i>Adobe Research</i><br>
 Julian Iseringhausen, <i>Google Research</i><br>
-Adrián Jarabo, <i>Zaragoza University</i><br>
+Adrián Jarabo, <i>Meta</i><br>
 Markus Kettunen, <i>NVIDIA</i><br>
 Georgios Kopanas, <i>Inria & Université Côte d'Azur</i><br>
 Rafael Kuffner dos Anjos, <i>University of Leeds</i><br>
