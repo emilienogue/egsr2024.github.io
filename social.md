@@ -30,7 +30,7 @@ Join us for an enchanting evening reception at the renowned Serpentine Restauran
 
 On the evening of July 4th, we invite you to join us for a unique experience: the Conference Dinner Cruise. Set sail along the scenic waterways of the Thames, enjoying a delectable dinner and the company of fellow conference attendees.
 
-<img class="event-image" src="{{site.url}}/img/social/MilleniumDiamond.jpeg" alt="Thames Cruise Boat">
+<img class="event-image" src="{{site.url}}/img/social/MilleniumDiamond.jpg" alt="Thames Cruise Boat">
 
 ### Event Details
 - **Date:** July 4, 2024
