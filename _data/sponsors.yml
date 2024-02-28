@@ -1,12 +1,13 @@
 2024:
-- name: Adobe
-  url: https://research.adobe.com/
-  image: img/2024/sponsors/Adobe.png
-  level: gold
 
 - name: Activision
 #  url: https://research.adobe.com/
   image: img/2024/sponsors/Activision.png
+  level: gold
+  
+- name: Adobe
+  url: https://research.adobe.com/
+  image: img/2024/sponsors/Adobe.png
   level: gold
 
 #- name: Meta
@@ -29,14 +30,14 @@
 #  image: img/2024/sponsors/Adobe.png
 #  level: gold
 
-- name: Intel
-#  url: https://research.adobe.com/
-  image: img/2024/sponsors/intel.png
-  level: silver
-  
 - name: Disney Research Studios
 #  url: https://research.adobe.com/
   image: img/2024/sponsors/Disney.png
+  level: silver
+
+- name: Intel
+#  url: https://research.adobe.com/
+  image: img/2024/sponsors/intel.png
   level: silver
 
 
