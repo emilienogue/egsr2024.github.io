@@ -19,6 +19,8 @@
   url: social
 # - title: News
 #   url: news
+- title: Sponsors
+  url: sponsors
 
 2023:
 - title: About

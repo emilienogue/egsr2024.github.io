@@ -6,52 +6,57 @@
 
 <div class="panel panel-default" id="sponsors">
     <h4 class="panel-heading">Sponsors</h4>
-    <div class="panel-body">
+    <div class="panel-body"  style="padding-left: 15px; padding-right: 15px;">
         <div class="dense-gutter">
-            {% for sponsor in site.data.sponsors[year] %}
-                {% if sponsor.level contains 'conference' %}
-                    <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="col-xs-12 img-responsive" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
-                {% endif %}
-            {% endfor %}
-            <br/>
-            <div class="row-xs-12">
+            <!-- Gold Sponsors -->
+            <h4 style="color: #D4AF37; padding-bottom: 10px;">Gold</h4>
+            <div class="row" style="padding-bottom: 20px;">
                 {% for sponsor in site.data.sponsors[year] %}
                     {% if sponsor.level contains 'gold' %}
-                        <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="col-xs-12 img-responsive-50" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
+                        <div class="col-xs-12 col-sm-6">
+                            <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="img-responsive" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
+                        </div>
                     {% endif %}
                 {% endfor %}
             </div>
-            <br/>
-            <div class="row-xs-12 row-sm-6">
+
+            <!-- Silver Sponsors -->
+            <h4 style="color: #C0C0C0; padding-bottom: 10px;">Silver</h4>
+            <div class="row" style="padding-bottom: 20px;">
                 {% for sponsor in site.data.sponsors[year] %}
                     {% if sponsor.level contains 'silver' %}
-                        <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="col-xs-12 img-responsive-50" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
+                        <div class="col-xs-12 col-sm-6">
+                            <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="img-responsive" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
+                        </div>
                     {% endif %}
                 {% endfor %}
             </div>
-            <br/>
-            <div class="row-xs-12 row-sm-6">
-                {% for sponsor in site.data.sponsors[year] %}
-                    {% if sponsor.level contains 'bronze' %}
-                        <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="col-xs-12 img-responsive-50" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
-                    {% endif %}
-                {% endfor %}
-            </div>
-            <div class="row-xs-12 row-sm-6">
-                {% for sponsor in site.data.sponsors[year] %}
-                    {% if sponsor.level contains 'academic' %}
-                        <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="col-xs-12 img-responsive-50" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
-                    {% endif %}
-                {% endfor %}
-            </div>
+
+            <!-- If you want to add padding to other sections, you can uncomment the following blocks and add padding as needed -->
+
+            <!-- Bronze Sponsors -->
+<!--            <h5 style="padding-bottom: 10px;">Bronze Sponsors</h5>-->
+<!--            <div class="row" style="padding-bottom: 20px;">-->
+<!--                {% for sponsor in site.data.sponsors[year] %}-->
+<!--                    {% if sponsor.level contains 'bronze' %}-->
+<!--                        <div class="col-xs-12 col-sm-6">-->
+<!--                            <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="img-responsive" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>-->
+<!--                        </div>-->
+<!--                    {% endif %}-->
+<!--                {% endfor %}-->
+<!--            </div>-->
+
+            <!-- Academic Sponsors -->
+<!--            <h5 style="padding-bottom: 10px;">Academic Sponsors</h5>-->
+<!--            <div class="row" style="padding-bottom: 20px;">-->
+<!--                {% for sponsor in site.data.sponsors[year] %}-->
+<!--                    {% if sponsor.level contains 'academic' %}-->
+<!--                        <div class="col-xs-12 col-sm-6">-->
+<!--                            <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="img-responsive" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>-->
+<!--                        </div>-->
+<!--                    {% endif %}-->
+<!--                {% endfor %}-->
+<!--            </div>-->
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
