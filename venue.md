@@ -17,7 +17,7 @@ year: 2024
 <img class="venue-image" src="{{site.url}}/img/venue/Huxley.jpg" alt="Huxley Building">
 <!--![Huxley Building](/img/venue/Huxley.jpg)-->
 
-The EGSR 2024 conference will be hosted at the Huxley Building within the campus of Imperial College London. 
+The EGSR 2024 conference will be hosted at the Huxley Building (180 Queen's Gate, South Kensington) within the campus of Imperial College London.
 
 ## Transportation
 
@@ -35,14 +35,14 @@ Imperial College London is conveniently accessible by various modes of transport
 
 ## Accommodation
 
-<img class="venue-image" src="{{site.url}}/img/venue/RoyalAlbertHall.jpeg" alt="Beit Quad">
+<img class="venue-image" src="{{site.url}}/img/venue/princesgarden.jpeg" alt="Prince's Garden">
 <!--![Accommodation Image](/img/venue/RoyalAlbertHall.jpeg)-->
 
 ### Accommodation Options
 
 For your convenience, we recommend the following accommodation options:
 
-- **Hotels:** There are several hotels located near Imperial College London. These hotels offer comfortable stays and are within easy reach of the conference venue.
+- **Hotels:** There are several hotels located near Imperial College London in the surrounding South Kensington and Gloucester Road areas. These hotels offer comfortable stays and are within easy reach of the conference venue. Slightly cheaper options are available a bit further away in Earl's Court and High Street Kensington areas.
 
 - **Student Accommodation:** Explore accommodation options at Beit Quad, conveniently located near Imperial College. These student residences offer affordable and comfortable stays for conference attendees.
 

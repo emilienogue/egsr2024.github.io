@@ -25,7 +25,7 @@ year: 2024
         </div>
         <div class="panel-body">
             <h4><a href="https://erich.realtimerendering.com" target="_blank">Eric Haines</a><br><small>NVIDIA</small></h4>
-            <h4><a href="http://elenagarces.es" target="_blank">Elena Garces</a><br><small>SEDDI / URJC</small></h4>
+            <h4><a href="http://elenagarces.es" target="_blank">Elena Garces</a><br><small>Universidad Rey Juan Carlos, Spain </small></h4>
         </div>
     </div>
 </div>
@@ -130,7 +130,7 @@ Erik Sintorn, <i>Chalmers University of Technology</i><br>
 Peter-Pike Sloan, <i>Activision</i><br>
 Cara Tursun, <i>Rijksuniversiteit Groningen</i><br>
 Karthik Vaidyanathan, <i>NVIDIA</i><br>
-Konstantinos Vardis, <i>Athens University of Economics and Business</i><br>
+Konstantinos Vardis, <i>Huawei Technologies</i><br>
 Delio Vicini, <i>Google</i><br>
 Jiří Vorba, <i>Weta Digital</i><br>
 Bruce Walter, <i>Cornell University</i><br>
