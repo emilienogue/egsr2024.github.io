@@ -95,6 +95,7 @@ Pascal Grittman, <i>Saarland University</i><br>
 Thorsten Grosch, <i>TU Clausthal</i><br>
 Adrien Gruson, <i>École de Technologie Supérieure</i><br>
 Tobias Günther, <i>FAU Erlangen-Nuremberg</i><br>
+Johannes Hanika, <i>Karlsruhe Institute of Technology</i><br>
 Milos Hasan, <i>Adobe Research</i><br>
 Julian Iseringhausen, <i>Google Research</i><br>
 Adrián Jarabo, <i>Meta</i><br>
@@ -119,6 +120,7 @@ Christoph Peters, <i>Intel</i><br>
 Matt Pharr, <i>NVIDIA</i><br>
 Julien Philip, <i>Adobe Research</i><br>
 Alexander Reshetov, <i>NVIDIA</i><br>
+Tobias Rittig, <i>Additive Appearance, Charles University</i><br>
 Fabrice Rousselle, <i>NVIDIA</i><br>
 Marco Salvi, <i>NVIDIA</i><br>
 Nicolas Savva, <i>Autodesk, Inc.</i><br>
