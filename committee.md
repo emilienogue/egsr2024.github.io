@@ -95,7 +95,6 @@ Pascal Grittman, <i>Saarland University</i><br>
 Thorsten Grosch, <i>TU Clausthal</i><br>
 Adrien Gruson, <i>École de Technologie Supérieure</i><br>
 Tobias Günther, <i>FAU Erlangen-Nuremberg</i><br>
-Johannes Hanika, <i>Karlsruhe Institute of Technology</i><br>
 Milos Hasan, <i>Adobe Research</i><br>
 Julian Iseringhausen, <i>Google Research</i><br>
 Adrián Jarabo, <i>Meta</i><br>
@@ -139,6 +138,7 @@ Bruce Walter, <i>Cornell University</i><br>
 Li-Yi Wei, <i>Adobe Research</i><br>
 Hongzhi Wu, <i>Zhejiang University</i><br>
 Zexiang Xu, <i>Adobe Research</i><br>
+Kai Yan, <i>University of California Irvine</i><br>
 Tizian Zeltner, <i>NVIDIA</i><br>
 Shuang Zhao, <i>University of California, Irvine</i><br>
 
