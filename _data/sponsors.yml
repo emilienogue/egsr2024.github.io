@@ -1,9 +1,5 @@
 2024:
 
-- name: Activision
-#  url: https://research.adobe.com/
-  image: img/2024/sponsors/Activision.png
-  level: gold
   
 - name: Adobe
   url: https://research.adobe.com/
@@ -11,6 +7,11 @@
   level: gold
   description: {% With a team of world-class research scientists, engineers, artists, and designers, Adobe Research combines cutting-edge academic discovery with industry impact. Adobe researchers shape early-stage ideas into innovative technologies. Many of Adobe Research’s breakthroughs are incorporated into Adobe’s products, building the company’s reputation as a leader in fostering new forms of creativity and in advancing document and content intelligence. Adobe Research collaborates with interns and faculty from universities across the globe. %}
 
+- name: Activision
+#  url: https://research.adobe.com/
+  image: img/2024/sponsors/Activision.png
+  level: gold
+  
 - name: Huawei
 #  url: https://research.adobe.com/
   image: img/2024/sponsors/huawei-logo.png
