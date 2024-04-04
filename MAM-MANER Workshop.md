@@ -1,5 +1,5 @@
 ---
-layout: cvmp-twitter
+layout: cvmp-plain
 title: 
 year: 2024
 ---
