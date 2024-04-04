@@ -11,25 +11,15 @@
   level: gold
   description: {% With a team of world-class research scientists, engineers, artists, and designers, Adobe Research combines cutting-edge academic discovery with industry impact. Adobe researchers shape early-stage ideas into innovative technologies. Many of Adobe Research’s breakthroughs are incorporated into Adobe’s products, building the company’s reputation as a leader in fostering new forms of creativity and in advancing document and content intelligence. Adobe Research collaborates with interns and faculty from universities across the globe.%}
 
-#- name: Meta
+- name: Huawei
 #  url: https://research.adobe.com/
-#  image: img/2024/sponsors/Adobe.png
-#  level: gold
-
-#- name: Chaos
-#  url: https://research.adobe.com/
-#  image: img/2024/sponsors/Adobe.png
-#  level: gold
-
-#- name: Huawei
-#  url: https://research.adobe.com/
-#  image: img/2024/sponsors/Adobe.png
-#  level: gold
+  image: img/2024/sponsors/huawei-logo.png
+  level: gold
   
-#- name: Autodesk
+- name: Autodesk
 #  url: https://research.adobe.com/
-#  image: img/2024/sponsors/Adobe.png
-#  level: gold
+  image: img/2024/sponsors/autodesk-logo.png
+  level: gold
 
 - name: Disney Research Studios
 #  url: https://research.adobe.com/
@@ -38,7 +28,7 @@
 
 - name: Intel
 #  url: https://research.adobe.com/
-  image: img/2024/sponsors/intel.png
+  image: img/2024/sponsors/intel-logo-updated.png
   level: silver
 
 
