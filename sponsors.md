@@ -14,12 +14,12 @@ year: 2024
         }
 
         .sponsorImagePageGold {
-            max-width: 90%; /* Set the maximum width to 80% of the container */
+            max-width: 50%; /* Set the maximum width to 80% of the container */
             height: auto; /* Maintain the aspect ratio */
         }
 
         .sponsorImagePageSilver {
-            max-width: 60%; /* Set the maximum width to 60% of the container */
+            max-width: 30%; /* Set the maximum width to 60% of the container */
             height: auto; /* Maintain the aspect ratio */
         }
     </style>
