@@ -14,12 +14,12 @@ year: 2024
         }
 
         .sponsorImagePageGold {
-            max-width: 50%; /* Set the maximum width to 80% of the container */
+            max-width: 70%; /* Set the maximum width to 80% of the container */
             height: auto; /* Maintain the aspect ratio */
         }
 
         .sponsorImagePageSilver {
-            max-width: 30%; /* Set the maximum width to 60% of the container */
+            max-width: 45%; /* Set the maximum width to 60% of the container */
             height: auto; /* Maintain the aspect ratio */
         }
     </style>
@@ -37,7 +37,7 @@ We thank all our Sponsors very much for their support to the Computer Graphics c
         {% if sponsor.level contains 'gold' %}
             <div class="individualSponsor sponsorContainer">
                 <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="sponsorImagePageGold" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
-                <span>{{sponsor.description}}</span>
+                <p>{{sponsor.description}}</p>
             </div>
         {% endif %}
     {% endfor %}
@@ -65,7 +65,7 @@ We thank all our Sponsors very much for their support to the Computer Graphics c
         {% if sponsor.level contains 'silver' %}
             <div class="individualSponsor sponsorContainer">
                 <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="sponsorImagePageSilver" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
-                <span>{{sponsor.description}}</span>
+                <p>{{sponsor.description}}</p>
             </div>
         {% endif %}
     {% endfor %}
