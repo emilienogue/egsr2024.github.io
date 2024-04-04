@@ -35,8 +35,7 @@ year: 2024
 
 <div class="text-content">
     <h2>Colocated Event: <span style="color: #6495ED;">Eurographics Workshop on Material Appearance Modeling</span> (MAM2024) and <span style="color: #6495ED;">MANER Conference London 2024</span> (Material Appearance Network for Education and Research)</h2>
-    <h2>Sponsored by Adobe</h2>
-    <img class="logo" src="{{site.url}}/img/2024/sponsors/Adobe.png" alt="adob">
+    <h2>Sponsored by <img class="logo" src="{{site.url}}/img/2024/sponsors/Adobe.png" alt="adob"></h2>
     <p>The purpose of this event, which will take place at Imperial College London, England, on July 2nd, 2024, in conjunction with EGSR 2024 (The 35th Eurographics Symposium on Rendering, see <a href="https://www.egsr2024.uk/">https://www.egsr2024.uk/</a>), is to discuss and define open issues in the acquisition, modeling, perception, and applications of material appearance. In this workshop, we gather researchers and potential users of material appearance models across disciplines and domains, to define what the major challenges and problems are in this area. One output of the workshop will be a document available through the EG Digital Library (past editions are at <a href="http://diglib.eg.org/handle/10.2312/2584">http://diglib.eg.org/handle/10.2312/2584</a>) that is intended to help guide future development of material appearance modeling. As in previous years, the workshop will include short presentations of position papers. Types of position papers include but are not limited to:</p>
     <ul>
         <li>Acquisition systems</li>
