@@ -8,30 +8,30 @@
   description: {% With a team of world-class research scientists, engineers, artists, and designers, Adobe Research combines cutting-edge academic discovery with industry impact. Adobe researchers shape early-stage ideas into innovative technologies. Many of Adobe Research’s breakthroughs are incorporated into Adobe’s products, building the company’s reputation as a leader in fostering new forms of creativity and in advancing document and content intelligence. Adobe Research collaborates with interns and faculty from universities across the globe. %}
 
 - name: Activision
-#  url: https://research.adobe.com/
+  url: https://www.activisionblizzard.com/
   image: img/2024/sponsors/Activision.png
   level: gold
   
 - name: Huawei
-#  url: https://research.adobe.com/
+  url: https://www.huawei.com/uk/
   image: img/2024/sponsors/huawei-logo.png
   level: gold
   description: {% Founded in 1987, Huawei is a leading global provider of information and communications technology (ICT) infrastructure and smart devices. We have 207,000 employees and operate in over 170 countries and regions, serving more than three billion people around the world. We are committed to bringing digital to every person, home and organization for a fully connected, intelligent world. %}
   
 - name: Autodesk
-#  url: https://research.adobe.com/
+  url: https://www.autodesk.co.uk/
   image: img/2024/sponsors/autodesk-logo.png
   level: gold
   description: {% Autodesk is changing how the world is designed and made. Our technology spans architecture, engineering, construction, product design, manufacturing, media and entertainment, empowering innovators everywhere to solve challenges big and small. From greener buildings to smarter products to more mesmerizing blockbusters, Autodesk software helps our customers to design and make a better world for all. For more information, visit autodesk.com or follow @autodesk. %}
 
 - name: Disney Research Studios
-#  url: https://research.adobe.com/
+  url: https://studios.disneyresearch.com/
   image: img/2024/sponsors/Disney.png
   level: silver
   description: {% DisneyResearch|Studios in Zurich, Switzerland, focuses on exploring the scientific frontiers in a variety of domains in service to the technical and creative filmmaking process. Our world-class research talent in visual computing, machine learning, and artificial intelligence shapes early-stage ideas into technological innovations that revolutionize the way we produce movies and create media content. Our inventions are used in almost every Disney feature film production and have dazzled hundreds of millions of people in audiences worldwide.DisneyResearch|Studios is part of a wider innovation ecosystem operating in close partnership with our technology units at the Walt Disney Animation Studios, Pixar Animation Studios, Lucasfilm/ILM, Marvel Studios, and Walt Disney Pictures. %}
 
 - name: Intel
-#  url: https://research.adobe.com/
+  url: https://www.intel.com/content/www/us/en/homepage.html
   image: img/2024/sponsors/intel-logo-updated.png
   level: silver
 
