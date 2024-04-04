@@ -1,5 +1,5 @@
 ---
-layout: cvmp-default
+layout: cvmp-plain
 title: 
 year: 2024
 ---
