@@ -42,7 +42,16 @@ Imperial College London is conveniently accessible by various modes of transport
 
 For your convenience, we recommend the following accommodation options:
 
-- **Summer Accommodation:**  We have reserved a limited set of single and double occupancy rooms in the Prince's Gardens student accommodations of Imperial (https://www.celestavenues.co.uk/accommodation/central-london/princes-gardens/) which are available in the summer. The rooms at Prince's Gardens are significantly cheaper than hotels nearby in the South Kensington area around Imperial College and will be available to book by attendees on a first come first serve basis. Booking option coming soon.
+- **Summer Accommodation:**  
+We have reserved a **limited number of discounted single and double rooms** (July 2nd - 5th/6th) at Imperial College's **Prince's Gardens summer accommodation**. The rates for these rooms are:
+
+Single room: £117/night<br>
+Double room: £153/night (double occupancy, two single beds)
+
+The rooms can also be booked using this link:
+<https://estore.imperial.ac.uk/conferences-and-events/faculty-of-engineering/computing/the-35th-eurographics-symposium-on-rendering-egsr/accommodation>
+
+This requires a password which is obtained after EGSR registration. 
 
 - **Hotels:** There are several hotels located near Imperial College London in the surrounding South Kensington and Gloucester Road areas. These hotels offer comfortable stays and are within easy reach of the conference venue. Slightly cheaper options are available a bit further away in Earl's Court and High Street Kensington areas.
 
