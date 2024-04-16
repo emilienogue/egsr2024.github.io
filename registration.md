@@ -14,7 +14,13 @@ table {
   width: 100%;
 }
 
-th, td {
+th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #DDD;
+  background-color: #D6D6EE;
+}
+td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #DDD;
@@ -24,11 +30,6 @@ tr:hover {background-color: #D6EEEE;}
 </style>
 
 <table>
-    <colgroup>
-        <col span="2">
-        <col style="border: 2px solid black">
-        <col span="9">
-      </colgroup>
     <thead>
         <tr>
             <th>EG Membership</th>
