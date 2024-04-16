@@ -1,8 +1,6 @@
 ---
 layout: cvmp-default
 title: Registration
-excerpt: Register for EGSR 2024
-headline: Registration
 year: 2024
 ---
 
@@ -10,8 +8,27 @@ year: 2024
 
 
 **EGSR 2024 registration rates** are as follows:
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+tr:hover {background-color: #D6EEEE;}
+</style>
 
 <table>
+    <colgroup>
+        <col span="2">
+        <col style="border: 2px solid black">
+        <col span="9">
+      </colgroup>
     <thead>
         <tr>
             <th>EG Membership</th>
@@ -55,7 +72,7 @@ EGSR 2024 Registration includes lunch/refreshments during the conference, EGSR e
 
 **MAM-MANER workshop registration** rates are in two categories:
 
-For those attending EGSR, additional registration for MAM-MANER workshop is £40.
+For those attending EGSR, additional registration for MAM-MANER workshop is £40.<br>
 For those only attending MAM-MANER workshop, the rate is £65.
 
 **All EGSR and MAM-MANER attendees are invited to the joint EGSR-MAM-MANER evening drinks reception on July 2nd**. 
@@ -75,7 +92,7 @@ This requires a password which is obtained after EGSR registration.
 <h2>Room Booking</h2>
 We have reserved a **limited number of discounted single and double rooms** (July 2nd - 5th/6th) at Imperial College's **Prince's Gardens summer accommodation**. The rates for these rooms are:
 
-Single room: £117/night
+Single room: £117/night<br>
 Double room: £153/night (double occupancy, two single beds)
  
 The rooms can also be booked using this link:
