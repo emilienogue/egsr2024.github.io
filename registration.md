@@ -64,7 +64,7 @@ tr:hover {background-color: #D6EEEE;}
 </table>
 
 
-Please note that **for all papers being presented at EGSR 2024**, including any CGF paper being presented at EGSR 2024,** we require at least one author to register at Non-Student (EG Member) rate**. This applies even when only a single student author is attending EGSR 2024 to present the paper.
+Please note that **for all papers being presented at EGSR 2024**, including any CGF paper being presented at EGSR 2024, **we require at least one author to register at Non-Student (EG Member) rate**. This applies even when only a single student author is attending EGSR 2024 to present the paper.
 
 
 EGSR 2024 Registration includes lunch/refreshments during the conference, EGSR evening reception on July 3rd, and EGSR conference dinner aboard Thames Boat Cruise on July 4th.
