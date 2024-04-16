@@ -11,9 +11,40 @@ year: 2024
 
 **EGSR 2024 registration rates** are as follows:
 
-
-
-
+<table>
+    <thead>
+        <tr>
+            <th>EG Membership</th>
+            <th>Category</th>
+            <th>Early-Bird</th>
+            <th>Late</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=2>EG Member</td>
+            <td>Non-Student</td>
+            <td>£370</td>
+            <td>£460</td>
+        </tr>
+        <tr>
+            <td>Student</td>
+            <td>£230</td>
+            <td>£290</td>
+        </tr>
+        <tr>
+            <td rowspan=2>Non-Member</td>
+            <td>Non-Student</td>
+            <td>£460</td>
+            <td>£575</td>
+        </tr>
+        <tr>
+            <td>Student</td>
+            <td>£290</td>
+            <td>£360</td>
+        </tr>
+    </tbody>
+</table>
 
 
 Please note that **for all papers being presented at EGSR 2024**, including any CGF paper being presented at EGSR 2024,** we require at least one author to register at Non-Student (EG Member) rate**. This applies even when only a single student author is attending EGSR 2024 to present the paper.
