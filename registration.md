@@ -18,7 +18,7 @@ th {
   padding: 8px;
   text-align: left;
   border-bottom: 2px solid #DDD;
-  background-color: #D6D6EE;
+  background-color: #EEE5F3;
 }
 td {
   padding: 8px;
@@ -26,7 +26,7 @@ td {
   border-bottom: 1px solid #DDD;
 }
 
-tr:hover {background-color: #B1B1EE;}
+tr:hover {background-color: #F3EFF5;}
 </style>
 
 <table>
