@@ -65,6 +65,8 @@ tr:hover {background-color: #F8F7F8;}
 </table>
 <br>
 
+**Early bird registration rate deadline: Friday 7 June 2024.**
+
 Please note that **for all papers being presented at EGSR 2024**, including any CGF paper being presented at EGSR 2024, **we require at least one author to register at Non-Student (EG Member) rate**. This applies even when only a single student author is attending EGSR 2024 to present the paper.
 
 
