@@ -13,7 +13,7 @@
             <div class="row" style="padding-bottom: 20px;">
                 {% for sponsor in site.data.sponsors[year] %}
                     {% if sponsor.level contains 'gold' %}
-                        <div class="col-xs-12 col-sm-6">
+                        <div class="col-xs-12 col-sm-12">
                             <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="img-responsive" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
                         </div>
                     {% endif %}
