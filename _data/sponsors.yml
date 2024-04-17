@@ -23,6 +23,13 @@
   level: gold
   description: Autodesk is changing how the world is designed and made. Our technology spans architecture, engineering, construction, product design, manufacturing, media and entertainment, empowering innovators everywhere to solve challenges big and small. From greener buildings to smarter products to more mesmerizing blockbusters, Autodesk software helps our customers to design and make a better world for all. For more information, visit autodesk.com or follow @autodesk.
 
+
+- name: Meta Reality Labs
+  url: https://about.meta.com/realitylabs/
+  image: img/2024/sponsors/meta-logo-resized.png
+  level: gold
+  description: Meta’s Reality Labs Research brings together a world-class team of researchers, developers, and engineers to build the future that helps people feel connected anytime, anywhere. Developers, researchers, engineers and designers all working together to help build a more expansive – and more inclusive – future for all of us.
+
 - name: Disney Research Studios
   url: https://studios.disneyresearch.com/
   image: img/2024/sponsors/Disney-resized.png
