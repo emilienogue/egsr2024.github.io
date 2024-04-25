@@ -17,6 +17,12 @@
   level: gold
   description: Autodesk is changing how the world is designed and made. Our technology spans architecture, engineering, construction, product design, manufacturing, media and entertainment, empowering innovators everywhere to solve challenges big and small. From greener buildings to smarter products to more mesmerizing blockbusters, Autodesk software helps our customers to design and make a better world for all. For more information, visit autodesk.com or follow @autodesk.
 
+- name: Chaos
+  url: https://www.chaos.com/
+  image: img/2024/sponsors/chaos-logo-resized.png
+  level: gold
+  description: A world leader in 3D visualization technology. Headquartered in Karlsruhe, Germany, Chaos is a global leader in 3D visualization technology, serving diverse industries like architecture, engineering, construction, and media. Through strategic mergers and acquisitions, including Enscape, Cylindo, and AXYZ design, Chaos has expanded its reach and capabilities, now boasting over 700 employees and worldwide offices. In VFX, Chaos's Academy Award-winning rendering technology, V-Ray, has been pivotal in over 150 feature films, while tools like Chaos Vantage streamline workflows by delivering high-quality real-time rendering without conversion delays.
+
 - name: Huawei
   url: https://www.huawei.com/uk/
   image: img/2024/sponsors/huawei-logo-resized.png
