@@ -90,7 +90,6 @@ Farshad Einabadi, <i>University of Surrey</i><br>
 Alban Fichet, <i>Intel</i><br>
 Iliyan Georgiev, <i>Adobe Research</i><br>
 Yotam Gingold, <i>George Mason University</i><br>
-Artur Grigorev, <i>ETH Zurich</i><br>
 Pascal Grittman, <i>Saarland University</i><br>
 Thorsten Grosch, <i>TU Clausthal</i><br>
 Adrien Gruson, <i>École de Technologie Supérieure</i><br>
