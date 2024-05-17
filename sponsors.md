@@ -22,6 +22,11 @@ year: 2024
             max-width: 45%; /* Set the maximum width to 60% of the container */
             height: auto; /* Maintain the aspect ratio */
         }
+        
+        .sponsorImagePageSilverBestPaperAward {
+            max-width: 50%; /* Adjust the maximum width as needed */
+            height: auto; /* Maintain the aspect ratio */
+        }
     </style>
 </head>
 
@@ -61,12 +66,23 @@ We thank all our Sponsors very much for their support to the Computer Graphics c
 
 <h1 style="color:#C0C0C0">Silver</h1>
 <div class="row-xs-12 sponsors" >
-    {% for sponsor in site.data.sponsors[year] %}
-        {% if sponsor.level contains 'silver' %}
+    {% assign silverSponsors = site.data.sponsors[year] | where: "level", "silver" %}
+    {% assign silverBestPaperAwardSponsors = site.data.sponsors[year] | where: "level", "silver2" %}
+
+    {% for sponsor in silverSponsors %}
+        <div class="individualSponsor sponsorContainer">
+            <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="sponsorImagePageSilver" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
+            <p>{{sponsor.description}}</p>
+        </div>
+    {% endfor %}
+
+    {% if silverBestPaperAwardSponsors.size > 0 %}
+        <h2 style="color:black">Best Paper Award</h2>
+        {% for sponsor in silverBestPaperAwardSponsors %}
             <div class="individualSponsor sponsorContainer">
-                <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="sponsorImagePageSilver" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
+                <a href="{{sponsor.url}}" target="_blank"><img src="{{site.url}}/{{sponsor.image}}" class="sponsorImagePageSilverBestPaperAward" alt="{{sponsor.name}} logo" title="{{sponsor.name}}"></a>
                 <p>{{sponsor.description}}</p>
             </div>
-        {% endif %}
-    {% endfor %}
+        {% endfor %}
+    {% endif %}
 </div>
