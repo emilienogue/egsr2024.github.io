@@ -43,7 +43,7 @@ year: 2024
   * Refreshments break 11:00 - 11:30
   * Session 2 (11:30am - 1:15pm)
   * Lunch Break 1:15pm - 2:15pm
-  * Session 3 (2:15pm - 3:30pm) inc. best paper award and closing 
+  * **Session 3 (2:15pm - 3:30pm) inc. best paper award and closing**
 
 <style>
   /* Add CSS styles to control image width */
