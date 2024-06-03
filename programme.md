@@ -6,20 +6,44 @@ year: 2024
 
 ### July 2nd
 - **MAM-MANER:** Afternoon (1:30pm - 5:30pm)
+  * Session 1: 1:30pm - 3:15pm
+  * Refreshments break: 3:15pm - 3:45pm
+  * Session 2: 3:45pm - 5:30pm
 - **MAM-MANER-EGSR joint drinks reception:** (5:30pm - 7pm)
 
 ### July 3rd
-- **EGSR Day 1:** (9:30am - 5:30pm)
+- **EGSR Day 1:** 
+  * Morning tea/coffee 8:45am - 9:15am
+  * Session 1 (9:15am - 11:00am)
+  * Refreshments break 11:00 - 11:30
+  * Session 2 (11:30am - 1:15pm)
+  * Lunch Break 1:15pm - 2:15pm
+  * Session 3 (2:15pm - 4:00pm)
+  * Refreshments break 4:00pm - 4:30pm
+  * Keynote: Ruth Rosenholtz (4:30pm - 5:30pm)
 - **EGSR conference reception at Serpentine, Hyde Park:** (6:30pm - 9pm)
 
 ### July 4th
-- **EGSR Day 2:** (9:30am - 5:30pm)
+- **EGSR Day 2:** 
+  * Morning tea/coffee 8:45am - 9:15am
+  * Session 1 (9:15am - 11:00am)
+  * Refreshments break 11:00 - 11:30
+  * Session 2 (11:30am - 1:15pm)
+  * Lunch Break 1:15pm - 2:15pm
+  * Session 3 (2:15pm - 4:00pm) inc. Townhall meeting
+  * Refreshments break 4:00pm - 4:30pm
+  * Keynote: Niloy Mitra (4:30pm - 5:30pm)
 - **Tourist open-top bus ride through London:** (5:45pm - 6:30pm)
 - **EGSR conference dinner on Thames Boat:** (6:45pm - 10:45pm)
 
-### July 5th
-- **EGSR Day 3:** Morning (9:30am - 1pm)
-- **Take away lunch box and departure:** (1:00pm - 1:30pm)
+### July 5th 
+- **EGSR Day 3:** 
+  * Morning tea/coffee 8:45am - 9:15am
+  * Session 1 (9:15am - 11:00am)
+  * Refreshments break 11:00 - 11:30
+  * Session 2 (11:30am - 1:15pm)
+  * Lunch Break 1:15pm - 2:15pm
+  * Session 3 (2:15pm - 3:30pm) inc. best paper award and closing 
 
 <style>
   /* Add CSS styles to control image width */
