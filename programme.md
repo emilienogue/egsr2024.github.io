@@ -75,7 +75,7 @@ year: 2024
 <br>
 <br>
 
-# EGSR <br> July 3rd - 5th 
+# EGSR 
 
 ## Wednesday 3rd
 ### Sampling <br> Session 1 (9:15am - 11:00am)
