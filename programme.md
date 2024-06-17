@@ -1,10 +1,8 @@
 ---
 layout: cvmp-default
-title: Programme
+title: July 2nd MAM-MANER
 year: 2024
 ---
-
-## July 2nd
 
 ### Session 1: Perception/ Color and Spectra/ Reproduction
 
@@ -73,6 +71,11 @@ year: 2024
 - #### 5:15 – 5:30 General discussion of relighting, prediction, and wave optics
 
 ### 5:30-7:00 EGSR/MAM/MANER joint drinks reception
+
+<br>
+<br>
+
+# July 3rd - 5th EGSR
 
 ## July 3rd
 - **EGSR Day 1:** 
