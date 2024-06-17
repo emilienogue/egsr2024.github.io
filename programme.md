@@ -75,41 +75,95 @@ year: 2024
 <br>
 <br>
 
-# July 3rd - 5th EGSR
+# EGSR <br> July 3rd - 5th 
 
-## July 3rd
-- **EGSR Day 1:** 
-  * Morning tea/coffee 8:45am - 9:15am
-  * Session 1 (9:15am - 11:00am)
-  * Refreshments break 11:00 - 11:30
-  * Session 2 (11:30am - 1:15pm)
-  * Lunch Break 1:15pm - 2:15pm
-  * Session 3 (2:15pm - 4:00pm)
-  * Refreshments break 4:00pm - 4:30pm
-  * Keynote: Ruth Rosenholtz (4:30pm - 5:30pm)
-- **EGSR conference reception at Serpentine, Hyde Park:** (6:30pm - 9pm)
+## Wednesday 3rd
+### Sampling <br> Session 1 (9:15am - 11:00am)
+- Robust Cone Step Mapping <br>
+    *Róbert Bán, Gábor Valasek, Csaba Bálint, Viktor Vad*
+- Learning to Rasterize Differentiably <br>
+    *Chenghao Wu, Hamila Mailee, Zahra Montazeri, Tobias Ritschel*
+- Sobol Sampling: Faster, Neater, and Compact <br>
+    *Abdalla Ahmed*
+- Importance sampling methods for differentiable rendering <br>
+    *Tanli Su, Ioannis Gkioulekas*
 
-## July 4th
-- **EGSR Day 2:** 
-  * Morning tea/coffee 8:45am - 9:15am
-  * Session 1 (9:15am - 11:00am)
-  * Refreshments break 11:00 - 11:30
-  * Session 2 (11:30am - 1:15pm)
-  * Lunch Break 1:15pm - 2:15pm
-  * Session 3 (2:15pm - 4:00pm) inc. Townhall meeting
-  * Refreshments break 4:00pm - 4:30pm
-  * Keynote: Niloy Mitra (4:30pm - 5:30pm)
-- **Tourist open-top bus ride through London:** (5:45pm - 6:30pm)
-- **EGSR conference dinner on Thames Boat:** (6:45pm - 10:45pm)
+### Relighting <br> Session 2 (11:30am - 1:15pm)
+- Realistic Facial Age Transformation with 3D Uplifting <br>
+    *Xiaohui Li, Giuseppe Claudio Guarnera, Arvin Lin, Abhijeet Ghosh*
+- A Diffusion Approach to Radiance Field Relighting using Multi-Illumination Synthesis <br>
+    *Yohan Poirier-Ginter, Alban Gauthier, Julien Philip, Jean-Jean-François Lalonde, George Drettakis*
+- Estimating Uncertainty in Appearance Acquisition <br>
+    *Zhiqian Zhou, Cheng Zhang, Zhao Dong, Carl Marshall, Shuang Zhao*
+- High Quality Neural Relighting using Practical Zonal Illumination <br>
+    *Arvin Lin, Yiming Lin, Xiaohui Li, Abhijeet Ghosh*
 
-## July 5th 
-- **EGSR Day 3:** 
-  * Morning tea/coffee 8:45am - 9:15am
-  * Session 1 (9:15am - 11:00am)
-  * Refreshments break 11:00 - 11:30
-  * Session 2 (11:30am - 1:15pm)
-  * Lunch Break 1:15pm - 2:15pm
-  * **Session 3 (2:15pm - 3:30pm) inc. best paper award and closing**
+### Appearance <br> Session 3 (2:15pm - 4:00pm)
+#### Zahra Montazeri
+- Practical Appearance Model for Foundation Cosmetics <br>
+    *Dario Lanza, Juan Raul Padron, Alina Pranovich, Adolfo Muñoz, Jeppe Revall Frisvad, Adrian Jarabo*
+- VMF Diffuse: A unified BRDF for rough diffuse height fields and porous materials <br>
+    *Eugene d'Eon, Andrea Weidlich*
+- Non-Orthogonal Reduction for Rendering Fluorescent Materials in Non-Spectral Engines <br>
+    *Alban Fichet, Laurent Belcour, Pascal Barla*
+- Does higher refractive index mean higher gloss?  <br>
+    *Davit Gigilashvili, David Norman Diaz Estrada*
+
+## Thursday 4th
+### Light & Textures <br> Session 4 (9:15am - 11:00am)
+#### Nicolas Savva 
+- MatUp: Repurposing Image Upsamplers for SVBRDFs  <br>
+    *Alban Gauthier, Bernhard Kerbl, Jérémy Levallois, Robin Faury, Jean-Marc Thiery, Tamy Boubekeur*
+- ReflectanceFusion: Diffusion-based text to SVBRDF Generation  <br>
+    *Bowen Xue, Giuseppe Claudio Guarnera, Shuang Zhao, Zahra Montazeri*
+- Constrained Spectral Uplifting for HDR Environment Maps  <br>
+    *Lucia Tódová, Alexander Wilkie*
+- Employing Multiple Priors in Retinex-Based Low-Light Image Enhancement  <br>
+    *Weipeng Yang, Hongxia Gao, Wenbin Zou, Tongtong Liu, Jianliang Ma, Shasha Huang*
+
+### Global Illumination <br> Session 5 (11:30am - 1:15pm)
+#### Matt Pharr 
+- Residual Path Integrals for re-rendering dynamic scenes  <br>
+    *Bing Xu, Tzu-Mao Li, Iliyan Georgiev, Trevor Hedstrom, Ravi Ramamoorthi*
+- ReSTIR FG: Real-Time Reservoir Resampled Photon Final Gathering  <br>
+    *René Kern, Felix Brüll, Thorsten Grosch*
+- Generalized Gradient-Domain Rendering with Lossless Basis Expansion  <br>
+    *Qiqin Fang, Toshiya Hachisuka*
+- Computing Manifold Next-Event Estimation without Derivatives  <br>
+    *Ana Granizo, Nicolas Holzschuch*
+
+### Stylization <br> Session 6 (2:15pm - 4:00pm) inc. Townhall meeting
+#### Rafael Kuffner Dos Anjos
+- Patch Decomposition for Efficient Mesh Contours Extraction  <br>
+    *Panagiotis Tsiapkolis, Pierre Bénard*
+- Scaling Painting Style Transfer  <br>
+    *Bruno Galerne, Lara Raad, José Lezama, Jean-Michel Morel*
+
+## Friday 5th
+### Neural Rendering <br> Session 7 (10:00am - 11:15am)
+#### Krishna Mullia
+- Neural Appearance Model for Cloth Rendering  <br>
+    *Guan Yu Soh, Zahra Montazeri*
+- Neural Histogram-Based Glint Rendering of Surfaces With Spatially Varying Roughness  <br>
+    *Ishaan Shah, Luis E. Gamboa, Adrien Gruson, P. J. Narayanan*
+- Neural SSS: Object Appearance Representation  <br>
+    *Thomson TG, Duc Minh Tran, Henrik Jensen, Ravi Ramamoorthi, Jeppe Revall Frisvad*
+
+### Light and Reflection <br> Session 8 (11:45am - 1:00pm) 
+- Stereo-consistent Screen Space Reflection  <br>
+    *XiaoLoong Wu, Yanning Xu, Lu Wang*
+- Precomputed Dynamic Appearance Synthesis and Rendering  <br>
+    *Yaoyi Bai, Milos Hasan, Ling-Qi Yan*
+- Bridge Sampling for Connections via Multiple Scattering Events  <br>
+    *Vincent Schüßler, Johannes Hanika, Carsten Dachsbacher*
+
+### Shadows <br> Session 9 (2:00pm - 3:30pm) inc. best paper award and closing 
+- Real-Time Pixel-Perfect Hard Shadows with Leak Tracing  <br>
+    *René Kern, Felix Brüll, Thorsten Grosch*
+- Learning Self-Shadowing for Clothed Human Bodies  <br>
+    *Farshad Einabadi, Jean-Yves Guillemaut, Adrian Hilton*
+- Ray Traced Stochastic Depth Map for Ambient Occlusion  <br>
+    *Felix Brüll, René Kern, Thorsten Grosch*
 
 <style>
   /* Add CSS styles to control image width */
