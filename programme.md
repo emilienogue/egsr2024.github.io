@@ -78,6 +78,9 @@ year: 2024
 # EGSR 
 
 ## Wednesday 3rd
+
+### Morning Refreshments (8:45am - 9:15am)
+
 ### Sampling <br> Session 1 (9:15am - 11:00am)
 - #### Robust Cone Step Mapping <br>
     *Róbert Bán, Gábor Valasek, Csaba Bálint, Viktor Vad*
@@ -98,6 +101,8 @@ year: 2024
 - #### High Quality Neural Relighting using Practical Zonal Illumination <br>
     *Arvin Lin, Yiming Lin, Xiaohui Li, Abhijeet Ghosh*
 
+### Lunch Break (1:15pm - 2:15pm)
+
 ### Appearance <br> Session 3 (2:15pm - 4:00pm)
 #### Session chair: Zahra Montazeri
 - #### Practical Appearance Model for Foundation Cosmetics <br>
@@ -109,7 +114,14 @@ year: 2024
 - #### Does higher refractive index mean higher gloss?  <br>
     *Davit Gigilashvili, David Norman Diaz Estrada*
 
+### Refreshments Break (4:00pm - 4:30pm)
+
+### Keynote: Ruth Rosenholtz (4:30pm - 5:30pm)
+
 ## Thursday 4th
+
+### Morning Refreshments (8:45am - 9:15am)
+
 ### Light & Textures <br> Session 4 (9:15am - 11:00am)
 #### Session chair: Nicolas Savva 
 - #### MatUp: Repurposing Image Upsamplers for SVBRDFs  <br>
@@ -132,6 +144,8 @@ year: 2024
 - #### Computing Manifold Next-Event Estimation without Derivatives  <br>
     *Ana Granizo, Nicolas Holzschuch*
 
+### Lunch Break (1:15pm - 2:15pm)
+
 ### Stylization <br> Session 6 (2:15pm - 4:00pm) inc. Townhall meeting
 #### Session chair: Rafael Kuffner Dos Anjos
 - #### Patch Decomposition for Efficient Mesh Contours Extraction  <br>
@@ -139,7 +153,14 @@ year: 2024
 - #### Scaling Painting Style Transfer  <br>
     *Bruno Galerne, Lara Raad, José Lezama, Jean-Michel Morel*
 
+### Refreshments Break (4:00pm - 4:30pm)
+
+### Keynote: Niloy Mitra (4:30pm - 5:30pm)
+
 ## Friday 5th
+
+### Morning Refreshments (9:30am - 10:00am)
+
 ### Neural Rendering <br> Session 7 (10:00am - 11:15am)
 #### Session chair: Krishna Mullia
 - #### Neural Appearance Model for Cloth Rendering  <br>
@@ -156,6 +177,8 @@ year: 2024
     *Yaoyi Bai, Milos Hasan, Ling-Qi Yan*
 - #### Bridge Sampling for Connections via Multiple Scattering Events  <br>
     *Vincent Schüßler, Johannes Hanika, Carsten Dachsbacher*
+
+### Lunch Break (1:00pm - 2:00pm)
 
 ### Shadows <br> Session 9 (2:00pm - 3:30pm) inc. best paper award and closing 
 - #### Real-Time Pixel-Perfect Hard Shadows with Leak Tracing  <br>
