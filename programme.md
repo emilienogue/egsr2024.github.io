@@ -91,6 +91,8 @@ year: 2024
 - #### Importance sampling methods for differentiable rendering <br>
     *Tanli Su, Ioannis Gkioulekas*
 
+### Refreshments Break (11:00am - 11:30am)
+
 ### Relighting <br> Session 2 (11:30am - 1:15pm)
 - #### Realistic Facial Age Transformation with 3D Uplifting <br>
     *Xiaohui Li, Giuseppe Claudio Guarnera, Arvin Lin, Abhijeet Ghosh*
@@ -133,6 +135,8 @@ year: 2024
 - #### Employing Multiple Priors in Retinex-Based Low-Light Image Enhancement  <br>
     *Weipeng Yang, Hongxia Gao, Wenbin Zou, Tongtong Liu, Jianliang Ma, Shasha Huang*
 
+### Refreshments Break (11:00am - 11:30am)
+
 ### Global Illumination <br> Session 5 (11:30am - 1:15pm)
 #### Session chair: Matt Pharr 
 - #### Residual Path Integrals for re-rendering dynamic scenes  <br>
@@ -169,6 +173,8 @@ year: 2024
     *Ishaan Shah, Luis E. Gamboa, Adrien Gruson, P. J. Narayanan*
 - #### Neural SSS: Object Appearance Representation  <br>
     *Thomson TG, Duc Minh Tran, Henrik Jensen, Ravi Ramamoorthi, Jeppe Revall Frisvad*
+
+### Refreshments Break (11:15am - 11:45am)
 
 ### Light and Reflection <br> Session 8 (11:45am - 1:00pm) 
 - #### Stereo-consistent Screen Space Reflection  <br>
