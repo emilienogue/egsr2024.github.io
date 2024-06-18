@@ -120,7 +120,7 @@ year: 2024
 ### Keynote: Ruth Rosenholtz (4:30pm - 5:30pm)
 
 ---
-## Thursday 4th
+## **Thursday 4th**
 
 ### Morning Refreshments (8:45am - 9:15am)
 
@@ -162,7 +162,7 @@ year: 2024
 ### Keynote: Niloy Mitra (4:30pm - 5:30pm)
 
 ---
-## Friday 5th
+## **Friday 5th**
 
 ### Morning Refreshments (9:30am - 10:00am)
 
