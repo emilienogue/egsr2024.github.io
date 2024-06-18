@@ -72,12 +72,10 @@ year: 2024
 
 ### 5:30-7:00 EGSR/MAM/MANER joint drinks reception
 
-<br>
-<br>
-
 # EGSR 
 
-## Wednesday 3rd
+---
+## **Wednesday 3rd**
 
 ### Morning Refreshments (8:45am - 9:15am)
 
@@ -94,6 +92,7 @@ year: 2024
 ### Refreshments Break (11:00am - 11:30am)
 
 ### Relighting <br> Session 2 (11:30am - 1:15pm)
+#### Session chair: Holly Rushmeier
 - #### Realistic Facial Age Transformation with 3D Uplifting <br>
     *Xiaohui Li, Giuseppe Claudio Guarnera, Arvin Lin, Abhijeet Ghosh*
 - #### A Diffusion Approach to Radiance Field Relighting using Multi-Illumination Synthesis <br>
@@ -120,6 +119,7 @@ year: 2024
 
 ### Keynote: Ruth Rosenholtz (4:30pm - 5:30pm)
 
+---
 ## Thursday 4th
 
 ### Morning Refreshments (8:45am - 9:15am)
@@ -161,6 +161,7 @@ year: 2024
 
 ### Keynote: Niloy Mitra (4:30pm - 5:30pm)
 
+---
 ## Friday 5th
 
 ### Morning Refreshments (9:30am - 10:00am)
@@ -202,6 +203,7 @@ year: 2024
   }
 </style>
 
+---
 ## Evening Reception at Serpentine Restaurant
 
 <img class="event-image" src="{{site.url}}/img/social/hydepark.jpg" alt="Serpentine Restaurant">
@@ -217,6 +219,7 @@ Join us for an enchanting evening reception at the renowned Serpentine Restauran
 <img class="event-image" src="{{site.url}}/img/social/serpentinemap2.jpg" alt="Map to Serpentine">
 <!--![Map](/img/social/serpentinemap.png)-->
 
+---
 ## Conference Dinner Cruise
 
 On the evening of July 4th, we invite you to join us for a unique experience: the Conference Dinner Cruise. Set sail along the scenic waterways of the Thames, enjoying a delectable dinner and the company of fellow conference attendees.
