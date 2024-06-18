@@ -4,7 +4,7 @@ title: Registration
 year: 2024
 ---
 
-<h2>EGSR 2024 and MAM-MANER 2024 registration is now live!</h2>
+<h2>EGSR Registrations are now closed!</h2>
 <br>
 
 **EGSR 2024 registration rates** are as follows:
