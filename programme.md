@@ -211,6 +211,7 @@ See details at the bottom of the page.
   }
 </style>
 
+
 ---
 ## Evening Reception at Serpentine Restaurant
 
@@ -219,13 +220,26 @@ See details at the bottom of the page.
 
 Join us for an enchanting evening reception at the renowned Serpentine Restaurant in Hyde Park on July 3rd. Nestled in the heart of Hyde Park, the Serpentine Restaurant offers a picturesque setting for an unforgettable gathering.
 
-### Event Details
+#### Event Details
 - **Date:** July 3, 2024
-<!--- **Time:** [Insert Time]-->
+- **Time:** 6:30pm - 9pm
 - **Address:** Serpentine Road, Hyde Park, London, W2 3XA
 
 <img class="event-image" src="{{site.url}}/img/social/serpentinemap2.jpg" alt="Map to Serpentine">
 <!--![Map](/img/social/serpentinemap.png)-->
+
+---
+## Tourist Bus Ride
+
+<img class="event-image" src="{{site.url}}/img/social/bus.jpeg" alt="Bus">
+<!--![Serpentine Restaurant](/img/social/bus.jpeg)-->
+
+We plan a short tourist bus ride through the main attractions of London on the way to the Conference Dinner Cruise on the Thames River.
+
+#### Event Details
+- **Date:** July 4, 2024
+- **Time:** 5:45pm 
+<!--- **Location:** [Insert Cruise Location]-->
 
 ---
 ## Conference Dinner Cruise
@@ -234,9 +248,9 @@ On the evening of July 4th, we invite you to join us for a unique experience: th
 
 <img class="event-image" src="{{site.url}}/img/social/MilleniumDiamond.jpg" alt="Thames Cruise Boat">
 
-### Event Details
+#### Event Details
 - **Date:** July 4, 2024
-<!--- **Time:** [Insert Time]-->
-<!--- **Location:** [Insert Cruise Location]-->
+- **Time:** 6:45pm - 10:45pm
+- **Location:** Millenium Diamond
 
 Stay tuned for more information about the cruise route, dinner menu, and other exciting surprises.
