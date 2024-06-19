@@ -149,7 +149,7 @@ See details at the bottom of the page.
     *Bing Xu, Tzu-Mao Li, Iliyan Georgiev, Trevor Hedstrom, Ravi Ramamoorthi*
 - #### ReSTIR FG: Real-Time Reservoir Resampled Photon Final Gathering  <br>
     *René Kern, Felix Brüll, Thorsten Grosch*
-- #### Generalized Gradient-Domain Rendering with Lossless Basis Expansion  <br>
+- #### Lossless Basis Expansion for Gradient-Domain Rendering  <br>
     *Qiqin Fang, Toshiya Hachisuka*
 - #### Computing Manifold Next-Event Estimation without Derivatives  <br>
     *Ana Granizo, Nicolas Holzschuch*
