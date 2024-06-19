@@ -72,6 +72,7 @@ year: 2024
 
 ### 5:30-7:00 EGSR/MAM/MANER joint drinks reception
 
+<br> <br> <br> <br> <br>
 # EGSR 
 
 ---
