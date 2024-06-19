@@ -122,6 +122,7 @@ year: 2024
 ### Group photo (6:00pm) <br> Stairs of Royal Albert Hall (Prince Consort Rd approach)
 
 ### EGSR reception at Serpentine Bar & Kitchen in Hyde Park (6:30pm - 9:00pm)
+See details at the bottom of the page.
 
 ---
 ## **Thursday 4th**
@@ -165,11 +166,8 @@ year: 2024
 
 ### Keynote: Niloy Mitra (4:30pm - 5:30pm)
 
-### Tourist Bus ride (5:45pm)
-
-### Arriving at Westminster Pier for Thames Dinner Cruise (6:30pm)
-
-### Dinner Cruise aboard the Millenium Diamond (6:45pm - 10:45pm)
+### Tourist Bus ride (5:45pm) <br>  Arriving at Westminster Pier for Thames Dinner Cruise (6:30pm) <br> Dinner Cruise aboard the Millenium Diamond (6:45pm - 10:45pm)
+See details at the bottom of the page.
 
 ---
 ## **Friday 5th**
