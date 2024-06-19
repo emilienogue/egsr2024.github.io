@@ -119,6 +119,10 @@ year: 2024
 
 ### Keynote: Ruth Rosenholtz (4:30pm - 5:30pm)
 
+### Group photo (6:00pm) <br> Stairs of Royal Albert Hall (Prince Consort Rd approach)
+
+### EGSR reception at Serpentine Bar & Kitchen in Hyde Park (6:30pm - 9:00pm)
+
 ---
 ## **Thursday 4th**
 
@@ -160,6 +164,12 @@ year: 2024
 ### Refreshments Break (4:00pm - 4:30pm)
 
 ### Keynote: Niloy Mitra (4:30pm - 5:30pm)
+
+### Tourist Bus ride (5:45pm)
+
+### Arriving at Westminster Pier for Thames Dinner Cruise (6:30pm)
+
+### Dinner Cruise aboard the Millenium Diamond (6:45pm - 10:45pm)
 
 ---
 ## **Friday 5th**
