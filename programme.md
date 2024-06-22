@@ -145,7 +145,7 @@ See details at the bottom of the page.
 
 ### Global Illumination <br> Session 5 (11:30am - 1:15pm)
 #### Session chair: Matt Pharr 
-- #### Residual Path Integrals for re-rendering dynamic scenes  <br>
+- #### Residual Path Integrals for Re-rendering  <br>
     *Bing Xu, Tzu-Mao Li, Iliyan Georgiev, Trevor Hedstrom, Ravi Ramamoorthi*
 - #### ReSTIR FG: Real-Time Reservoir Resampled Photon Final Gathering  <br>
     *René Kern, Felix Brüll, Thorsten Grosch*
