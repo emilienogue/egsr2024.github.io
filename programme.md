@@ -81,6 +81,7 @@ year: 2024
 ### Morning Refreshments (8:45am - 9:15am)
 
 ### Sampling <br> Session 1 (9:15am - 11:00am)
+#### Session chair: Peter Shirley
 - #### Robust Cone Step Mapping <br>
     *Róbert Bán, Gábor Valasek, Csaba Bálint, Viktor Vad*
 - #### Learning to Rasterize Differentiably <br>
@@ -187,6 +188,7 @@ See details at the bottom of the page.
 ### Refreshments Break (11:15am - 11:45am)
 
 ### Light and Reflection <br> Session 8 (11:45am - 1:00pm) 
+#### Session chair: Tamy Boubekeur
 - #### Stereo-consistent Screen Space Reflection  <br>
     *XiaoLoong Wu, Yanning Xu, Lu Wang*
 - #### Precomputed Dynamic Appearance Synthesis and Rendering  <br>
@@ -197,6 +199,7 @@ See details at the bottom of the page.
 ### Lunch Break (1:00pm - 2:00pm)
 
 ### Shadows <br> Session 9 (2:00pm - 3:30pm) inc. best paper award and closing 
+#### Session chair: Julien Philip
 - #### Real-Time Pixel-Perfect Hard Shadows with Leak Tracing  <br>
     *René Kern, Felix Brüll, Thorsten Grosch*
 - #### Learning Self-Shadowing for Clothed Human Bodies  <br>
