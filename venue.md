@@ -38,6 +38,10 @@ Imperial College London is conveniently accessible by various modes of transport
 <img class="venue-image" src="{{site.url}}/img/venue/princesgarden.jpeg" alt="Prince's Garden">
 <!--![Accommodation Image](/img/venue/RoyalAlbertHall.jpeg)-->
 
+**All EGSR guests staying in the Prince's Gardens summer accommodations should head to check-in area located in the Southside building, Falmouth entrance. This is very close to the Eastside building where all EGSR guests are staying. Reception is open 24/7 therefore the guests can do it anytime at Prince's Garden Reception in Southside building.**
+
+**There will be no early check-in for any guests arriving on July 2nd before the check-in time of 2pm. However, guests can feel free to leave their luggage at reception before going to the MAM-MANER conference which starts at 1pm.**
+
 ### Accommodation Options
 
 For your convenience, we recommend the following accommodation options:
