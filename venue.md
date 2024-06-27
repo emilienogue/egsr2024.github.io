@@ -17,7 +17,7 @@ year: 2024
 <img class="venue-image" src="{{site.url}}/img/venue/lecturetheatre.jpg" alt="Huxley Building">
 <!--![Huxley Building](/img/venue/Huxley.jpg)-->
 
-The EGSR 2024 conference will be hosted at the Huxley Building (180 Queen's Gate, South Kensington) within the campus of Imperial College London.
+The EGSR 2024 and MAM-MANER 2024 conferences will be hosted at the Huxley Building (180 Queen’s Gate, South Kensington) within the campus of Imperial College London. EGSR will be held in the Clore Lecture theatre right next to the Huxley building reception on level 2 when entering from 180 Queen's Gate. MAM-MANER will be held in Huxley Rm 342 on level 3, which just requires taking the stairs up from Huxley building reception. Note that the Huxley building also has an entrance via the Sherfield walkway which connects Huxley building on the west end of the campus with the main entrance of Imperial College on the east end of the campus which is close to the Prince's Gardens summer accommodations.
 
 ## Transportation
 
