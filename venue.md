@@ -14,7 +14,7 @@ year: 2024
 
 ## Location
 
-<img class="venue-image" src="{{site.url}}/img/venue/Huxley.jpg" alt="Huxley Building">
+<img class="venue-image" src="{{site.url}}/img/venue/lecturetheatre.jpg" alt="Huxley Building">
 <!--![Huxley Building](/img/venue/Huxley.jpg)-->
 
 The EGSR 2024 conference will be hosted at the Huxley Building (180 Queen's Gate, South Kensington) within the campus of Imperial College London.
