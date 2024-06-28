@@ -168,7 +168,7 @@ See details at the bottom of the page.
 
 ### Keynote: Niloy Mitra (4:30pm - 5:30pm)
 
-### Tourist Bus ride (5:45pm) <br>  Arriving at Westminster Pier for Thames Dinner Cruise (6:30pm) <br> Dinner Cruise aboard the Millenium Diamond (6:45pm - 10:45pm)
+### Tourist Bus ride (6:30pm) <br>  Arriving at Westminster Pier for Thames Dinner Cruise (7:15pm) <br> Dinner Cruise aboard the Millenium Diamond (7:30pm - 11pm)
 See details at the bottom of the page.
 
 ---
@@ -242,7 +242,7 @@ We plan a short tourist bus ride through the main attractions of London on the w
 
 #### Event Details
 - **Date:** July 4, 2024
-- **Time:** 5:45pm 
+- **Time:** 6:30pm 
 <!--- **Location:** [Insert Cruise Location]-->
 
 ---
@@ -254,7 +254,7 @@ On the evening of July 4th, we invite you to join us for a unique experience: th
 
 #### Event Details
 - **Date:** July 4, 2024
-- **Time:** 6:45pm - 10:45pm
+- **Time:** 7:30pm - 11pm
 - **Location:** Millenium Diamond
 
 Stay tuned for more information about the cruise route, dinner menu, and other exciting surprises.
