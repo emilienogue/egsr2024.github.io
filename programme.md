@@ -240,6 +240,9 @@ Join us for an enchanting evening reception at the renowned Serpentine Restauran
 
 We plan a short tourist bus ride through the main attractions of London on the way to the Conference Dinner Cruise on the Thames River.
 
+<img class="event-image" src="{{site.url}}/img/social/busroute.jpg" alt="BusRoute">
+<!--![Bus Route](/img/social/busroute.jpeg)-->
+
 #### Event Details
 - **Date:** July 4, 2024
 - **Time:** 6:30pm 
@@ -255,6 +258,4 @@ On the evening of July 4th, we invite you to join us for a unique experience: th
 #### Event Details
 - **Date:** July 4, 2024
 - **Time:** 7:30pm - 11pm
-- **Location:** Millenium Diamond
-
-Stay tuned for more information about the cruise route, dinner menu, and other exciting surprises.
+- **Location:** Millenium Diamond, Westminster Pier
