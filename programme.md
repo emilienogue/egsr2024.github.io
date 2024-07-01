@@ -119,7 +119,7 @@ year: 2024
 
 ### Refreshments Break (4:00pm - 4:30pm)
 
-### Keynote: Ruth Rosenholtz (4:30pm - 5:30pm)
+### Keynote: Ruth Rosenholtz (4:30pm - 5:30pm) <br> Demystifying peripheral vision
 
 ### Group photo (6:00pm) <br> Stairs of Royal Albert Hall (Prince Consort Rd approach)
 
@@ -166,7 +166,7 @@ See details at the bottom of the page.
 
 ### Refreshments Break (4:00pm - 4:30pm)
 
-### Keynote: Niloy Mitra (4:30pm - 5:30pm)
+### Keynote: Niloy Mitra (4:30pm - 5:30pm) <br> What are Good Representations for Controllable Generative Models
 
 ### Tourist Bus ride (6:30pm) <br>  Arriving at Westminster Pier for Thames Dinner Cruise (7:15pm) <br> Dinner Cruise aboard the Millenium Diamond (7:30pm - 11pm)
 See details at the bottom of the page.
