@@ -78,9 +78,9 @@ year: 2024
 ---
 ## **Wednesday 3rd**
 
-### Morning Refreshments (8:45am - 9:15am)
+### Morning Refreshments (8:35am - 9:05am)
 
-### Sampling <br> Session 1 (9:15am - 11:00am)
+### Sampling <br> Session 1 (9:05am - 11:00am)
 #### Session chair: Peter Shirley
 - #### Robust Cone Step Mapping <br>
     *Róbert Bán, Gábor Valasek, Csaba Bálint, Viktor Vad*
