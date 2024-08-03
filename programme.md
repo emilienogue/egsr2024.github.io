@@ -78,9 +78,9 @@ year: 2024
 ---
 ## **Wednesday 3rd**
 
-### Morning Refreshments (8:45am - 9:15am)
+### Morning Refreshments (8:35am - 9:05am)
 
-### Sampling <br> Session 1 (9:15am - 11:00am)
+### Sampling <br> Session 1 (9:05am - 11:00am)
 #### Session chair: Peter Shirley
 - #### Robust Cone Step Mapping <br>
     *Róbert Bán, Gábor Valasek, Csaba Bálint, Viktor Vad*
@@ -119,7 +119,7 @@ year: 2024
 
 ### Refreshments Break (4:00pm - 4:30pm)
 
-### Keynote: Ruth Rosenholtz (4:30pm - 5:30pm)
+### Keynote: Ruth Rosenholtz (4:30pm - 5:30pm) <br> Demystifying peripheral vision
 
 ### Group photo (6:00pm) <br> Stairs of Royal Albert Hall (Prince Consort Rd approach)
 
@@ -166,7 +166,7 @@ See details at the bottom of the page.
 
 ### Refreshments Break (4:00pm - 4:30pm)
 
-### Keynote: Niloy Mitra (4:30pm - 5:30pm)
+### Keynote: Niloy Mitra (4:30pm - 5:30pm) <br> What are Good Representations for Controllable Generative Models
 
 ### Tourist Bus ride (6:30pm) <br>  Arriving at Westminster Pier for Thames Dinner Cruise (7:15pm) <br> Dinner Cruise aboard the Millenium Diamond (7:30pm - 11pm)
 See details at the bottom of the page.
@@ -240,6 +240,9 @@ Join us for an enchanting evening reception at the renowned Serpentine Restauran
 
 We plan a short tourist bus ride through the main attractions of London on the way to the Conference Dinner Cruise on the Thames River.
 
+<img class="event-image" src="{{site.url}}/img/social/busroute.jpg" alt="BusRoute">
+<!--![Bus Route](/img/social/busroute.jpeg)-->
+
 #### Event Details
 - **Date:** July 4, 2024
 - **Time:** 6:30pm 
@@ -255,6 +258,4 @@ On the evening of July 4th, we invite you to join us for a unique experience: th
 #### Event Details
 - **Date:** July 4, 2024
 - **Time:** 7:30pm - 11pm
-- **Location:** Millenium Diamond
-
-Stay tuned for more information about the cruise route, dinner menu, and other exciting surprises.
+- **Location:** Millenium Diamond, Westminster Pier

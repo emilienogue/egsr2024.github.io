@@ -79,26 +79,3 @@ For those attending EGSR, additional registration for MAM-MANER workshop is £40
 For those only attending MAM-MANER workshop, the rate is £65.
 
 **All EGSR and MAM-MANER attendees are invited to the joint EGSR-MAM-MANER evening drinks reception on July 2nd**. 
-<br>
-
-Registration for both EGSR 2024 and MAM-MANER 2024 events can be done at the following link:
-<https://estore.imperial.ac.uk/conferences-and-events/faculty-of-engineering/computing/the-35th-eurographics-symposium-on-rendering-egsr>
-
-
-**Additional EGSR conference dinner tickets** on the **Thames Dinner Cruise** can be purchased for £75/ticket.
-<https://estore.imperial.ac.uk/product-catalogue/faculty-of-engineering/computing/egsr-2024/additional-dinner-tickets>
-
-This requires a password which is obtained after EGSR registration.
-<br>
-
-
-<h2>Room Booking</h2>
-We have reserved a **limited number of discounted single and double rooms** (July 2nd - 5th/6th) at Imperial College's **Prince's Gardens summer accommodation**. The rates for these rooms are:
-
-Single room: £117/night<br>
-Double room: £153/night (double occupancy, two single beds)
- 
-The rooms can also be booked using this link:
-<https://estore.imperial.ac.uk/conferences-and-events/faculty-of-engineering/computing/the-35th-eurographics-symposium-on-rendering-egsr/accommodation>
-
-This requires a password which is obtained after EGSR registration. 
