@@ -16,7 +16,7 @@ at Imperial College and the <a href="http://vecg.cs.ucl.ac.uk/">Virtual Environm
  EGSR will be preceded by a new joint Workshop on <a href="/MAM-MANER Workshop">Material Appearance Modeling (MAM) and MANER conference</a> on July 2nd. The MAM-MANER 2024 workshop will be followed by a joint <a href="/social">MAM-MANER-EGSR drinks reception</a> in the evening on July 2nd that will be open to all attendees of both conferences. We look forward to welcoming you to London!
  
  
-We are excited to share that recordings of the talks and photos from the 35th Eurographics Symposium on Rendering (EGSR) are now available! You can access the <a href="https://youtube.com/@egsr2024?si=UaBpKbSkrktigTga">recordings of the talks</a> and view the photos from the conference: <a href="https://photos.app.goo.gl/XGvLWk1Z7pnm4PrG9">Album 1</a>, <a href="https://photos.app.goo.gl/S2VG3nMe26aRzE39A">Album 2</a>, and <a href="https://photos.app.goo.gl/XGvLWk1Z7pnm4PrG9">Album 3</a>. If you would like any of your photos removed, please email the chairs at <a href="chairs-egsr2024@eg.org” <chairs-egsr2024@eg.org>chairs@example.com</a>.
+We are excited to share that recordings of the talks and photos from the 35th Eurographics Symposium on Rendering (EGSR) are now available! You can access the <a href="https://youtube.com/@egsr2024?si=UaBpKbSkrktigTga">recordings of the talks</a> and view the photos from the conference: <a href="https://photos.app.goo.gl/XGvLWk1Z7pnm4PrG9">Album 1</a>, <a href="https://photos.app.goo.gl/S2VG3nMe26aRzE39A">Album 2</a>, and <a href="https://photos.app.goo.gl/XGvLWk1Z7pnm4PrG9">Album 3</a>. If you would like any of your photos removed, please email the chairs at <chairs-egsr2024@eg.org>.
 
 
 <!-- featured images -->
