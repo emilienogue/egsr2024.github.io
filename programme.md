@@ -4,9 +4,9 @@ title: July 2nd MAM-MANER
 year: 2024
 ---
 
-All technical talks are available open access:
-<a href="https://t.co/940c0WLMD7">Computer Graphics Forum track</a>
-<a href="https://t.co/tTdCUrcYEN">Symposium-only</a>
+All technical talks are available open access: <br>
+<a href="https://t.co/940c0WLMD7">Computer Graphics Forum track</a> <br>
+<a href="https://t.co/tTdCUrcYEN">Symposium-only</a> <br>
 
 ### Session 1: Perception/ Color and Spectra/ Reproduction 
 
