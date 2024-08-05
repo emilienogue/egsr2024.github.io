@@ -4,7 +4,7 @@ title: July 2nd MAM-MANER
 year: 2024
 ---
 
-### Session 1: Perception/ Color and Spectra/ Reproduction <a href="https://www.youtube.com/watch?v=m_s2AJrc1OQ&list=PLyR9LORsBdypuF20mYVilNj8OtNe42mfO&pp=iAQB">[Video Link]</a>
+### Session 1: Perception/ Color and Spectra/ Reproduction 
 
 - #### 1:00-1:05 Welcome
     *H. Rushmeier<sup>1</sup> and J. Y. Hardeberg<sup>2</sup>*
@@ -80,7 +80,7 @@ year: 2024
 
 ### Morning Refreshments (8:35am - 9:05am)
 
-### Sampling <br> Session 1 (9:05am - 11:00am)
+### Sampling <a href="https://www.youtube.com/watch?v=m_s2AJrc1OQ&list=PLyR9LORsBdypuF20mYVilNj8OtNe42mfO&pp=iAQB">[Video Link]</a> <br> Session 1 (9:05am - 11:00am)
 #### Session chair: Peter Shirley
 - #### Robust Cone Step Mapping <br>
     *Róbert Bán, Gábor Valasek, Csaba Bálint, Viktor Vad*
@@ -93,7 +93,7 @@ year: 2024
 
 ### Refreshments Break (11:00am - 11:30am)
 
-### Relighting <br> Session 2 (11:30am - 1:15pm)
+### Relighting <a href="https://www.youtube.com/watch?v=y9PSpNNFdn8&list=PLyR9LORsBdyr-9JOUGzoJlUHFDEK9CgjP&pp=iAQB">[Video Link]</a> <br> Session 2 (11:30am - 1:15pm)
 #### Session chair: Holly Rushmeier
 - #### Realistic Facial Age Transformation with 3D Uplifting <br>
     *Xiaohui Li, Giuseppe Claudio Guarnera, Arvin Lin, Abhijeet Ghosh*
