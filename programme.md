@@ -4,7 +4,7 @@ title: July 2nd MAM-MANER
 year: 2024
 ---
 
-### Session 1: Perception/ Color and Spectra/ Reproduction
+### Session 1: Perception/ Color and Spectra/ Reproduction <a href="https://www.youtube.com/watch?v=m_s2AJrc1OQ&list=PLyR9LORsBdypuF20mYVilNj8OtNe42mfO&pp=iAQB">[Video Link]</a>
 
 - #### 1:00-1:05 Welcome
     *H. Rushmeier<sup>1</sup> and J. Y. Hardeberg<sup>2</sup>*
