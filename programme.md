@@ -106,7 +106,7 @@ year: 2024
 
 ### Lunch Break (1:15pm - 2:15pm)
 
-### Appearance <br> Session 3 (2:15pm - 4:00pm)
+### Appearance <a href="https://www.youtube.com/watch?v=qHtbxCX6uTA&list=PLyR9LORsBdyoAgxsRbqJb859d04ApKp5_&pp=iAQB">[Video Link]</a> <br> Session 3 (2:15pm - 4:00pm)
 #### Session chair: Zahra Montazeri
 - #### Practical Appearance Model for Foundation Cosmetics <br>
     *Dario Lanza, Juan Raul Padron, Alina Pranovich, Adolfo Muñoz, Jeppe Revall Frisvad, Adrian Jarabo*
@@ -119,7 +119,7 @@ year: 2024
 
 ### Refreshments Break (4:00pm - 4:30pm)
 
-### Keynote: Ruth Rosenholtz (4:30pm - 5:30pm) <br> Demystifying peripheral vision
+### Keynote: Ruth Rosenholtz (4:30pm - 5:30pm) <a href="https://www.youtube.com/watch?v=U4bMFRoQ2zg&list=PLyR9LORsBdypRA0Bivrgm-Vod-b8DTdOC&index=1&pp=iAQB">[Video Link]</a> <br> Demystifying peripheral vision
 
 ### Group photo (6:00pm) <br> Stairs of Royal Albert Hall (Prince Consort Rd approach)
 
@@ -131,7 +131,7 @@ See details at the bottom of the page.
 
 ### Morning Refreshments (8:45am - 9:15am)
 
-### Light & Textures <br> Session 4 (9:15am - 11:00am)
+### Light & Textures <a href="https://www.youtube.com/watch?v=EKRnYTwRDLA&list=PLyR9LORsBdypl0fjshPXLenfI5i65zR-L&pp=iAQB">[Video Link]</a> <br> Session 4 (9:15am - 11:00am)
 #### Session chair: Nicolas Savva 
 - #### MatUp: Repurposing Image Upsamplers for SVBRDFs  <br>
     *Alban Gauthier, Bernhard Kerbl, Jérémy Levallois, Robin Faury, Jean-Marc Thiery, Tamy Boubekeur*
@@ -144,7 +144,7 @@ See details at the bottom of the page.
 
 ### Refreshments Break (11:00am - 11:30am)
 
-### Global Illumination <br> Session 5 (11:30am - 1:15pm)
+### Global Illumination <a href="https://www.youtube.com/watch?v=2OlS0wT3dlc&list=PLyR9LORsBdyrZL5YLD7j3IOqk_9Qm_EAx&pp=iAQB">[Video Link]</a> <br> Session 5 (11:30am - 1:15pm)
 #### Session chair: Matt Pharr 
 - #### Residual Path Integrals for Re-rendering  <br>
     *Bing Xu, Tzu-Mao Li, Iliyan Georgiev, Trevor Hedstrom, Ravi Ramamoorthi*
@@ -157,7 +157,7 @@ See details at the bottom of the page.
 
 ### Lunch Break (1:15pm - 2:15pm)
 
-### Stylization <br> Session 6 (2:15pm - 4:00pm) inc. Townhall meeting
+### Stylization <a href="https://www.youtube.com/watch?v=rz99vzYY514&list=PLyR9LORsBdyrzISYoogxMyS34wO6samE4&pp=iAQB">[Video Link]</a> <br> Session 6 (2:15pm - 4:00pm) inc. Townhall meeting
 #### Session chair: Rafael Kuffner Dos Anjos
 - #### Patch Decomposition for Efficient Mesh Contours Extraction  <br>
     *Panagiotis Tsiapkolis, Pierre Bénard*
@@ -166,7 +166,7 @@ See details at the bottom of the page.
 
 ### Refreshments Break (4:00pm - 4:30pm)
 
-### Keynote: Niloy Mitra (4:30pm - 5:30pm) <br> What are Good Representations for Controllable Generative Models
+### Keynote: Niloy Mitra (4:30pm - 5:30pm) <a href="https://www.youtube.com/watch?v=SemLyjAxKys&list=PLyR9LORsBdypRA0Bivrgm-Vod-b8DTdOC&index=2&pp=iAQB">[Video Link]</a> <br> What are Good Representations for Controllable Generative Models
 
 ### Tourist Bus ride (6:30pm) <br>  Arriving at Westminster Pier for Thames Dinner Cruise (7:15pm) <br> Dinner Cruise aboard the Millenium Diamond (7:30pm - 11pm)
 See details at the bottom of the page.
@@ -176,7 +176,7 @@ See details at the bottom of the page.
 
 ### Morning Refreshments (9:30am - 10:00am)
 
-### Neural Rendering <br> Session 7 (10:00am - 11:15am)
+### Neural Rendering <a href="https://www.youtube.com/watch?v=VjNnacWDWlI&list=PLyR9LORsBdyqsGHNKCwd19vwZwGXYsYFb&pp=iAQB">[Video Link]</a> <br> Session 7 (10:00am - 11:15am)
 #### Session chair: Krishna Mullia
 - #### Neural Appearance Model for Cloth Rendering  <br>
     *Guan Yu Soh, Zahra Montazeri*
@@ -187,7 +187,7 @@ See details at the bottom of the page.
 
 ### Refreshments Break (11:15am - 11:45am)
 
-### Light and Reflection <br> Session 8 (11:45am - 1:00pm) 
+### Light and Reflection <a href="https://www.youtube.com/watch?v=UVfYvHOSB9Y&list=PLyR9LORsBdyrz7J8frqO4yFJIXQNaJ-Tb&pp=iAQB">[Video Link]</a> <br> Session 8 (11:45am - 1:00pm) 
 #### Session chair: Tamy Boubekeur
 - #### Stereo-consistent Screen Space Reflection  <br>
     *XiaoLoong Wu, Yanning Xu, Lu Wang*
@@ -198,7 +198,7 @@ See details at the bottom of the page.
 
 ### Lunch Break (1:00pm - 2:00pm)
 
-### Shadows <br> Session 9 (2:00pm - 3:30pm) inc. best paper award and closing 
+### Shadows <a href="https://www.youtube.com/watch?v=6TT59kzHieI&list=PLyR9LORsBdyrEb1OJKpkRe9_y7BsbYgGY&pp=iAQB">[Video Link]</a> <br> Session 9 (2:00pm - 3:30pm) inc. best paper award and closing <a href="https://www.youtube.com/watch?v=ftz2-TOYW-4">[Video Link]</a>
 #### Session chair: Julien Philip
 - #### Real-Time Pixel-Perfect Hard Shadows with Leak Tracing  <br>
     *René Kern, Felix Brüll, Thorsten Grosch*
