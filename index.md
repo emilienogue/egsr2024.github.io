@@ -18,9 +18,10 @@ at Imperial College and the <a href="http://vecg.cs.ucl.ac.uk/">Virtual Environm
  
 We are excited to share that recordings of the talks and photos from the 35th Eurographics Symposium on Rendering (EGSR) are now available! You can access the <a href="https://youtube.com/@egsr2024?si=UaBpKbSkrktigTga">recordings of the talks</a> and view the photos from the conference: <a href="https://photos.app.goo.gl/GN1EVtxf381YZUJp9">Album 1</a>, <a href="https://photos.app.goo.gl/S2VG3nMe26aRzE39A">Album 2</a>, and <a href="https://photos.app.goo.gl/XGvLWk1Z7pnm4PrG9">Album 3</a>. If you would like any of your photos removed, please email the chairs at <chairs-egsr2024@eg.org>.
 
-All technical talks are available open access:
-<a href="https://t.co/940c0WLMD7">Computer Graphics Forum track</a>
-<a href="https://t.co/tTdCUrcYEN">Symposium-only</a>
+
+All technical talks are available open access: <br>
+<a href="https://t.co/940c0WLMD7">Computer Graphics Forum track</a> <br>
+<a href="https://t.co/tTdCUrcYEN">Symposium-only</a> <br>
 
 
 <!-- featured images -->
